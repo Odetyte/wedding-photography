@@ -1,0 +1,177 @@
+// CARDS CONTAINER //
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 30px;
+  grid-gap: 16px;
+}
+
+CARDS BASIC STYLE //
+
+.card {
+  background-color: white;
+  border-radius: 12px !important;
+  box-shadow: 0px 5px 27px -11px #a39b93 !important;
+  text-align: center;
+  border: 1px solid rgb(230,230,230) !important;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card-info{
+ margin: 12px;
+ position:relative;
+ display: flex;
+ text-decoration: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 30px;
+  grid-gap: 16px;
+  text-decoration: none;
+}
+
+ .card-body h4 {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+.card-body:hover{
+  text-decoration: black;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.box{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+  }
+  .wedding-card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+  }
+  .wedding-card:before,
+  .wedding-card:after
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+  }
+  .wedding-card:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .wedding-card:hover:after{
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .wedding-card .imgBx{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+  }
+
+  .wedding-card:hover .imgBx
+  {
+    bottom: 80px;
+  }
+
+  .wedding-card .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .wedding-card .card-body{
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      height: 60px;
+      text-align: center;
+  }
+
+  .wedding-card .card-body h2{
+   margin: 0;
+   padding: 0;
+   font-weight: 600;
+   font-size: 20px;
+   color: #777;
+   text-transform: uppercase;
+  }
+
+  .wedding-card .card-body h2 span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+   }
+
+ @media (min-width: 320px) {
+//     #banner-homepage { height: 1000px; }
+    .card {margin-top: 200px;
+      width: 50%;}
+
+    }
+
+ @media (min-width: 375px) {
+//     #banner-homepage { height: 1000px; }
+    .card {margin-top: 250px;}
+    .about-card{margin-top: 250px;}
+    }
+    @media (min-width: 591px) {
+//     #banner-homepage { height: 1000px; }
+    .card {margin-top: 400px;}
+    .about-card{margin-top: 400px;}
+    }
+
+      @media (min-width: 760px) {
+    .card{ margin-top: 500px; }
+    .about-card{ margin-top: 500px; }
+   }
+     @media (min-width: 768px) {
+    .card{ margin-top: 530px; }
+    .about-card { margin-top: 530px; }
+   }
+
+    @media (min-width: 1024px) {
+    .card{ margin-top: 300px; }
+    .about-card{ margin-top: 700px;
+    margin-left: -145px;}
+   }
+ @media (min-width: 1273px) {
+//     #banner-homepage  { height: 500px; }
+    .card {margin-top: 880px;}
+    .about-card {margin-top: 880px;
+      margin-left: -250px;}
+      .wedding-card{margin-top: 400px;}
+      .wedding-card2{margin-top: 90px;}
+    }
