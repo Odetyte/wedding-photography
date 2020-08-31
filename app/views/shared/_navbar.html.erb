@@ -1,5 +1,9 @@
 <nav class="my-nav navbar navbar-expand-lg navbar-light bg-light">
-  <%= link_to "Logo 📷", root_path, class: "navbar-brand" %>
+  <div class= "navbar-brand" style="width: 156px;" >
+  <%= link_to root_path do %>
+  <%= image_tag ("ovidijuslogobj.png") %>
+  <% end %>
+</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -20,3 +24,4 @@
     </ul>
   </div>
 </nav>
+

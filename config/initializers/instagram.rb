@@ -1,0 +1,6 @@
+require 'instagram'
+
+Instagram.configure do |config|
+config.client_id = 17841400948648657
+config.access_token = :IGQVJYUkJFWVJZAakJMX2l3ZAzVVaUdNemVlbk9kVHBOamlaWlNwUzFud1N0WFQ3UmlVT3BzRkU1b2QtUHlnMUJ4M3ptdmhDaUxOTm8zZAU9vY0pWT1Rvbm1pMTlHMjRrbl92eGtrMWRYMFJYRUNIek9SU3gxTFVkRmNJQ2dr
+end

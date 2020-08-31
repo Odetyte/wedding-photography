@@ -6,6 +6,14 @@
   grid-gap: 16px;
 }
 
+.pic-about{
+      display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 750px;
+    z-index: 1;
+}
+
 CARDS BASIC STYLE //
 
 .card {
@@ -65,7 +73,7 @@ a:-webkit-any-link {
   .wedding-card:before,
   .wedding-card:after
   {
-    content:"";
+    // content:"";
     position: absolute;
     top: 0;
     left: 0;
@@ -137,41 +145,41 @@ a:-webkit-any-link {
 
  @media (min-width: 320px) {
 //     #banner-homepage { height: 1000px; }
-    .card {margin-top: 200px;
-      width: 50%;}
+    // .card {margin-top: 200px;
+    //   width: 50%;}
 
     }
 
  @media (min-width: 375px) {
 //     #banner-homepage { height: 1000px; }
-    .card {margin-top: 250px;}
-    .about-card{margin-top: 250px;}
+    // .card {margin-top: 250px;}
+    // .about-card{margin-top: 250px;}
     }
     @media (min-width: 591px) {
 //     #banner-homepage { height: 1000px; }
-    .card {margin-top: 400px;}
-    .about-card{margin-top: 400px;}
+    // .card {margin-top: 400px;}
+    // .about-card{margin-top: 400px;}
     }
 
       @media (min-width: 760px) {
-    .card{ margin-top: 500px; }
-    .about-card{ margin-top: 500px; }
+    // .card{ margin-top: 500px; }
+    // .about-card{ margin-top: 500px; }
    }
      @media (min-width: 768px) {
-    .card{ margin-top: 530px; }
-    .about-card { margin-top: 530px; }
+    // .card{ margin-top: 530px; }
+    // .about-card { margin-top: 530px; }
    }
 
     @media (min-width: 1024px) {
-    .card{ margin-top: 300px; }
-    .about-card{ margin-top: 700px;
-    margin-left: -145px;}
-   }
+   //  .card{ margin-top: 300px; }
+   //  .about-card{ margin-top: 700px;
+   //  margin-left: -145px;}
+    }
  @media (min-width: 1273px) {
 //     #banner-homepage  { height: 500px; }
-    .card {margin-top: 880px;}
-    .about-card {margin-top: 880px;
-      margin-left: -250px;}
-      .wedding-card{margin-top: 400px;}
+    // .card {margin-top: 880px;}
+    // .about-card {margin-top: 880px;
+      // margin-left: -250px;}
+      .wedding-card{margin-top: 230px;;}
       .wedding-card2{margin-top: 90px;}
     }

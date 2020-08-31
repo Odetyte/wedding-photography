@@ -7,11 +7,39 @@ img {
   position: absolute;
   top: 0;
 }
-
-
+.lightwidget-widget{
+  display: flex;
+  justify-content: flex-end;
+  width:60%;
+  border:0;
+  overflow:hidden;
+}
+.header-story h4{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 62px;
+    left: 97px;
+}
+.header-story h6{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    bottom: 48px;
+}
+h6{
+  font-size: 30px;
+  position: relative;
+}
 h5 {
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
+  position: relative;
+  left: 12px;
+  bottom: 1px;
+}
+h3{
+  font-size: 20px;
 }
 
 h4{
@@ -23,6 +51,7 @@ a {
   text-decoration: none;
   text-align: center;
 }
+// #998b99
 
 .fab{
   color: #a39b93;
@@ -54,4 +83,11 @@ a {
   height: auto;
   position: absolute;
   top: 0;
+}
+
+.small-b{
+  height: auto;
+  position: absolute;
+  top: 0;
+  margin-bottom: 50px
 }
