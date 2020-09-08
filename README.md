@@ -39,4 +39,8 @@ curl -X GET \
   'https://graph.instagram.com/me/media?fields=id,caption&access_token=IGQVJYUkJFWVJZAakJMX2l3ZAzVVaUdNemVlbk9kVHBOamlaWlNwUzFud1N0WFQ3UmlVT3BzRkU1b2QtUHlnMUJ4M3ptdmhDaUxOTm8zZAU9vY0pWT1Rvbm1pMTlHMjRrbl92eGtrMWRYMFJYRUNIek9SU3gxTFVkRmNJQ2dr'
 
   curl -X GET \
-  'https://graph.instagram.com/17895695668004550?fields=id,media_type,media_url,username,timestamp&access_token=IGQVJYUkJFWVJZAakJMX2l3ZAzVVaUdNemVlbk9kVHBOamlaWlNwUzFud1N0WFQ3UmlVT3BzRkU1b2QtUHlnMUJ4M3ptdmhDaUxOTm8zZAU9vY0pWT1Rvbm1pMTlHMjRrbl92eGtrMWRYMFJYRUNIek9SU3gxTFVkRmNJQ2dr'
+  'https://graph.instagram.com/1416772145150574?fields=id,media_type,media_url,username,timestamp&access_token=IGQVJYUkJFWVJZAakJMX2l3ZAzVVaUdNemVlbk9kVHBOamlaWlNwUzFud1N0WFQ3UmlVT3BzRkU1b2QtUHlnMUJ4M3ptdmhDaUxOTm8zZAU9vY0pWT1Rvbm1pMTlHMjRrbl92eGtrMWRYMFJYRUNIek9SU3gxTFVkRmNJQ2dr'
+
+curl -X GET \
+  'https://graph.instagram.com/17917287640419853?fields=id,media_type,media_url,username,timestamp&access_token=IGQVJYUkJFWVJZAakJMX2l3ZAzVVaUdNemVlbk9kVHBOamlaWlNwUzFud1N0WFQ3UmlVT3BzRkU1b2QtUHlnMUJ4M3ptdmhDaUxOTm8zZAU9vY0pWT1Rvbm1pMTlHMjRrbl92eGtrMWRYMFJYRUNIek9SU3gxTFVkRmNJQ2dr'
+

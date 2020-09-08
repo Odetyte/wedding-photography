@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :tags
   root to: 'pages#home'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+   get 'aboutme', to: 'pages#aboutme', as: :aboutme
    get 'weddings', to: 'pages#weddings', as: :weddings
    get 'annafelix', to: 'pages#annafelix', as: :annafelix
 

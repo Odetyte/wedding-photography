@@ -6,22 +6,22 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="my-carousel carousel-inner">
 
-    <div class="carousel-item active">
+    <div class="carousel-item active" id="slide1">
       <%= image_tag ("home1.jpg") %>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" id="slide2">
       <%= image_tag ("home2.jpg") %>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item"id="slide3">
       <%= image_tag ("home3.jpg") %>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item"id="slide4">
       <%= image_tag ("home4.jpg") %>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item"id="slide5">
       <%= image_tag ("home5.jpg") %>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item"id="slide6">
       <%= image_tag ("home6.jpg") %>
     </div>
   </div>
@@ -50,76 +50,102 @@
 </div>
 </div> -->
 
-<div class="container">
-  <div class="row">
-<!-- <div class="love-about"> -->
-    <div class="pic-about">
 
-    <div class="col-8 col-md-6 col-lg-4">
-
-<div class="card" style="width: 18rem;" id="card-homepage" style="max-width: 540px; text-align: center;">
-  <%= image_tag ("ovidijus.jpeg") %>
-  <div class="card-body">
-    <h4 class="card-title">Hi!</h4>
-    <h4 class="card-title">My name is <strong> Ovidijus</strong></h4>
-    <p class="card-text">
-      I am here to capture the most beutiful moments of your life</p>
-     <a href="https://www.instagram.com/ovidijus.maslovas/">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/maslovas.ovidijus/">
-        <i class="fab fa-facebook"></i>
-      </a>
-  </div>
-</div>
-</div>
-
-<div class="about-card">
-  <!-- <div class="col-8"> -->
-  <h3> PLANET EARTH IS home to some spectacular relics from bygone eras, constructions that seem to defy the technological capabilities of their time either because they’re too big, too heavy, or too complex.
-
-As such, some suggest the ancient builders of the Egyptian pyramids, the Nasca lines, and others were following an extraterrestrial instruction manual. Perhaps the hands that crafted these sites weren’t really of this world.
-
-To be sure, it’s fun to think about whether aliens have visited Earth. After all, humans are on the threshold of expanding our reach in space, and places like Mars are in our sight. But the truth is, there’s no evidence suggesting that aliens have ever been here. And invoking a supernatural explanation for some of the most monumental of human achievements means skipping over the fascinating ways in which prehistoric civilizations managed to make some of the largest and most enigmatic constructions on Earth. </h3>
-  </div>
-
-</div>
-
-</div>
-</div>
 <br>
 <br>
 <br>
 <br>
 
-
-<div class="container" style="background-color: #e5d1c5; display:flex; position: relative; top:800px; height: 170px;">
+<div class="kopustas" style="background-color: #e5d1c5; display:flex; position: relative; top:740px; height: 170px;">
   <div class="love-story">
   <!-- <div class="col-8"> -->
   <div class="header-story" style="position: relative; right: 245px;bottom: 19px;"><h5>Let's make your...</h5>
     <br>
     <br>
    <h4>....dream come true</h4>
-  <h6> As such, some suggest the ancient builders of the Egyptian pyramids,
+  <p> As such, some suggest the ancient builders of the Egyptian pyramids,
   <br>
     the Nasca lines, and others were following an extraterrestrial instruction manual.
     <br>
-     Perhaps the hands that crafted these sites weren’t really of this world.
-</h6>
+    the Nasca lines, and others were following an extraterrestrial instruction manual.
+    <p>
+
   </div>
-  <div class="story-phh" style="position: relative; bottom: 172px;left: 554px; width: 14%;">
-    <%= image_tag ("home5.jpg") %>
+  <div class="story-phh" style="position: relative; bottom: 190px;left: 620px; width: 14%;">
+    <%= image_tag ("home3.jpg") %>
   </div>
-  <div class="story-ph" style="position: relative; bottom: 333px;left: 743px; width: 31%;">
+  <div class="story-ph" style="position: relative; bottom: 360px;left: 830px; width: 31%;">
     <%= image_tag ("home6.jpg") %>
   </div>
   </div>
   </div>
+  <br>
+<br>
+<br>
+<br>
+  <div class="container">
+    <div class="container" style="width: 25%;">
+  <div class="header-main" style="position: relative;text-align: center; top: 790px; background-color: #e5d1c5;">
+    <h6> I Capture beauriful moments for people who are madly inlove</h6>
+  </div>
+  </div>
+  <div class="container" style="position: relative;top: 620px;">
+  <!-- <div class="what-i-do" style="display: flex;position: relative;justify-content: space-around;">
+    <div class="goal">
+      <h6>📸</h6>
+      <p>Trust me with your idea</p>
+   </div>
+   <div class="goal-2">
+    <h6>🌍</h6>
+     <p>I share my ideas and experience with you</p>
+   </div>
+</div> -->
+<div class="row">
+<!-- <div class="box"> -->
+  <div class="col-12 col-lg-4">
+<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+  <%= link_to annafelix_path do %>
+  <div class="imgBx">
+  <%= image_tag ("home1.jpg") %>
+</div>
+<div class="card-body" style="text-decoration:none;">
+     <h2 class="card-title" style="text-decoration:none;">Anna&Felix</h2>
+<% end %>
+</div>
+  </div>
+</div>
+<!-- </div> -->
+<div class="col-12 col-lg-4">
+<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+  <%= link_to annafelix_path do %>
+   <div class="imgBx">
+  <%= image_tag ("home2.jpg") %>
+</div>
+  <div class="card-body" style="text-decoration:none;">
+    <h2 class="card-title">Sarah&David</h2>
+    <% end %>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-lg-4">
+<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+  <%= link_to annafelix_path do %>
+  <div class="imgBx">
+  <%= image_tag ("home3.jpg") %>
+</div>
+  <div class="card-body" style="text-decoration:none;">
+    <h2 class="card-title">Sarah&David</h2>
+    <% end %>
+  </div>
+</div>
+</div>
+  </div>
+</div>
 
-  <div class="container" style="display: flex; justify-content: space-evenly; margin-top: 900px;">
-    <div class="instagram" style="position: relative;top: 50px;right: 90px;">
+  <div class="container" style="display: flex; justify-content: space-evenly; margin-top: 765px; width: 100%">
+    <div class="instagram" style="position: relative;top: 50px;right: 90px;background-color: #e5d1c5;height: 100%;">
     <a href="https://www.instagram.com/ovidijus.maslovas/">
-        <i class="fab fa-instagram" style="font-size: 30px"><h6>Ovidijus Maslovas</h6></i>
+        <i class="fab fa-instagram" style="font-size: 30px;bottom: 13px;position: relative;"><h6>Ovidijus Maslovas</h6></i>
         </div>
         <div class="intagram-ph" style="position: relative;right: 175px;">
 <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/19c2c5725d9f5cf087a0527998d5b0e1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:210%;border:0;overflow:hidden;"></iframe>

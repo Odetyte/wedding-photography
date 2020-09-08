@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.7'
 # # gem 'mongo', '~> 2.13'
 # # gem 'bson_ext', '~> 1.12', '>= 1.12.5'
 # # gem 'mongo_mapper', '~> 0.14.0'
-# gem 'instagram'
+gem 'instagram'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

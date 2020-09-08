@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def memories
   end
 
+  def aboutme
+  end
+
   def annafelix
 
   end

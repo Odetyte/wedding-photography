@@ -1,6 +1,49 @@
 img {
   width: 100%;
 }
+.goal h6{
+  position: relative;
+  bottom: 18px;
+  left: 28px;
+}
+
+.header-story p{
+   font-family:  $p;
+    position: relative;
+    font-size: 12px;
+    bottom: 53px;
+    right: 36px;
+    text-align: center
+}
+.goal p{
+  font-family:  $p;
+  position: relative;
+  bottom: 20px;
+  font-size: 12px;
+}
+
+.goal-2 h6{
+  position: relative;
+  bottom: 16px;
+  left: 68px;
+}
+
+.instagram h6{
+
+}
+
+.goal-2 p {
+  font-family:  $p;
+  position: relative;
+  bottom: 22px;
+  font-size: 12px;
+}
+
+.header-main h6{
+  font-size: 25px;
+  position: relative;
+  top: 14px;
+}
 
 .carousel {
   // z-index: -99;
@@ -15,11 +58,11 @@ img {
   overflow:hidden;
 }
 .header-story h4{
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
     position: relative;
     bottom: 62px;
-    left: 97px;
+    left: 6px;
 }
 .header-story h6{
     font-size: 15px;
@@ -31,11 +74,11 @@ h6{
   font-size: 30px;
   position: relative;
 }
-h5 {
-  font-size: 30px;
+.header-story h5 {
+  font-size: 34px;
   text-align: center;
   position: relative;
-  left: 12px;
+  right: 105px;
   bottom: 1px;
 }
 h3{
@@ -54,14 +97,14 @@ a {
 // #998b99
 
 .fab{
-  color: #a39b93;
+  color: black;
+  opacity: 0.6;
   font-size: 20px;
   align-content: center;
 }
 
 .fab:hover{
-  color: black;
-  opacity: .2;
+ color: #a39b93;
 }
 
 .banner {
@@ -75,6 +118,8 @@ a {
 }
 
 
+
+
 .small-banner img {
   width: 100%;
   margin:0 auto;
@@ -83,6 +128,7 @@ a {
   height: auto;
   position: absolute;
   top: 0;
+  height: 25%;
 }
 
 .small-b{
