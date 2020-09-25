@@ -127,6 +127,7 @@ a:-webkit-any-link {
   }
 
   .wedding-card .card-body h2{
+   position: absolute;
    margin: 0;
    padding: 0;
    font-weight: 600;
@@ -138,7 +139,7 @@ a:-webkit-any-link {
   .wedding-card .card-body h2 span{
   font-weight: 500;
   font-size: 16px;
-  color: #f38695;
+  color: black;
   display: block;
   margin-top: 5px;
    }

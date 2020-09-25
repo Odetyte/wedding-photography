@@ -26,11 +26,12 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # instagram
-# gem 'mongoid', '~> 7.1', '>= 7.1.2'
-# # gem 'mongo', '~> 2.13'
-# # gem 'bson_ext', '~> 1.12', '>= 1.12.5'
-# # gem 'mongo_mapper', '~> 0.14.0'
 gem 'instagram'
+#mail
+gem "mail_form", ">= 1.3.0"
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
