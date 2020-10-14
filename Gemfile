@@ -30,6 +30,8 @@ gem 'instagram'
 #mail
 gem "mail_form", ">= 1.3.0"
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+#image upload
+gem 'cloudinary', '~> 1.16.0'
 
 
 # Reduces boot times through caching; required in config/boot.rb
