@@ -1,114 +1,9 @@
-.story-ph img{
-  width: 115%;
-}
-
-img {
-  width: 100%;
-}
-.goal h6{
-  position: relative;
-  bottom: 18px;
-  left: 28px;
-}
-
-.header-story p{
-   font-family:  $p;
-    position: relative;
-    font-size: 12px;
-    bottom: 53px;
-    right: -186px;
-    text-align: center
-}
-.goal p{
-  font-family:  $p;
-  position: relative;
-  bottom: 20px;
-  font-size: 12px;
-}
-
-.goal-2 h6{
-  position: relative;
-  bottom: 16px;
-  left: 68px;
-}
-
-.instagram h6{
-
-}
-
-.goal-2 p {
-  font-family:  $p;
-  position: relative;
-  bottom: 22px;
-  font-size: 12px;
-}
-
-.header-main h6{
-  font-size: 25px;
-  position: relative;
-  top: 14px;
-}
-
-.carousel {
-  // z-index: -99;
-  position: absolute;
-  top: 0;
-}
 .lightwidget-widget{
   display: flex;
   justify-content: flex-end;
   width:60%;
   border:0;
   overflow:hidden;
-}
-.header-story h4{
-    font-size: 34px;
-    text-align: center;
-    position: relative;
-    bottom: 62px;
-    left: 245px;
-}
-.header-story h6{
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    bottom: 48px;
-}
-h6{
-  font-size: 29px;
-  position: relative;
-}
-.header-story h5 {
-  font-size: 34px;
-  text-align: center;
-  position: relative;
-  right: -84px;
-  bottom: 1px;
-}
-h3{
-  font-size: 20px;
-}
-
-h4{
-  font-size: 28px;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-  text-align: center;
-}
-// #998b99
-
-.fab{
-  color: black;
-  opacity: 0.6;
-  font-size: 20px;
-  align-content: center;
-}
-
-.fab:hover{
- color: #a39b93;
 }
 
 .banner {
@@ -120,9 +15,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
 
 .small-banner img {
   width: 100%;
@@ -140,4 +32,12 @@ a {
   position: absolute;
   top: 0;
   margin-bottom: 50px
+}
+
+.lightwidget-widget{
+  display: flex;
+  justify-content: flex-end;
+  width:60%;
+  border:0;
+  overflow:hidden;
 }

@@ -1,0 +1,143 @@
+
+//carousel
+
+.carousel {
+  // z-index: -99;
+  position: absolute;
+  top: 0;
+}
+
+//first header
+
+.kopustas{
+  background-color: #a88677;
+  display:flex;
+  position: relative;
+  top:740px;
+  height: 252px;
+}
+
+.header-story{
+  position: relative;
+  right: 245px;
+  bottom: 19px;
+}
+
+.header-story h5 {
+  font-size: 34px;
+  text-align: center;
+  position: relative;
+  right: -84px;
+  bottom: 1px;
+}
+
+.header-story h4{
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+    bottom: 62px;
+    left: 245px;
+}
+
+.header-story p{
+   font-family:  $p;
+    position: relative;
+    font-size: 12px;
+    bottom: 53px;
+    right: -186px;
+    text-align: center
+}
+.header-story h6{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    bottom: 48px;
+}
+
+//first headers's photos
+
+.story-phh{
+  position: relative;
+  bottom: 248px;
+  left: 34px;
+  width: 25%;
+}
+
+.story-ph img{
+   width: 115%;
+}
+
+.story-ph{
+  position: relative;
+  bottom: 505px;
+  left: 779px;
+  width: 31%;
+}
+
+//second header
+
+.header-main{
+  position: relative;
+  text-align: center;
+  top: 790px;
+  background-color: #e5d1c5;
+}
+
+.header-main h6{
+  font-size: 25px;
+  position: relative;
+  top: 14px;
+}
+
+//third-header
+
+.saldainis{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 500px;
+  width: 107%;
+  background-color: #e5d1c5;
+  top:-62px;
+  height: 520px;
+  margin-left: -87px;
+}
+
+//intagram section
+
+.instagram{
+  position: relative;
+  bottom: -73px;
+  left: 300px;
+}
+.fab{
+  color: black;
+  opacity: 0.6;
+  font-size: 20px;
+  align-content: center;
+}
+
+.fab:hover{
+ color: #a39b93;
+}
+
+.fa-instagram{
+  font-size: 30px;
+  top: 319px;
+  right: 83px;
+  position: relative;
+}
+
+.intagram-ph{
+  position: relative;
+  left: 436px;
+  top: 346px;
+}
+
+.brownline{
+  background-color: #a88677;
+  position: relative;
+  top: 278px;
+  width: 65%;
+  height: 6px;
+  right: 4px;
+}
