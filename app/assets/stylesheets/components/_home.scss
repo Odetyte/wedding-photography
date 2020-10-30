@@ -141,3 +141,69 @@
   height: 6px;
   right: 4px;
 }
+
+// Ask me a question
+
+.question h1{
+  top: 31px;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+}
+
+.new_contact{
+  align-items: center;
+  text-align: center;
+  align-content: inherit;
+  position: relative;
+  left: 43%;
+  margin-left: -25%;
+  margin-top: 5%;
+}
+
+.contact-form-text-area{
+  width: 30%;
+  height: 40px;
+}
+
+#contact_message {
+  width: 65%;
+  height: 143px;
+}
+
+label {
+  font-size: 24px;
+  text-align: left;
+  align-items: left;
+  text-size: 12px;
+  position: relative;
+  right: 98px;
+  top: 10px;
+}
+
+
+.contact-message {
+  font-size: 24px;
+  text-align: left;
+  align-items: left;
+  text-size: 12px;
+  position: relative;
+  right: 225px;
+  top: 10px;
+}
+
+.button {
+  transition-duration: 0.4s;
+  // border-color: #A88677;
+  background-color: white;
+  border-radius: 19px;
+  border: 2px solid #A88677;
+  font-size: 22px;
+}
+
+.button:hover {
+  background-color: #A88677;
+  color: white;
+}
+
+

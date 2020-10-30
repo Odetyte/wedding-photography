@@ -1,16 +1,16 @@
 <%= form_for @contact, url: pages_path, method: :post, remote: true do |f| %>
     <div class="col-md-6">
-        <%= f.label :name %></br>
+        <%= f.label :name, class: "contact-name" %></br>
         <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
 
-        <%= f.label :email %></br>
+        <%= f.label :email, class: "contact-email" %></br>
         <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
 
-      <%= f.label :message %></br>
+      <%= f.label :message, class: "contact-message" %></br>
      <%= f.text_field :message, :as => :text, :required => true, class: "contact-form-text-area",
                         placeholder: "Send me a message"%></br>
 
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+      <%= f.submit 'Send Message', class: 'button' %>
     </div>
   <% end %>
   <div class="col-md-6" id="flash-message">
