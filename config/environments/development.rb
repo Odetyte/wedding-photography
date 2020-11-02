@@ -53,9 +53,10 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-  config.assets.precompile = true  
-  config.assets.precompile =  ['*.js', '*.css', '*.scss' '*.css.erb']  
+  config.assets.precompile = true
+  config.assets.precompile =  ['*.js', '*.css', '*.scss' '*.css.erb']
 
+  config.assets.compile = true
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }

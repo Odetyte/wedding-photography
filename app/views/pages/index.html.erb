@@ -92,7 +92,7 @@
   <%= image_tag ("home1.jpg") %>
 </div>
 <div class="card-body" style="text-decoration:none;">
-     <h2 class="card-title" style="text-decoration:none;">Anna&Felix</h2>
+     <h2 class="card-title" style="position: relative;">Anna&Felix</h2>
 <% end %>
 </div>
   </div>
@@ -100,12 +100,12 @@
 <!-- </div> -->
 <div class="col-12 col-lg-4">
 <div class="card wedding-card" style="width: 18rem; height: 260px; ">
-  <%= link_to annafelix_path do %>
+  <%= link_to lieparokas_path do %>
    <div class="imgBx">
-  <%= image_tag ("home2.jpg") %>
+  <%= cl_image_tag("LR-cover.jpg") %>
 </div>
-  <div class="card-body" style="text-decoration:none;">
-    <h2 class="card-title">Sarah&David</h2>
+  <div class="card-body">
+    <h2 class="card-title" style="position: relative;">Liepa&Rokas</h2>
     <% end %>
   </div>
   </div>
@@ -117,7 +117,7 @@
   <%= image_tag ("home3.jpg") %>
 </div>
   <div class="card-body" style="text-decoration:none;">
-    <h2 class="card-title">Sarah&David</h2>
+    <h2 class="card-title" style="position: relative;">Sarah&David</h2>
     <% end %>
   </div>
 </div>
@@ -126,7 +126,7 @@
 </div>
 </div>
 
-  <div class="saldainis" style="display: flex; justify-content: space-evenly; margin-top: 500px; width: 107%; background-color: #e5d1c5; top:-62px; height: 520px; margin-left: -87px;">
+  <div class="saldainis">
     <div class="instagram" style="position: relative;bottom: -73px;left: 300px;">
     <a href="https://www.instagram.com/ovidijus.maslovas/">
         <i class="fab fa-instagram" style="font-size: 30px;top: 319px; right: 83px;position: relative;"><h6>your story by ovidijus</h6></i></a>
