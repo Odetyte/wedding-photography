@@ -6,7 +6,11 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
    get 'aboutme', to: 'pages#aboutme', as: :aboutme
    get 'weddings', to: 'pages#weddings', as: :weddings
+
    get 'annafelix', to: 'pages#annafelix', as: :annafelix
+   # homepage weddings
+   get 'lieparokas', to: 'weddings#lieparokas', as: :lieparokas
+
 
    get 'lovestories', to: 'pages#lovestories', as: :lovestories
    get 'memories', to: 'pages#memories', as: :memories

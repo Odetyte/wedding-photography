@@ -23,7 +23,7 @@ CARDS BASIC STYLE //
   text-align: center;
   border: 1px solid rgb(230,230,230) !important;
   overflow: hidden;
-  text-decoration: none;
+  // text-decoration: none;
 }
 
 .card-info{
@@ -74,7 +74,7 @@ a:-webkit-any-link {
   .wedding-card:after
   {
     // content:"";
-    position: absolute;
+    // position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -91,6 +91,7 @@ a:-webkit-any-link {
   .wedding-card:hover:after{
   transform: rotate(10deg);
   box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  text-align: center;
   }
   .wedding-card .imgBx{
   position: absolute;
@@ -118,7 +119,7 @@ a:-webkit-any-link {
   }
 
   .wedding-card .card-body{
-      position: absolute;
+      position: relative !important;
       left: 10px;
       right: 10px;
       bottom: 10px;
@@ -126,23 +127,42 @@ a:-webkit-any-link {
       text-align: center;
   }
 
-  .wedding-card .card-body h2{
-   position: absolute;
-   margin: 0;
-   padding: 0;
-   font-weight: 600;
-   font-size: 20px;
-   color: #777;
-   text-transform: uppercase;
-  }
+ .wedding-card .card-body h2 {
+    position: relative !important;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+#card-wedding{
+  position: relative !important;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+}
 
   .wedding-card .card-body h2 span{
   font-weight: 500;
-  font-size: 16px;
+  font-size: 90px;
   color: black;
   display: block;
   margin-top: 5px;
    }
+  .card-title a {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+  }
+
+h2{
+  font-size: 55px;
+}
 
  @media (min-width: 320px) {
 //     #banner-homepage { height: 1000px; }
