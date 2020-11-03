@@ -128,7 +128,9 @@ a:-webkit-any-link {
   }
 
  .wedding-card .card-body h2 {
-    position: relative !important;
+    position: relative;
+    top: 200px;
+    right: 10px;
     margin: 0;
     padding: 0;
     font-weight: 600;
@@ -138,7 +140,7 @@ a:-webkit-any-link {
 }
 
 #card-wedding{
-  position: relative !important;
+  position: absolute;
     margin: 0;
     padding: 0;
     font-weight: 600;
@@ -159,10 +161,6 @@ a:-webkit-any-link {
     font-size: 12px;
     position: relative;
   }
-
-h2{
-  font-size: 55px;
-}
 
  @media (min-width: 320px) {
 //     #banner-homepage { height: 1000px; }
