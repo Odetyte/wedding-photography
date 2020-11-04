@@ -31,8 +31,8 @@ class PagesController < ApplicationController
   def aboutme
   end
 
-  def annafelix
-  end
+  # def annafelix
+  # end
 
   # def lieparokas
   # end

@@ -7,4 +7,8 @@ class WeddingsController < ApplicationController
   def lieparokas
 
   end
+
+  def juliarron
+
+  end
 end

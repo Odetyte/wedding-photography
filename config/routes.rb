@@ -7,8 +7,9 @@ Rails.application.routes.draw do
    get 'aboutme', to: 'pages#aboutme', as: :aboutme
    get 'weddings', to: 'pages#weddings', as: :weddings
 
-   get 'annafelix', to: 'pages#annafelix', as: :annafelix
+
    # homepage weddings
+   get 'juliarron', to: 'weddings#juliarron', as: :juliarron
    get 'lieparokas', to: 'weddings#lieparokas', as: :lieparokas
 
 
