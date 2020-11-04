@@ -1,4 +1,38 @@
 
+.name h1{
+  text-align: center;
+  position: relative;
+  bottom: 85px;
+}
+
+.previous {
+  position: fixed;
+  z-index: 99;
+  bottom: 2%;
+  left: 65px;
+  right: 0;
+  margin: 0 auto;
+  text-align: left;
+  color: black;
+}
+
+.previous h1{
+  font-size: 20px;
+}
+
+.next h1{
+  font-size: 20px;
+}
+.next {
+  position: fixed;
+  z-index: 99;
+  bottom: 2%;
+  left: 0;
+  right: 75px;
+  margin: 0 auto;
+  text-align: right;
+  color: black;
+}
 *,
 *::after,
 *::before {
