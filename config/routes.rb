@@ -11,6 +11,7 @@ Rails.application.routes.draw do
    # homepage weddings
    get 'juliarron', to: 'weddings#juliarron', as: :juliarron
    get 'lieparokas', to: 'weddings#lieparokas', as: :lieparokas
+   get 'ebrujosef', to: 'weddings#ebrujosef', as: :ebrujosef
 
 
    get 'lovestories', to: 'pages#lovestories', as: :lovestories
