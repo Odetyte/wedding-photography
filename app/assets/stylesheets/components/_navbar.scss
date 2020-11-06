@@ -27,3 +27,12 @@ h2:hover{
 color: white !important;
 }
 
+//bigger screen
+
+@media (min-width: 1273px) {
+.navbar-brand{position: relative;left: 615px}
+.aboutme{position: relative; left: 247px;}
+.weddings{position: relative;left: 290px;}
+.stories{position: relative; left: 380px}
+.sendme{position: relative;left: 444px;}
+}
