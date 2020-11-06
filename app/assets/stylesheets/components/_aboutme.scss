@@ -33,16 +33,38 @@
 
 .pic1 img{
   width: 52%;
+ margin-top: 86px;
+}
+
+.hi {
+  text-align: center;
+  top: 275px;
   position: relative;
-  top: 150px;
+  right: 152px;
+  font-size: 26px;
+}
+
+.hi h1 {
+  font-size: 26px;
+}
+
+.capture {
+  position: relative;
+  text-align: center;
+  top: 45px;
+  right: 82px;
+}
+.capture h1 {
+  font-size: 28px;
+}
+.capture h2 {
+  font-size: 28px;
+  color: white;
 }
 
 .gif img{
   width: 86%;
-  position: relative;
-  /* bottom: 179px; */
-  left: 101px;
-  top: 78px;
+  margin-left: 49px;
 }
 
 .gif{
@@ -50,6 +72,6 @@
   position: relative;
   width: 42%;
   height: 330px;
-  bottom: 640px;
-  left: 593px;
+  bottom: 812px;
+  left: 608px;
 }
