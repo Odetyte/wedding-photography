@@ -172,24 +172,24 @@
 }
 
 label {
-  font-size: 24px;
   text-align: left;
   align-items: left;
   font-size: 12px;
   position: relative;
-  right: 98px;
+  right: 107px;
   top: 10px;
+  font-size: 18px;
 }
 
 
 .contact-message {
-  font-size: 24px;
   text-align: left;
   align-items: left;
   font-size: 12px;
   position: relative;
-  right: 225px;
+  right: 242px;
   top: 10px;
+  font-size: 18px;
 }
 
 .button {
@@ -199,6 +199,9 @@ label {
   border-radius: 19px;
   border: 2px solid #A88677;
   font-size: 22px;
+  position: relative;
+  top: 15px;
+  left: 224px;
 }
 
 .button:hover {
