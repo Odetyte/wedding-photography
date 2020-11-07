@@ -1,8 +1,22 @@
 <nav class="my-nav navbar navbar-expand-lg navbar-light bg-light">
+  <div class="navbaras">
+   <!--  <div class="aboutme1">
+      <h2><%= link_to "About Me", aboutme_path,  class: "nav-link" %></h2>
+    </div>
+    <div class="weddings1">
+    <h2><%= link_to "Weddings", weddings_path,  class: "nav-link" %></h2>
+  </div>
+    <div class="stories1">
+      <h2><%= link_to "Love Stories", lovestories_path,  class: "nav-link" %></h2>
+    </div>
+    <div class="sendme1">
+       <a class="sendme-link" href="mailto:ovidijusmaslovasp@gmail.com"><h2>Send Me Message</h2></a>
+    </div> -->
   <div class= "navbar-brand logo" style="width: 156px;position: relative;left: 540px;" >
   <%= link_to root_path do %>
   <%= image_tag ("logo2.png") %>
   <% end %>
+  </div>
 </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,8 +35,13 @@
       <li class="nav-item sendme">
         <a class="nav-link" style="position: relative;left: 400px;" href="mailto:ovidijusmaslovasp@gmail.com"><h2>Send Me Message</h2></a>
       </li>
-    </ul>
+      <div class= "navbar-brand logo2" style="width: 156px;position: relative;left: 540px;" >
+  <%= link_to root_path do %>
+  <%= image_tag ("logo2.png") %>
+  <% end %>
   </div>
+    </ul>
+</div>
 </nav>
 
 
