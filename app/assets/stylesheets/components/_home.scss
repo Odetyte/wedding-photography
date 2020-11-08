@@ -217,6 +217,52 @@ label {
 .story-phh{width: 22%}
 }
 
+@media only screen and (min-width: 290px) and (max-width: 812px){
+.kopustas{
+  position: relative;
+  top: -58px !important;
+  height: 212px !important;
+}
+.header-story{
+  right: 168px !important;
+}
+.header-story h4 {
+  bottom:52px
+}
+.header-story p {
+  bottom: 31px;
+  right: -78px;
+  color: white;
+  font-size: 12px;
+}
+.story-phh{
+  left: 60px !important;
+  width: 21% !important;
+  bottom: 241px !important;
+}
+.story-ph{
+  bottom: 206px !important;
+  left: 194px !important;
+  width: 39% !important;
+}
+.header-main {
+  top:-72px !important;
+}
+
+.header-main h6{
+  font-size: 16px
+}
+.korteles{
+  top:-50px !important;
+}
+.saldainis {
+  margin-top: 25px !important;
+}
+.question h1{
+  top: 18px !important;
+}
+}
+
 
 
 
