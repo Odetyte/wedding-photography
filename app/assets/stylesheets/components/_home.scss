@@ -247,10 +247,12 @@ label {
 }
 .header-main {
   top:-72px !important;
+  height: 50px;
 }
 
 .header-main h6{
-  font-size: 16px
+  font-size: 13px;
+  top: 3px !important;
 }
 .korteles{
   top:-50px !important;
@@ -260,6 +262,10 @@ label {
 }
 .question h1{
   top: 18px !important;
+}
+.home-korteles{
+  position: relative;
+  right: 45px;
 }
 }
 
