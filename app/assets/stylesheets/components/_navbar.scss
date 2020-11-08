@@ -42,49 +42,91 @@ h2{font-size: 12px;}
 //mobile design
 
 @media only screen and (min-width: 290px) and (max-width: 640px){
-  .navbar-light .navbar-toggler{
-  color: white !important;
-  border-color: white !important;
-}
-.navbar-toggler{
-  font-size: 0.55rem !important;
-  position: relative !important;
-  bottom: 79px !important;
-  right: 351px !important;
-}
-.navbar-collapse{
-  position: relative;
-  right: 328px;
-  bottom: 159px;}
-.aboutme {
-  left: 29px;
-  bottom: 16px;
-  position: relative;
+  .collapse {
+    display: flex !important;
   }
-.weddings{
-  position: relative;
-  left: 195px;
-  bottom: 38px;
+  .aboutme{
+    position: relative !important;
+    left: -12px !important;
+    bottom: 83px;
   }
-.stories {
-  position: relative;
-  left: 236px !important;
-  bottom: 76px;
-  }
-.sendme {
-  position: relative;
-  right: 111px;
-  bottom: 114px;
-  }
-.logo2{
-  width: 45px !important;
-  position: relative !important;
-  left: 620px !important;
-  bottom: 158px;
- }
-h2 {font-size: 12px;}
-}
 
+
+  .stories{
+    position: relative !important;
+    left: 206px !important;
+    bottom: 173px;
+  }
+
+  .weddings{
+    position: relative !important;
+    left: 62px !important;
+    bottom: 128px;
+  }
+
+  .sendme{
+    position: relative !important;
+    bottom: 214px !important;
+    left: 287px !important;
+  }
+
+  .sendme h2{
+    font-size: 12px
+  }
+
+  h2{
+    font-size: 18px
+  }
+  .logo{
+    width: 71px !important;
+    left:128px !important;
+    bottom: 19px;
+    position: !important;
+  }
+//   .navbar-light .navbar-toggler{
+//   color: white !important;
+//   border-color: white !important;
+// }
+// .navbar-toggler{
+//   font-size: 0.55rem !important;
+//   position: relative !important;
+//   bottom: 75px !important;
+//   right: 349px !important;
+// }
+// .navbar-collapse{
+//   position: relative;
+//   right: 328px;
+//   bottom: 159px;}
+// .aboutme {
+//   left: 195px !important;
+//   bottom: 16px;
+//   position: relative;
+//   }
+// .weddings{
+//   position: relative;
+//   left: 258px !important;
+//   bottom: 53px;
+// }
+// .stories {
+//   position: relative;
+//   left: 335px !important;
+//   bottom: 80px;
+//   }
+// // .sendme {
+// //   position: relative;
+// //   bottom: 114px;
+// //   }
+// .logo2{
+//   width: 45px !important;
+//   position: relative !important;
+//   left: 620px !important;
+//   bottom: 158px;
+//   font-weight: bold;
+//  }
+// h2 {font-size: 12px;
+// font-weight: bold;}
+// }
+}
 @media only screen and (min-width: 640px) and (max-width: 1400px){
-.logo2{ display: none;}
+// .logo2{ display: none;}
 }
