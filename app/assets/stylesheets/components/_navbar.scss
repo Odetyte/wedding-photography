@@ -48,25 +48,25 @@ h2{font-size: 12px;}
   .aboutme{
     position: relative !important;
     left: 0px !important;
-    bottom: 83px;
+    bottom: -120px;
   }
 
 
   .stories{
     position: relative !important;
     left: 206px !important;
-    bottom: 173px;
+    bottom: -30px;
   }
 
   .weddings{
     position: relative !important;
     left: 70px !important;
-    bottom: 128px;
+    bottom: -75px;
   }
 
   .sendme{
     position: relative !important;
-    bottom: 214px !important;
+    bottom: 9px !important;
     left: 280px !important;
   }
 
@@ -80,52 +80,13 @@ h2{font-size: 12px;}
   .logo{
     width: 71px !important;
     left:128px !important;
-    bottom: 19px;
-    position: !important;
+    bottom: -190px !important;
+    position: relative!important;
   }
-//   .navbar-light .navbar-toggler{
-//   color: white !important;
-//   border-color: white !important;
-// }
-// .navbar-toggler{
-//   font-size: 0.55rem !important;
-//   position: relative !important;
-//   bottom: 75px !important;
-//   right: 349px !important;
-// }
-// .navbar-collapse{
-//   position: relative;
-//   right: 328px;
-//   bottom: 159px;}
-// .aboutme {
-//   left: 195px !important;
-//   bottom: 16px;
-//   position: relative;
-//   }
-// .weddings{
-//   position: relative;
-//   left: 258px !important;
-//   bottom: 53px;
-// }
-// .stories {
-//   position: relative;
-//   left: 335px !important;
-//   bottom: 80px;
-//   }
-// // .sendme {
-// //   position: relative;
-// //   bottom: 114px;
-// //   }
-// .logo2{
-//   width: 45px !important;
-//   position: relative !important;
-//   left: 620px !important;
-//   bottom: 158px;
-//   font-weight: bold;
-//  }
-// h2 {font-size: 12px;
-// font-weight: bold;}
-// }
+.my-nav{
+  position: relative !important;
+  bottom: 208px !important;
+}
 }
 @media only screen and (min-width: 640px) and (max-width: 1400px){
 // .logo2{ display: none;}
