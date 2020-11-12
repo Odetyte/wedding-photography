@@ -75,3 +75,85 @@
   bottom: 812px;
   left: 608px;
 }
+
+//mobiledesign
+
+@media only screen and (min-width: 290px) and (max-width: 812px){
+  .aboutme-card{
+    width: 7rem !important;
+    position: relative !important;
+    top: -352px !important;
+  }
+
+.text1{
+  width:218px !important;
+  height: 119px !important;
+  position: relative !important;
+  right: 234px!important;
+  bottom: 329px !important;
+}
+.text1 h3{
+  position: relative!important;
+  top: 18px!important;
+  left: 0px!important;
+  text-align: center!important;
+  font-size: 19px!important;
+}
+.text2{
+  height: 125px !important;
+  position: relative !important;
+  top: -249px !important;
+  right: 702px !important;
+  width: 101% !important;
+}
+.text2 h3{
+  position: relative !important;
+  font-size: 16.5px !important;
+  text-align: center !important;
+  top: 9px !important;
+  right: 0px !important;
+}
+.about-text2{
+  position: relative !important;
+  top: -441px !important;
+  left: 20px !important;
+}
+.hi{
+  text-align: center!important;;
+  top: 136px!important;;
+  position: relative!important;;
+  right: 91px!important;;
+}
+.hi h1{
+  font-size: 17px;
+}
+.pic1 img{
+  width: 43% !important;
+  margin-top: 86px !important;
+}
+.gif{
+  position: relative !important;
+  width: 40% !important;
+  height: 217px !important;
+  bottom: 232px !important;
+  left: 174px !important
+}
+.capture{
+  position: relative !important;
+  text-align: center !important;
+  top: -31px !important;
+  right: 3px !important;
+}
+.capture h1{
+  font-size: 21px !important;
+}
+.capture h2 {
+  font-size: 21px;
+  color: white;
+}
+.gif img {
+  width: 79%;
+  margin-left: 44px;
+  margin-top: -23px;
+}
+}
