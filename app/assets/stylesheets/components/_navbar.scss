@@ -29,13 +29,12 @@ color: white !important;
 
 //bigger screen
 
-@media (min-width: 1300px) {
-.navbar-brand img{position: relative;left: 615px}
-.aboutme{position: relative; left: 247px;}
-.weddings{position: relative;left: 290px;}
-.stories{position: relative; left: 380px}
-.sendme{position: relative;left: 444px;}
-h2{font-size: 12px;}
+@media (min-width: 1440px) {
+.aboutme{position: relative; left: 256px !important;}
+.weddings{position: relative;left: 292px !important;}
+.stories{position: relative; left: 470px !important}
+.sendme{position: relative;left: 500px !important;}
+h2{font-size: 20px !important;}
 }
 
 
