@@ -56,6 +56,7 @@
   padding: 0.5em 0.5em !important;
   -webkit-transition: all 0.25s !important;
   transition: all 0.25s !important;
+  float: right;
 }
 .submit:hover,
 .submitfocus,
@@ -64,6 +65,64 @@
   background: #333 !important;
   color: #fff !important;
   outline: none !important;
+}
+.contact-form-text-area{
+  background: none!important;
+  border: none!important;
+  line-height: 1em!important;
+  font-weight: 300!important;
+  padding: 0.125em 0.25em!important;
+  width: 100%!important;
+}
+.name-email{
+    width: 87% !important;
+    position: relative;
+    top: -62px !important;
+    left: 43px !important;
+}
+
+.message-blank{
+  position: relative !important;
+  bottom: 26px !important;
+}
+label {
+  border-bottom: 1px solid #333 !important;
+  display: block!important;
+  font-size: 1.25em!important;
+  margin-bottom: 0.5em!important;
+  -webkit-transition: all 0.25s!important;
+  transition: all 0.25s !important;
+}
+
+input:focus{
+ outline: none!important}
+
+
+ @media only screen and (min-width: 290px) and (max-width: 812px){
+  .bookme-cover{
+    position: relative !important;
+    top: -271px !important;
+    width: 100% !important
+  }
+  .bookme{
+    top: 31%;
+    width: 48%;
+  }
+  .alert-success{
+    top: -488px !important;
+    right: 15px !important;
+    width: 66% !important;
+    position: relative !important;
+  }
+  #flash-message{
+    position: absolute !important;
+  }
+ }
+
+@media only screen and (min-width: 1100px) and (max-width: 1500px){
+ .bookme-cover{
+  display: none;
+ }
 }
 // form button.success{
 //   background: #27ae60 !important;
@@ -98,8 +157,8 @@
 //   transition: all 0.25s !important;
 // }
 // form label.col-one-half{
-//   float: left!important;
-//   width: 50%!important;
+  // float: left!important;
+  // width: 50%!important;
 // }
 // form label.col-one-half:nth-of-type(even){
 //   border-left: 1px solid #333!important;
