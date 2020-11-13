@@ -14,6 +14,6 @@ Rails.application.routes.draw do
    get 'ebrujosef', to: 'weddings#ebrujosef', as: :ebrujosef
 
 
-   get 'lovestories', to: 'pages#lovestories', as: :lovestories
+   get 'bookme', to: 'pages#bookme', as: :bookme
    get 'memories', to: 'pages#memories', as: :memories
 end

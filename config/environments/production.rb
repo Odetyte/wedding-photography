@@ -59,7 +59,7 @@ Rails.application.configure do
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "wedding_photography_production"
-  config.action_mailer.default_url_options = { :host => 'wed-ph.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false
@@ -67,7 +67,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
     port:                 587,
-    domain:               'wed-ph.herokuapp.com',
+    domain:               'yourstorybyovidijus.com',
     user_name:            ENV["GMAIL_EMAIL"],
     password:             ENV["GMAIL_PASSWORD"],
     authentication:       'plain',

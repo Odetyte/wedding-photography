@@ -1,5 +1,11 @@
-<%= form_for @contact, url: pages_path, method: :post, remote: true do |f| %>
-    <div class="col-md-6">
+
+
+
+
+<%= form_for Contact.new, url: pages_path, method: :post, remote: true do |f| %>
+
+<div class="container bookme">
+  <h1 class="text-center">Book Me</h1>
         <%= f.label :name, class: "contact-name" %></br>
         <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
 
@@ -10,9 +16,10 @@
      <%= f.text_field :message, :as => :text, :required => true, class: "contact-form-text-area",
                         placeholder: "Send me a message"%></br>
 
-      <%= f.submit 'Send Message', class: 'button' %>
+      <%= f.submit 'Send Message', class: 'submit' %>
     </div>
   <% end %>
+</div>
   <div class="col-md-6" id="flash-message">
     <%= render 'shared/flash' %>
   </div>

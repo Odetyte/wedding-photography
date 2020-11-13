@@ -10,7 +10,7 @@
 //first header
 
 .kopustas{
-  background-color: #a88677;
+  background-color: #997763;
   display:flex;
   position: relative;
   top:815px;
@@ -80,7 +80,8 @@
   position: relative;
   text-align: center;
   top: 850px;
-  background-color: #e5d1c5;
+  // background-color: #A89F8A;
+  background-color: #7b9799;
 }
 
 .header-main h6{
@@ -96,7 +97,8 @@
   justify-content: space-evenly;
   margin-top: 800px;
   width: 107%;
-  background-color: #e5d1c5;
+  background-color: #7b9799;
+  // background-color: #A89F8A;
   top:-22px;
   height: 520px;
   margin-left: -87px;
@@ -134,7 +136,8 @@
 }
 
 .brownline{
-  background-color:  #a88677;
+  // background-color:  #997763;
+  background-color: white;
   position: relative;
   top: 278px;
   width: 65%;
@@ -144,70 +147,90 @@
 
 // Ask me a question
 
-.question h1{
-  top: 65px;
-  text-align: center;
-  position: relative;
-  font-size: 40px;
-}
-
-.new_contact{
-  align-items: center;
-  text-align: center;
-  align-content: inherit;
-  position: relative;
-  left: 43%;
-  margin-left: -25%;
-  margin-top: 5%;
-}
-
 .contact-form-text-area{
-  width: 30%;
-  height: 40px;
-}
-
-#contact_message {
-  width: 65%;
-  height: 143px;
+  background: none!important;
+  border: none!important;
+  line-height: 1em!important;
+  font-weight: 300!important;
+  padding: 0.125em 0.25em!important;
+  width: 100%!important;
 }
 
 label {
-  text-align: left;
-  align-items: left;
-  font-size: 12px;
-  position: relative;
-  right: 107px;
-  top: 10px;
-  font-size: 18px;
+  border-bottom: 1px solid #333 !important;
+  display: block!important;
+  font-size: 1.25em!important;
+  margin-bottom: 0.5em!important;
+  -webkit-transition: all 0.25s!important;
+  transition: all 0.25s !important;
 }
 
+input:focus{
+ outline: none!important}
+// .question h1{
+//   top: 65px;
+//   text-align: center;
+//   position: relative;
+//   font-size: 40px;
+// }
 
-.contact-message {
-  text-align: left;
-  align-items: left;
-  font-size: 12px;
-  position: relative;
-  right: 242px;
-  top: 10px;
-  font-size: 18px;
-}
+// .new_contact{
+//   align-items: center;
+//   text-align: center;
+//   align-content: inherit;
+//   position: relative;
+//   left: 43%;
+//   margin-left: -25%;
+//   margin-top: 5%;
+// }
 
-.button {
-  transition-duration: 0.4s;
-  // border-color: #A88677;
-  background-color: white;
-  border-radius: 19px;
-  border: 2px solid #A88677;
-  font-size: 22px;
-  position: relative;
-  top: 15px;
-  left: 224px;
-}
+// .contact-form-text-area{
+//   width: 30%;
+//   height: 40px;
+// }
 
-.button:hover {
-  background-color: #A88677;
-  color: white;
-}
+// #contact_message {
+//   width: 65%;
+//   height: 143px;
+// }
+
+// // label {
+// //   text-align: left;
+// //   align-items: left;
+// //   font-size: 12px;
+// //   position: relative;
+// //   right: 107px;
+// //   top: 10px;
+// //   font-size: 18px;
+// // }
+
+
+// .contact-message {
+//   text-align: left;
+//   align-items: left;
+//   font-size: 12px;
+//   position: relative;
+//   right: 242px;
+//   top: 10px;
+//   font-size: 18px;
+// }
+
+// .button {
+//   transition-duration: 0.4s;
+//   // border-color: #A88677;
+//   background-color: white;
+//   border-radius: 19px;
+//   border: 2px solid #A88677;
+//   font-size: 22px;
+//   position: relative;
+//   top: 15px;
+//   left: 224px;
+// }
+
+// .button:hover {
+//   background-color: #A88677;
+//   color: white;
+// }
 
 
 // for bigger screen

@@ -22,7 +22,7 @@ class PagesController < ApplicationController
   def weddings
   end
 
-  def lovestories
+  def bookme
   end
 
   def memories
