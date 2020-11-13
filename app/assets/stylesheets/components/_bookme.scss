@@ -102,7 +102,19 @@ input:focus{
   .bookme-cover{
     position: relative !important;
     top: -271px !important;
-    width: 100% !important
+    width: 100% !important;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    margin-top: -29px;
+  }
+
+  .bookme-cover img{
+    width: 260%;
   }
   .bookme{
     top: 45%;
