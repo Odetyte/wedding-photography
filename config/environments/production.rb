@@ -66,7 +66,7 @@ Rails.application.configure do
   :user_name => ENV['SENDGRID_USERNAME'],
   :password => ENV['SENDGRID_PASSWORD'],
   :api_key => ENV['SENDGRID_API_KEY'],
-  :domain => 'heroku.com',
+  :domain => 'em5088.yourstorybyovidijus.com',
   :address => 'smtp.sendgrid.net',
   :port => 587,
   :authentication => :plain,
