@@ -60,10 +60,11 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "wedding_photography_production"
   config.action_mailer.default_url_options = { host: 'enyourstorybyovidijus.com' }
+  config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['SENDGRID_API_KEY'],
+  :user_name => ENV['SENDGRID_USERNAME'],
   :password => ENV['SENDGRID_KEY'],
   :domain => 'em5088.yourstorybyovidijus.com',
   :address => 'smtp.sendgrid.net',

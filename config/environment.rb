@@ -1,7 +1,7 @@
 # Load the Rails application.
 require_relative 'application'
 ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['SENDGRID_API_KEY'],
+  :user_name => ENV['SENDGRID_USERNAME'],
   :password => ENV['SENDGRID_KEY'],
   :domain => 'em5088.yourstorybyovidijus.com',
   :address => 'smtp.sendgrid.net',
