@@ -62,14 +62,14 @@ Rails.application.configure do
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.default_url_options = { host: "http://yourstorybyovidijus.com" }
 
-ActionMailer::Base.smtp_settings = {
-  domain:         'yourstorybyovidijus.com',
-  address:        "smtp.sendgrid.net",
-  port:            587,
-  authentication: :plain,
-  user_name:      'apikey',
-  password:       ENV['SENDGRID_API_KEY']
-}
+# ActionMailer::Base.smtp_settings = {
+#   domain:         'yourstorybyovidijus.com',
+#   address:        "smtp.sendgrid.net",
+#   port:            587,
+#   authentication: :plain,
+#   user_name:      'apikey',
+#   password:       ENV['SENDGRID_API_KEY']
+# }
   #  ActionMailer::Base.smtp_settings = {
   # :user_name => ENV['SENDGRID_USERNAME'],
   # :password => ENV['SENDGRID_PASSWORD'],
