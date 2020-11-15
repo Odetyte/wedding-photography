@@ -63,7 +63,7 @@ config.action_mailer.delivery_method = :smtp
 config.action_mailer.default_url_options = { host: "http://yourstorybyovidijus.com" }
 
 ActionMailer::Base.smtp_settings = {
-  domain:         'yourstorybyovidijus',
+  domain:         'yourstorybyovidijus.com',
   address:        "smtp.sendgrid.net",
   port:            587,
   authentication: :plain,
