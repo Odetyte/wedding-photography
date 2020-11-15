@@ -81,11 +81,16 @@
     left: 43px !important;
 }
 
-.message-blank{
-  position: relative !important;
-  bottom: 26px !important;
-  font-weight: bold !important;
-  font-size: 18px;
+// .message-blank{
+//   position: relative !important;
+//   bottom: 26px !important;
+//   font-weight: bold !important;
+//   font-size: 18px;
+// }
+
+#contact_message{
+  background: none !important;
+  border: none !important;
 }
 label {
   border-bottom: 1px solid #333 !important;
