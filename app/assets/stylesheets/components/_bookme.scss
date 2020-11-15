@@ -17,10 +17,11 @@
   transform: translate(-50%, -50%);
   padding: 2em;
   position: absolute;
-    top: 64%;
-    left: 50%;
-    z-index: 1;
+  top: 74%;
+  left: 50%;
+  z-index: 1;
   width: 98%;
+  height: 543px;
 }
 .bookme:before{
   background: url('https://res.cloudinary.com/das9ardwc/image/upload/v1604928103/m-8200_pvazsa.jpg') center no-repeat;
@@ -101,6 +102,21 @@ label {
   transition: all 0.25s !important;
 }
 
+.form-check-label{
+  border-bottom: none !important;
+  font-size: 1em !important;
+}
+
+.form-group{
+  position: relative;
+  bottom: 20px;
+}
+
+legend {
+  font-size: 1.25em !important;
+  position: relative;
+  bottom: 13px;
+}
 input:focus{
  outline: none!important}
 
