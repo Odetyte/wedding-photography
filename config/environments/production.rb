@@ -59,19 +59,17 @@ Rails.application.configure do
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "wedding_photography_production"
-  config.action_mailer.default_url_options = { host: 'enyourstorybyovidijus.com' }
-  config.action_mailer.perform_caching = false
-  config.action_mailer.delivery_method = :smtp
+config.action_mailer.delivery_method = :smtp
+config.action_mailer.default_url_options = { host: "http://yourstorybyovidijus" }
 
-  ActionMailer::Base.smtp_settings = {
-  :user_name => ENV['SENDGRID_USERNAME'],
-  :password => ENV['SENDGRID_KEY'],
-  :domain => 'em5088.yourstorybyovidijus.com',
-  :address => 'smtp.sendgrid.net',
-  :port => 587,
-  :authentication => :plain,
-  :enable_starttls_auto => true
-  }
+ActionMailer::Base.smtp_settings = {
+  domain:         'yourstorybyovidijus',
+  address:        "smtp.sendgrid.net",
+  port:            587,
+  authentication: :plain,
+  user_name:      'apikey',
+  password:       ENV['SENDGRID_API_KEY']
+}
   #  ActionMailer::Base.smtp_settings = {
   # :user_name => ENV['SENDGRID_USERNAME'],
   # :password => ENV['SENDGRID_PASSWORD'],
