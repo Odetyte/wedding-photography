@@ -60,7 +60,7 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "wedding_photography_production"
 config.action_mailer.delivery_method = :smtp
-config.action_mailer.default_url_options = { host: "http://yourstorybyovidijus" }
+config.action_mailer.default_url_options = { host: "http://yourstorybyovidijus.com" }
 
 ActionMailer::Base.smtp_settings = {
   domain:         'yourstorybyovidijus',
