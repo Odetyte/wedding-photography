@@ -61,8 +61,9 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "wedding_photography_production"
   config.action_mailer.default_url_options = { :host => 'wed-ph.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_caching = false
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
@@ -70,7 +71,7 @@ Rails.application.configure do
     domain:               'herokuapp.com',
     user_name:            ENV["GMAIL_EMAIL"],
     password:             ENV["GMAIL_PASSWORD"],
-    authentication:       'plain',
+    authentication:       :plain,
     enable_starttls_auto: true  }
 
   # Ignore bad email addresses and do not raise email delivery errors.
