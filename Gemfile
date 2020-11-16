@@ -24,11 +24,12 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
 # instagram
 gem 'instagram'
 #mail
 gem "mail_form", ">= 1.3.0"
+gem 'sendgrid-ruby'
+
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 #image upload
 gem 'cloudinary', '~> 1.16.0'
