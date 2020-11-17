@@ -10,7 +10,7 @@
 //first header
 
 .kopustas{
-  background-color: #997763;
+  background-color: #A88677;
   display:flex;
   position: relative;
   top:815px;
@@ -80,8 +80,7 @@
   position: relative;
   text-align: center;
   top: 850px;
-  // background-color: #A89F8A;
-  background-color: #7b9799;
+  background-color: #e5d1c5 !important;
 }
 
 .header-main h6{
@@ -97,8 +96,7 @@
   justify-content: space-evenly;
   margin-top: 800px;
   width: 107%;
-  background-color: #7b9799;
-  // background-color: #A89F8A;
+  background-color: #E5D1C5;
   top:-22px;
   height: 520px;
   margin-left: -87px;
@@ -129,15 +127,14 @@
   position: relative;
 }
 
-.intagram-ph{
+.instagram-ph{
   position: relative;
   left: 436px;
   top: 346px;
 }
 
 .brownline{
-  // background-color:  #997763;
-  background-color: white;
+  background-color: #A88677;
   position: relative;
   top: 278px;
   width: 65%;
@@ -286,7 +283,7 @@
   font-size: 25px !important;
   right: 50px !important;
 }
-.intagram-ph{
+.instagram-ph{
   left: 48px !important;
   top:  165px !important;
 }
@@ -315,6 +312,42 @@
  left: 150px;
 }
 
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+  .navbar-expand-lg{
+  position: relative !important;
+  left: -136px !important;
+  }
+  .kopustas{
+  top: 613px !important;
+  }
+  .story-ph{
+  left: 630px !important;
+  }
+  .header-main{
+    top: 623px !important;
+    left: 398px !important;
+  }
+  .korteles{
+    top: 704px !important;
+  }
+  .treti{
+    position: relative;
+    right: 48px;
+    flex: 0 0 16.6667% !important;
+    max-width: 16.6667% !important;
+  }
+  .saldainis{
+    margin-top: 560px;
+  }
+  .instagram-ph{
+    left: 275px !important;
+  }
+  .fab{
+        top: 305px !important;
+    right: 121px !important;
+  }
 }
 
 
