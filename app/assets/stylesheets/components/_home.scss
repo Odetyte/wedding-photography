@@ -6,14 +6,70 @@
   position: absolute;
   top: 0;
 }
-
 //first header
+
+.header1{
+  margin-top: 680px;
+  position: relative;
+  text-align: center;
+}
+.header1-photo{
+  margin-top: 160px;
+}
+
+.header1-text{
+  position: relative;
+  bottom: 763px;
+}
+.header1-text h3{
+  font-size: 40px;
+  position: relative;
+  left: 927px;
+  text-align: left;
+  color: white;
+}
+
+.header1-text h4{
+  top: 134px;
+  font-size: 24px;
+  color: white;
+  position: relative;
+  left: 349px;
+  text-align: center;
+}
+.header1-text h5 {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  top: 267px;
+  position: relative;
+  left: 355px;
+}
+.header2{
+  margin-top: 150px;
+}
+.header2-text{
+  text-align: center;
+  position: relative;
+  bottom: 764px;
+}
+
+.header2-text h3{
+  color: white;
+  font-size: 18px;
+}
+
+.header2-text h4{
+  color: white;
+  font-size: 26px;
+}
+//second header
 
 .kopustas{
   background-color: #A88677;
   display:flex;
   position: relative;
-  top:815px;
+  top: 4px;
   height: 252px;
 }
 
@@ -37,6 +93,7 @@
     position: relative;
     bottom: 62px;
     left: 245px;
+    top: -66px;
 }
 
 .header-story p{
@@ -81,6 +138,9 @@
   text-align: center;
   top: 850px;
   background-color: #e5d1c5 !important;
+  top: 55px !important;
+  width: 18%;
+  left: 472px;
 }
 
 .header-main h6{
@@ -94,7 +154,7 @@
 .saldainis{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 800px;
+  margin-top: 63px;
   width: 107%;
   background-color: #E5D1C5;
   top:-22px;
