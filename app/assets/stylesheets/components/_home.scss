@@ -306,7 +306,7 @@
   width: 39% !important;
 }
 .header-main {
-  top:-57px !important;
+  top:-105px !important;
   height: 50px;
   width: 35% !important;
   left:108px !important;
@@ -371,7 +371,51 @@
 .button{
  left: 150px;
 }
+//updated version
+.header1{
+  margin-top: 0px !important;
+  position: relative;
+  bottom: 40px;
+}
+.header1 h1{
+  font-size: 1.5rem;
+}
+.header1-photo{
+  margin-top: 0px !important;
+}
+.header1-text{
+  position: relative !important;
+  bottom: 0px !important;
+}
+.header1-text h3{
+  font-size: 28px;
+  position: relative !important;
+  bottom: 238px !important;
+  left: 249px !important;
+}
+.header1-text h4{
+  top: -238px !important;
+  position: relative !important;
+  left: 94px !important;
+  font-size: 12px;
+}
 
+.header1-text h5 {
+  top:-219px !important;
+  position: relative !important;
+  left: 88px !important;
+  font-size: 12px !important;
+}
+
+.header2{
+  margin-top: 0px;
+  position: relative;
+  bottom: 30px;
+}
+.header2-text {
+  position: relative;
+  bottom: 230px;
+}
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px){

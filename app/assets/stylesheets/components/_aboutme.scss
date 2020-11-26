@@ -75,7 +75,115 @@
   bottom: 812px;
   left: 608px;
 }
+// introduction
 
+.introduction{
+  background-color: #A88677;
+  height: 700px;
+  text-align: center;
+}
+
+.introduction-header h3{
+  font-size: 28px;
+  color: white;
+  // font-weight: bold;
+  top:  120px;
+  position: relative;
+}
+
+.introduction-line{
+  background-color: white;
+  position: relative;
+  top: 180px;
+  width: 534px;
+  height: 2px;
+  left: 306px;
+}
+
+.introduction-text h3{
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top:  265px;
+}
+.lapeliai h3 {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top:  345px;
+}
+
+.lapeliai img {
+  width: 10%;
+  position: relative;
+  top: 335px;
+}
+
+.introduction-summery h3{
+  font-size: 24px;
+  color: white;
+  top:  370px;
+  position: relative;
+}
+
+// things I love
+.things-i-love-header {
+  text-align: center;
+  margin: top;
+  position: relative;
+  top: 100px;
+}
+.explore h3 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 280px;
+}
+.jungle h3 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 280px;
+}
+.dinners h3 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 280px;
+}
+
+.ocean h3 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 310px;
+}
+.things-i-love-header h3 {
+  font-size: 48px;
+}
+.gallery-intro-1{
+  position: relative;
+  right: 297px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 4rem;
+  top:  200px;
+}
+
+.gallery-intro-2{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 4rem;
+  position: relative;
+  bottom: 792px;
+  left: 288px;
+}
 //mobiledesign
 
 @media only screen and (min-width: 290px) and (max-width: 812px){
