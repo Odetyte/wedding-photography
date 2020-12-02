@@ -17,34 +17,37 @@
   margin-top: 160px;
 }
 
-.header1-text{
+.header1-welcome {
+  text-align: right;
   position: relative;
-  bottom: 763px;
+  bottom: 779px;
+  /* left: 43px; */
+  right: 278px;
+  color: white;
+  /* font-size: 34px; */
 }
-.header1-text h3{
-  font-size: 40px;
+.header1-welcome h3{
+  font-size: 46px;
+}
+
+.header1-more{
   position: relative;
-  left: 927px;
-  text-align: left;
+  bottom: 737px;
+  right: 151px;
+  display: flex;
+  justify-content: flex-end;
   color: white;
 }
 
-.header1-text h4{
-  top: 134px;
-  font-size: 24px;
-  color: white;
+.header1-sendme{
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  left: 349px;
-  text-align: center;
-}
-.header1-text h5 {
-  font-size: 24px;
-  text-align: center;
+  bottom: 615px;
   color: white;
-  top: 267px;
-  position: relative;
-  left: 355px;
+  right: 153px;
 }
+
 .header2{
   margin-top: 150px;
 }
@@ -278,6 +281,11 @@
 }
 
 @media only screen and (min-width: 290px) and (max-width: 812px){
+
+  .instead-carousel img{
+    overflow: hidden;
+    width: 120% !important;
+  }
 .kopustas{
   position: relative;
   top: -58px !important;
@@ -380,43 +388,51 @@
 .header1 h1{
   font-size: 1.5rem;
 }
-.header1-photo{
+.header1-photo {
   margin-top: 0px !important;
 }
-.header1-text{
-  position: relative !important;
-  bottom: 0px !important;
-}
-.header1-text h3{
-  font-size: 28px;
-  position: relative !important;
-  bottom: 238px !important;
-  left: 249px !important;
-}
-.header1-text h4{
-  top: -238px !important;
-  position: relative !important;
-  left: 94px !important;
-  font-size: 12px;
+
+.header1-photo img {
+  width: 100%;
+  // background-image: cover;
+  height: 400px;
+  // overflow: hidden !important;
 }
 
-.header1-text h5 {
-  top:-219px !important;
-  position: relative !important;
-  left: 88px !important;
-  font-size: 12px !important;
+.header1-welcome{
+  position: relative;
+  bottom: 356px;
+    /* display: flex; */
+  right: 50px;
 }
 
-.header2{
-  margin-top: 0px;
+.header1-more h4{
+  font-size: 1em;
+}
+
+.header1-more{
   position: relative;
-  bottom: 30px;
+  bottom: 329px;
+  right: 15px;
+  display: flex;
+  justify-content: flex-end;
+   color: white;
 }
-.header2-text {
+
+.header1-sendme{
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  bottom: 230px;
+  bottom: 298px;
+  color: white;
+  right: 8px;
+}
+.header1-sendme h4{
+  font-size: 1em;
 }
 }
+
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1200px){
   .navbar-expand-lg{
