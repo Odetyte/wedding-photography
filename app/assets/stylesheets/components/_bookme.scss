@@ -140,7 +140,8 @@ input:focus{
     width: 260%;
   }
   .bookme{
-    top: 63%;
+    position:  relative !important;
+    top: 63% !important;
     width: 48%;
   }
   .alert-success{
