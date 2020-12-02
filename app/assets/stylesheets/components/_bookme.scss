@@ -20,7 +20,6 @@
   top: 74%;
   left: 50%;
   z-index: 1;
-  width: 98%;
   height: 543px;
 }
 .bookme:before{
@@ -141,8 +140,8 @@ input:focus{
   }
   .bookme{
     position:  relative !important;
-       bottom: 542px !important;
-    width: 48%;
+    bottom: 542px !important;
+    width: 100% !important;
   }
   .alert-success{
     top: -488px !important;
@@ -155,9 +154,23 @@ input:focus{
   }
  }
 
-@media only screen and (min-width: 1100px) and (max-width: 1500px){
+// @media only screen and (min-width: 1100px) and (max-width: 1500px){
+// .container {
+//   max-width: none !important;
+// }
+// }
 
-}
+// @media only screen and (min-width: 992px){
+// .container {
+//   max-width: none !important;
+// }
+// }
+
+// @media only screen and (min-width: 768px){
+// .container {
+//   max-width: none !important;
+// }
+// }
 // form button.success{
 //   background: #27ae60 !important;
 //   border-color: #27ae60 !important;
