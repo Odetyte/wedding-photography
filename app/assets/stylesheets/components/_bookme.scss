@@ -15,6 +15,12 @@
   z-index: 1;
   height: 607px;
 }
+
+.bookme-cover{
+  position: relative;
+  top: -186px;
+  margin-bottom: -218px;
+}
 .bookme:before{
   background: url('https://res.cloudinary.com/das9ardwc/image/upload/v1604928103/m-8200_pvazsa.jpg') center no-repeat;
   background-size: cover;
@@ -50,6 +56,7 @@
   -webkit-transition: all 0.25s !important;
   transition: all 0.25s !important;
   float: right;
+  border-radius: 25px;
 }
 .submit:hover,
 .submitfocus,
@@ -69,9 +76,9 @@
 }
 .name-email{
     width: 87% !important;
-    position: relative;
+    position: relative !important;
     top: -62px !important;
-    left: 43px !important;
+    left: 82px !important;
 }
 
 // .message-blank{
@@ -112,7 +119,17 @@ legend {
 input:focus{
  outline: none!important}
 
+.alert-error{
+  bottom: 83px !important;
+  left: 361px !important;
+  margin-bottom: -2rem !important;
+}
 
+.alert-success{
+  margin-bottom: -2rem !important;
+  bottom: 714px !important;
+  right: -581px !important;
+}
  @media only screen and (min-width: 290px) and (max-width: 812px){
   .bookme-cover{
     position: relative !important;
@@ -129,21 +146,34 @@ input:focus{
   }
 
   .bookme-cover img{
-    width: 260%;
+    width: 287%;
   }
   .bookme{
     position:  relative !important;
-    bottom: 607px !important;
+    // bottom: 607px !important;
     width: 100% !important;
+    height: 607px;
+    bottom: -305px;
   }
   .alert-success{
-    top: -488px !important;
-    right: 15px !important;
-    width: 66% !important;
+    top: -593px !important;
+    right: 11px !important;
+    width: 104% !important;
     position: relative !important;
   }
   #flash-message{
     position: absolute !important;
+  }
+  .simple_form {
+    margin-top: -880px;
+  }
+  .name-email{
+    width: 264px !important;
+    left: 75px !important;
+  }
+  .alert-error{
+    bottom: 55px !important;
+    left: 0px !important;
   }
  }
 
