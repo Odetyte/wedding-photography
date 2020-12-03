@@ -1,0 +1,30 @@
+.footer{
+  background-color: $new-dark-brown;
+  height: 150px;
+}
+
+
+.footer h3 {
+  text-align: center;
+  /* margin-top: 56px; */
+  color: white;
+  font-size: 21px !important;
+  position: relative;
+  top: 84px;
+}
+
+@media only screen and (min-width: 290px) and (max-width: 812px){
+  .footer h3{
+  font-size: 11px !important;
+  position: relative;
+  top: 18px;
+  }
+
+  .footer{
+    height: 68px;
+  }
+
+  .footer-navbar{
+    margin-top: 240px;
+  }
+}
