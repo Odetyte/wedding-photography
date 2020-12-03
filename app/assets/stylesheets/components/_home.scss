@@ -69,7 +69,7 @@
 //second header
 
 .kopustas{
-  background-color: #A88677;
+  background-color: $old-dark-brown;
   display:flex;
   position: relative;
   top: 4px;
@@ -140,7 +140,7 @@
   position: relative;
   text-align: center;
   top: 850px;
-  background-color: #e5d1c5 !important;
+  background-color: $old-light-brown !important;
   top: 55px !important;
   width: 18%;
   left: 472px;
@@ -159,7 +159,7 @@
   justify-content: space-evenly;
   margin-top: 63px;
   width: 107%;
-  background-color: #E5D1C5;
+  background-color: $old-light-brown;
   top:-22px;
   height: 520px;
   margin-left: -87px;
@@ -197,7 +197,7 @@
 }
 
 .brownline{
-  background-color: #A88677;
+  background-color: $old-dark-brown;
   position: relative;
   top: 278px;
   width: 65%;
