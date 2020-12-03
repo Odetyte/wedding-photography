@@ -1,3 +1,10 @@
+
+.pic-about{
+  width: 100%;
+}
+.aboutme-row{
+  margin-top: 180px;
+}
 .text1{
   background-color: #E5D1C5;
   width: 456px;
@@ -187,25 +194,39 @@
 //mobiledesign
 
 @media only screen and (min-width: 290px) and (max-width: 812px){
-  .aboutme-card{
-    width: 7rem !important;
-    position: relative !important;
-    top: -352px !important;
+
+.small-banner{
+  display: none;
+}
+
+.pic-about{
+  position: absolute;
+}
+
+.aboutme-row{
+  margin-top: 70px;
+}
+.aboutme-card{
+  width: 7rem !important;
+  position: relative !important;
+  bottom: 25px;
+  right: 20px;
   }
 
 .text1{
-  width:218px !important;
+  width:407px !important;
   height: 119px !important;
   position: relative !important;
   right: 234px!important;
-  bottom: 329px !important;
+  // bottom: 329px !important;
 }
 .text1 h3{
   position: relative!important;
   top: 18px!important;
-  left: 0px!important;
+  left: 160px!important;
   text-align: center!important;
-  font-size: 19px!important;
+  font-size: 16px!important;
+  width: 60%;
 }
 .text2{
   height: 125px !important;
