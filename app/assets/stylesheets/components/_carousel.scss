@@ -1,0 +1,47 @@
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+}
+
+.carousel-for-web {
+  // z-index: -99;
+  position: absolute !important;
+  top: 0;
+}
+
+@media only screen and (min-width: 520px) and (max-width: 1400px){
+.carousel-for-mobile{
+  display:none;
+}
+.header1-photo2{
+  display: none;
+}
+.kopustas-for-mobile{
+  display:none;
+}
+.header2-for-mobile{
+  display:none;
+}
+}
+
+
+@media only screen and (min-width: 290px) and (max-width: 520px){
+.carousel-for-web{
+  display:none;
+}
+.header1-photo{
+  display:none;
+}
+.kopustas{
+  display: none;
+}
+.header2{
+  display: none;
+}
+.header-main{
+  display:none;
+}
+}
+

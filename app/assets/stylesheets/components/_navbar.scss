@@ -34,22 +34,16 @@ h2:hover{
 color: white !important;
 }
 
-.instead-carousel{
-  display:none;
-}
 // mobile design
 @media only screen and (min-width: 290px) and (max-width: 812px){
   .navbar{
     background-color: $new-dark-brown;
   }
 
-  .carousel {
-    display: none;
-  }
+  // .carousel {
+  //   display: none;
+  // }
 
-  .instead-carousel{
-    display: flex;
-  }
   .logo{
     width: 129px;
     position: relative;

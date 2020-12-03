@@ -1,11 +1,11 @@
 
 //carousel
 
-.carousel {
-  // z-index: -99;
-  position: absolute !important;
-  top: 0;
-}
+// .carousel {
+//   // z-index: -99;
+//   position: absolute !important;
+//   top: 0;
+// }
 //first header
 
 .header1{
@@ -49,7 +49,7 @@
 }
 
 .header2{
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .header2-text{
   text-align: center;
@@ -69,11 +69,11 @@
 //second header
 
 .kopustas{
-  background-color: $old-dark-brown;
+  background-color: $new-dark-brown;
   display:flex;
   position: relative;
-  top: 4px;
-  height: 252px;
+  top: -80px;
+  height: 331px;
 }
 
 .header-story{
@@ -86,7 +86,7 @@
   font-size: 34px;
   text-align: center;
   position: relative;
-  right: -84px;
+  right: -100px;
   bottom: 1px;
 }
 
@@ -95,17 +95,19 @@
     text-align: center;
     position: relative;
     bottom: 62px;
-    left: 245px;
+    left: 200px;
     top: -66px;
 }
 
 .header-story p{
    font-family:  $p;
+    color: white;
     position: relative;
-    font-size: 12px;
-    bottom: 53px;
-    right: -186px;
-    text-align: center
+    font-size: 18px;
+    bottom: 63px;
+    right: -587px;
+    text-align: center;
+    width: 32%;
 }
 .header-story h6{
     font-size: 15px;
@@ -185,9 +187,16 @@
 
 .fa-instagram{
   font-size: 30px;
-  top: 319px;
+  top: 247px;
   right: 83px;
   position: relative;
+}
+
+.fab h6{
+  font-size: 1.5rem;
+  width: 132%;
+  position: relative;
+  right: 6px;
 }
 
 .instagram-ph{
@@ -197,80 +206,22 @@
 }
 
 .brownline{
-  background-color: $old-dark-brown;
+  background-color: $new-dark-brown;
   position: relative;
   top: 278px;
-  width: 65%;
+  width: 202%;
   height: 6px;
   right: 4px;
 }
 
-// Ask me a question
-
-// .question h1{
-//   top: 65px;
-//   text-align: center;
-//   position: relative;
-//   font-size: 40px;
-// }
-
-// .new_contact{
-//   align-items: center;
-//   text-align: center;
-//   align-content: inherit;
-//   position: relative;
-//   left: 43%;
-//   margin-left: -25%;
-//   margin-top: 5%;
-// }
-
-// .contact-form-text-area{
-//   width: 30%;
-//   height: 40px;
-// }
-
-// #contact_message {
-//   width: 65%;
-//   height: 143px;
-// }
-
-// // label {
-// //   text-align: left;
-// //   align-items: left;
-// //   font-size: 12px;
-// //   position: relative;
-// //   right: 107px;
-// //   top: 10px;
-// //   font-size: 18px;
-// // }
-
-
-// .contact-message {
-//   text-align: left;
-//   align-items: left;
-//   font-size: 12px;
-//   position: relative;
-//   right: 242px;
-//   top: 10px;
-//   font-size: 18px;
-// }
-
-// .button {
-//   transition-duration: 0.4s;
-//   // border-color: #A88677;
-//   background-color: white;
-//   border-radius: 19px;
-//   border: 2px solid #A88677;
-//   font-size: 22px;
-//   position: relative;
-//   top: 15px;
-//   left: 224px;
-// }
-
-// .button:hover {
-//   background-color: #A88677;
-//   color: white;
-// }
+.lightwidget-widget{
+  display: flex;
+  justify-content: flex-end;
+  width: 150%;
+  border: 0;
+  overflow: hidden;
+  height: 157px;
+}
 
 
 // for bigger screen
@@ -286,32 +237,52 @@
     overflow: hidden;
     width: 120% !important;
   }
-.kopustas{
+.kopustas-for-mobile{
+  background-color: $new-light-brown;
+  height: 252px;
   position: relative;
-  top: -58px !important;
-  height: 212px !important;
+  top: -180px !important;
+  height: 458px !important;
 }
 .header-story{
   right: 168px !important;
 }
+.header-story h5{
+  font-size: 34px;
+  text-align: center;
+  position: relative;
+  right: -167px;
+  bottom: 26px;
+}
+
 .header-story h4 {
-  bottom:52px
+  bottom:52px;
+  left: 0px !important;
+  width:100%;
+  margin-left: 168px;
 }
 .header-story p {
-  bottom: 31px;
-  right: -78px;
+  bottom: 52px;
+  right: -170px;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
+  width:100%;
 }
 .story-phh{
-  left: 60px !important;
-  width: 21% !important;
-  bottom: 241px !important;
+  left: 0px !important;
+  bottom: 62px !important;
+  margin-left: 48px;
 }
+
+.story-phh img{
+  width: 298% !important;
+}
+
 .story-ph{
   bottom: 206px !important;
-  left: 194px !important;
+  margin-left: 194px !important;
   width: 39% !important;
+  left:0 !important;
 }
 .header-main {
   top:-105px !important;
@@ -328,17 +299,17 @@
   top: 1px !important;
 }
 
-.saldainis {
-  margin-top: 25px !important;
-}
 .question h1{
   top: 18px !important;
   font-size: 34px;
 }
 .saldainis{
-  top: -62px !important;
-  height: 290px;
+  top: -69px !important;
+  height: 200px;
   width: 124%;
+  margin-top: -94px !important;
+  background-color: $new-light-brown;
+  margin-left: -90px;
 }
 .instagram{
   bottom: 295px !important;
@@ -356,9 +327,10 @@
   top:  165px !important;
 }
 .brownline{
-  top: 125px !important;
-  width: 98% !important;
+  top: -2px !important;
+  width: 275% !important;
   right: 3px !important;
+  height: 4px;
 }
 .contact-form-text-area {
   position: relative;
@@ -383,13 +355,21 @@
 .header1{
   margin-top: 0px !important;
   position: relative;
-  bottom: 40px;
+  bottom: 97px;
+  background-color: $new-light-brown;
+  height: 100px;
 }
 .header1 h1{
   font-size: 1.5rem;
+  position: relative;
+  top:  36px;
 }
 .header1-photo {
   margin-top: 0px !important;
+}
+
+.header1-photo2{
+  margin-top: -97px;
 }
 
 .header1-photo img {
@@ -401,19 +381,19 @@
 
 .header1-welcome{
   position: relative;
-  bottom: 356px;
+  bottom: 460px;
     /* display: flex; */
-  right: 50px;
+  right: 76px;
 }
 
 .header1-more h4{
-  font-size: 1em;
+  font-size: 1.10em;
 }
 
 .header1-more{
   position: relative;
-  bottom: 329px;
-  right: 15px;
+  bottom: 460px;
+  right: 2px;
   display: flex;
   justify-content: flex-end;
    color: white;
@@ -423,12 +403,55 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
-  bottom: 298px;
+  bottom: 390px;
   color: white;
-  right: 8px;
+  right: 30px;
 }
 .header1-sendme h4{
-  font-size: 1em;
+  font-size: 1.10em;
+}
+.header2-for-mobile{
+  margin-top: -150px;
+}
+.header2-text{
+  bottom: 464px;
+}
+.header2-text h3 {
+  color: white;
+  font-size: 20px;
+  width: 81%;
+  margin-left: 36px;
+  margin-top: -17px;
+}
+.header2-text h4 {
+  color: white;
+  font-size: 26px;
+  margin-top: 259px;
+}
+.korteles{
+  margin-top: -340px;
+}
+
+.home-korteles{
+right: 0px;
+}
+.index-korteles{
+  background-color: $new-light-brown;
+  height: 950px;
+  position: relative;
+  bottom: 93px;
+}
+.lightwidget-widget {
+  width: 310% !important;
+  position: relative !important;
+  bottom: 55px !important;
+}
+.fab h6{
+  font-size: 16px;
+  width: 148%;
+  /* margin-left: -7px; */
+  position: relative;
+  left: -8px;
 }
 }
 
