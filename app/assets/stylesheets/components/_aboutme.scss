@@ -10,7 +10,7 @@
   margin-top: -110px;
 }
 .text1{
-  background-color: #E5D1C5;
+  background-color: $new-light-brown;
   width: 456px;
   height: 198px;
 
@@ -81,7 +81,7 @@
 }
 
 .gif{
-  background-color: #E5D1C5;
+  background-color: $new-light-brown;
   position: relative;
   width: 42%;
   height: 330px;
@@ -91,7 +91,7 @@
 // introduction
 
 .introduction{
-  background-color: #A88677;
+  background-color: $new-dark-brown;
   height: 700px;
   text-align: center;
   margin-top: -60px;
