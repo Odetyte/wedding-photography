@@ -13,35 +13,33 @@
   background-color: $new-light-brown;
   width: 456px;
   height: 198px;
+  text-align: center;
 
 }
 
-.text1 h3{
-    left: 59px;
-    position: relative;
-    top: 70px;
-    left: 225px;
-    text-align: center;
-    text-size-adjust: 11px;
-    font-size: 16px;
+.text1 p{
+  position: relative;
+  top: 45px;
+  left: 230px;
   }
 
   .text2{
-  background-color: #A88677;
+  background-color: $dark-green;
   height: 186px;
   position: relative;
   top: -142px;
   // margin-left: 322px;
   left: 264px;
+  text-align: center;
 }
 
-.text2 h3{
+.text2 p{
+  width: 144%;
   position: relative;
-  font-size: 16px;
-  text-align: center;
-  top: 59px;
-  right: 242px;
+  top: 29px;
+  right: 269px;
 }
+
 
 .pic1 img{
  width: 52%;
@@ -51,14 +49,13 @@
 
 .hi {
   text-align: center;
-  top: 275px;
+  top: 223px;
   position: relative;
   right: 152px;
-  font-size: 26px;
 }
 
 .hi h1 {
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .capture {
@@ -109,7 +106,7 @@
   background-color: white;
   position: relative;
   top: 180px;
-  width: 534px;
+  width: 690px;
   height: 2px;
   left: 306px;
 }
@@ -206,6 +203,7 @@
 .i-like-gallery{
   // margin-right: 0px !important;
   margin-left: 70px !important;
+  margin-bottom: 70px;
 }
 //mobiledesign
 
@@ -231,18 +229,18 @@
 
 .text1{
   width:407px !important;
-  height: 119px !important;
+  height: 169px !important;
   position: relative !important;
   right: 234px!important;
   // bottom: 329px !important;
 }
-.text1 h3{
-  position: relative!important;
-  top: 18px!important;
-  left: 160px!important;
-  text-align: center!important;
-  font-size: 16px!important;
+.text1 p{
+  position: relative;
+  top: 14px;
+  left: 158px;
   width: 60%;
+  font-size: 14px;
+  text-align: center;
 }
 .text2{
   height: 125px !important;
@@ -252,20 +250,21 @@
   width: 101% !important;
   background-color: transparent;
 }
-.text2 h3{
-  position: relative !important;
-  font-size: 16.5px !important;
-  text-align: center !important;
-  top: 9px !important;
-  right: 0px !important;
+.text2 p{
+  width: 98%;
+  position: relative;
+  top: -36px;
+  right: -6px;
+  text-align: justify;
 }
+
 
 .aboutme-row2{
   margin-top: 428px;
 }
 .about-text2{
   position: relative !important;
-  top: -441px !important;
+  top: -398px !important;
   left: 20px !important;
 }
 .hi{
@@ -312,27 +311,29 @@
   height: 500px;
 }
 .introduction-header h3{
-  font-size: 24px;
+  font-size: 23px;
+  top: 50px;
 }
 .introduction-line{
-  top: 133px;
+  top: 69px;
   height: 1px;
   width: 300px;
   left: 41px;
 }
 .introduction-text h3{
-  font-size: 18px;
-  top: 167px;
-  left: -5px;
-  width: 102%;
+  font-size: 16px;
+  top: 106px;
+  left: 33px;
+  width: 85%;
 }
 .lapeliai img{
   width: 30%;
-  top: 195px;
+  top: 115px;
 }
 
 .introduction-summery h3{
-  top: 235px;
+  top: 141px;
+  font-size: 24px;
 }
 .things-i-love-header {
   top: -30px;

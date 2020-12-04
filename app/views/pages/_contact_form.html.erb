@@ -12,7 +12,7 @@
         <%= f.label :email, class: "contact-email" %></br>
         <%= f.text_field :email, required: true, class: "contact-form-text-area name-email" %></br>
 
-  <%= f.input :booking_for, as: :radio_buttons, collection: [['Wedding', 'Wedding Shoot'], ['Couples', 'Couples Shoot'], ['other', 'Share your dream']], label_method: :second, value_method: :first %>
+  <%= f.input :booking_for, as: :radio_buttons, collection: [['Wedding', 'Wedding Shoot'], ['Couples', 'Couples Shoot'], ['other', 'Share my dream']], label_method: :second, value_method: :first %>
 
      <!--  <%= f.label :message, class: "contact-message" %></br> -->
      <%= f.input :message, :as => :text, :required => true, class: "contact-form-text-area message-blank",

@@ -42,6 +42,9 @@
 <br>
 <br>
 <br>
+ <div class="rodykle">
+      <%= image_tag("rodykle.png") %>
+    </div>
 <div class="header1">
   <h1>Desire to capture you perfect momement?</h1>
 </div>
@@ -59,38 +62,42 @@
     <h3>Welcome!</h3>
   </div>
   <div class="header1-more">
-    <h4>Feel free to browse around.<br><br>
-        Here you will find more info about<br><br>
-        my passion photography and some aspects of my life</h4>
+    <p>Feel free to browse around.<br>
+        Here you will find more info about my passion <br> photography and some aspects of my life</p>
         </div>
         <div class="header1-sendme">
-        <h4>I am happy to answer all your questions <br><br>send me a messege </h4>
+        <p>I am happy to answer all your questions <br>send me a messege </p>
   </div>
 
 
 </div>
 <div class="kopustas">
+  <div class="sukibelapeliai">
+      <%= image_tag("du-sukibelapeliai.png") %>
+    </div>
   <div class="love-story">
-  <div class="header-story" style="position: relative; right: 245px;bottom: 19px;"><h5>Capturing</h5>
+  <div class="header-story" style="position: relative; right: 245px;bottom: 19px;"><h5>Capturing <br>Memories</h5>
     <br>
+
     <br>
-   <h4>Memories</h4>
-  <p> Funny thing is aging. The perspective in life changes. Time is passing by and sometimes<br>
-   you think oh i wish I had that picture . to my opinion a photograph is like a time<br>
-    capsule. It brings you memories. It can bring you those warm feelings  you know what i<br>
-    mean - how you looked like, what thoughts were going through your mind, at what<br>
-     place you were in your life and what mattered the most.
+   <!-- <h4>Memories</h4> -->
+  <p> Funny thing is aging. The perspective in life changes. <br> Time is passing by and sometimes
+   you think oh i wish I had that picture. <br> to my opinion a photograph is like a time
+    capsule - It brings you memories. <br> It can bring you those warm feelings of how you looked like,
+    <br>what thoughts were going through your mind, at what place you were in your life and what mattered the most.
     <p>
 
   </div>
-  <div class="story-phh" style="position: relative; bottom: 362px;left: 16px; width: 25%;">
+  <div class="story-phh">
     <%= cl_image_tag("seimos_fotosesija_9_of_10_wkb1qf.jpg") %>
   </div>
-  <div class="story-ph" style="position: relative; bottom: 674px;left: 779px; width: 33%;">
+  <div class="story-ph">
      <%= cl_image_tag("m-4583_websize_wufd2i.jpg") %>
   </div>
   </div>
+
   </div>
+
   <%= render 'shared/kopustas' %>
   <br>
 <br>
@@ -103,10 +110,10 @@
       <%= cl_image_tag("ant_kalno_saulelydis_qs81xh.jpg") %>
     </div>
     <div class="header2-text">
-      <h3>I will be there for those special moments. I will be your best friend to feel relaxed, <br>
+      <p>I will be there for those special moments. I will be your best friend to feel relaxed, <br>
        comfortable, laugh from silly things nad the most important enjoy each others<br>
-        company there where you are right now.</h3><br>
-        <h4>Let’s meet and plan something great together!</h4>
+        company there where you are right now.</p><br>
+        <h2><%= link_to "Let’s meet and plan something great together!", bookme_path,  class: "nav-link" %></h2>
     </div>
   </div>
 </div>
@@ -120,37 +127,40 @@
 <div class="row home-korteles">
   <div class="col-12 col-lg-3">
 <div class="card wedding-card" style="width: 18rem; height: 260px; ">
-  <%= link_to juliarron_path do %>
+
   <div class="imgBx">
   <%= cl_image_tag("1_cover_photo_dwctxb.jpg") %>
 </div>
+<%= link_to juliarron_path do %>
 <div class="card-body">
-     <h2 class="card-title">Julia & Arron </h2>
+     <h2 class="card-title" style="text-decoration:none;">Julia & Arron </h2>
 <% end %>
 </div>
   </div>
 </div>
 
-<div class="col-12 col-lg-5">
+<div class="col-12 col-lg-3">
 <div class="card wedding-card" style="width: 18rem; height: 260px; ">
-  <%= link_to lieparokas_path do %>
+
    <div class="imgBx">
   <%= cl_image_tag("LR-cover.jpg") %>
 </div>
+<%= link_to lieparokas_path do %>
   <div class="card-body">
-    <h2 class="card-title">Liepa & Rokas</h2>
+    <h2 class="card-title" style="text-decoration:none;">Liepa & Rokas</h2>
     <% end %>
   </div>
   </div>
 </div>
 <div class="col-12 col-lg-3 treti">
 <div class="card wedding-card" style="width: 18rem; height: 260px; ">
-  <%= link_to ebrujosef_path do %>
+
   <div class="imgBx">
   <%= cl_image_tag("cover_lqzkch.jpg") %>
 </div>
+<%= link_to ebrujosef_path do %>
   <div class="card-body" style="text-decoration:none;">
-    <h2 class="card-title">Ebru & Josef</h2>
+    <h2 class="card-title" style="text-decoration:none;">Ebru & Josef</h2>
     <% end %>
   </div>
 </div>

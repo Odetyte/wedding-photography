@@ -22,30 +22,32 @@
   position: relative;
   bottom: 779px;
   /* left: 43px; */
-  right: 278px;
+  right: 223px;
   color: white;
   /* font-size: 34px; */
 }
 .header1-welcome h3{
-  font-size: 46px;
+  font-size: 36px;
 }
 
 .header1-more{
   position: relative;
-  bottom: 737px;
+  bottom: 685px;
   right: 151px;
   display: flex;
   justify-content: flex-end;
   color: white;
+  text-align: center;
 }
 
 .header1-sendme{
   display: flex;
   justify-content: flex-end;
   position: relative;
-  bottom: 615px;
+  bottom: 524px;
   color: white;
-  right: 153px;
+  right: 165px;
+  text-align: center;
 }
 
 .header2{
@@ -57,14 +59,17 @@
   bottom: 764px;
 }
 
-.header2-text h3{
+.header2-text p{
   color: white;
-  font-size: 18px;
 }
 
-.header2-text h4{
+.header2-text h2{
   color: white;
-  font-size: 26px;
+  font-size: 28px;
+}
+
+.header2-text h2:hover{
+  opacity: 0.5;
 }
 //second header
 
@@ -72,7 +77,7 @@
   background-color: $new-dark-brown;
   display:flex;
   position: relative;
-  top: -80px;
+  top: 70px;
   height: 331px;
 }
 
@@ -87,7 +92,7 @@
   text-align: center;
   position: relative;
   right: -100px;
-  bottom: 1px;
+  bottom: 81px;
 }
 
 .header-story h4{
@@ -103,11 +108,11 @@
    font-family:  $p;
     color: white;
     position: relative;
-    font-size: 18px;
-    bottom: 63px;
-    right: -587px;
+    font-size: 16px;
+    bottom: 12px;
+    right: -479px;
     text-align: center;
-    width: 32%;
+    width: 42%;
 }
 .header-story h6{
     font-size: 15px;
@@ -120,9 +125,9 @@
 
 .story-phh{
   position: relative;
-  bottom: 248px;
-  left: 34px;
-  width: 25%;
+  bottom: 204px;
+  left: -34px;
+  width: 20%;
 }
 
 .story-ph img{
@@ -131,9 +136,24 @@
 
 .story-ph{
   position: relative;
-  bottom: 520px;
-  left: 779px;
-  width: 31%;
+  bottom: 439px;
+  left: 762px;
+  width: 30%;
+}
+
+.sukibelapeliai{
+  width: 10%;
+  position: relative;
+  right: -504px;
+  top: 10px;
+}
+
+.rodykle {
+  width: 8%;
+  position: absolute;
+  top: 1531px;
+  display: flex;
+  margin-left: 913px;
 }
 
 //second header
@@ -142,10 +162,10 @@
   position: relative;
   text-align: center;
   top: 850px;
-  background-color: $old-light-brown !important;
+  background-color: $new-light-brown;
   top: 55px !important;
-  width: 18%;
-  left: 472px;
+  width: 24%;
+  left: 402px;
 }
 
 .header-main h6{
@@ -164,7 +184,7 @@
   background-color: $new-light-brown;
   top:-22px;
   height: 520px;
-  margin-left: -87px;
+  margin-left: -90px;
 }
 
 //intagram section
@@ -182,7 +202,7 @@
 }
 
 .fab:hover{
- color: #a39b93;
+ color: white;
 }
 
 .fa-instagram{
@@ -193,10 +213,10 @@
 }
 
 .fab h6{
-  font-size: 1.5rem;
-  width: 132%;
+  width: 149%;
   position: relative;
-  right: 6px;
+  right: 15px;
+  font-size: 18px;
 }
 
 .instagram-ph{
@@ -207,7 +227,7 @@
 }
 
 .brownline{
-  background-color: $new-dark-brown;
+  background-color: $dark-green;
   position: relative;
   top: 278px;
   width: 202%;
@@ -224,12 +244,16 @@
   height: 157px;
 }
 
+.home-korteles{
+  justify-content: space-around;
+}
+
 
 // for bigger screen
 
 @media (min-width: 1273px) {
-.story-ph{ bottom: 540px}
-.story-phh{width: 22%}
+.story-ph{ bottom: 498px}
+.story-phh{width: 20%}
 }
 
 @media only screen and (min-width: 290px) and (max-width: 812px){
@@ -242,18 +266,24 @@
   background-color: $new-light-brown;
   height: 252px;
   position: relative;
-  top: -180px !important;
-  height: 458px !important;
+  top: -100px !important;
+  height: 531px !important;
+}
+
+.sukibelapeliai{
+  right: -167px;
+  width: 13%;
+  top: 47px;
 }
 .header-story{
   right: 168px !important;
 }
 .header-story h5{
-  font-size: 34px;
+  font-size: 28px;
   text-align: center;
   position: relative;
   right: -167px;
-  bottom: 26px;
+  bottom: 65px;
 }
 
 .header-story h4 {
@@ -263,15 +293,15 @@
   margin-left: 168px;
 }
 .header-story p {
-  bottom: 52px;
-  right: -170px;
+  bottom: 7px;
+  right: -216px;
   color: white;
   font-size: 16px;
-  width:100%;
+  width: 75%;
 }
 .story-phh{
   left: 0px !important;
-  bottom: 62px !important;
+  bottom: 22px !important;
   margin-left: 48px;
 }
 
@@ -308,7 +338,8 @@
   top: -69px !important;
   height: 200px;
   width: 124%;
-  margin-top: -94px !important;
+  margin-top: -100px !important;
+  margin-bottom: -2px !important;
   background-color: $new-light-brown;
   margin-left: -90px;
 }
@@ -318,6 +349,7 @@
 }
 .fab h6{
   font-size: 16px;
+  left: -15px !important;
 }
 .fab{
   font-size: 25px !important;
@@ -362,9 +394,17 @@
   height: 100px;
 }
 .header1 h1{
-  font-size: 1.5rem;
+  font-size: 18px;
   position: relative;
   top:  36px;
+}
+
+.rodykle{
+  width: 20%;
+  position: absolute;
+  top: 1070px;
+  display: flex;
+  margin-left: 155px;
 }
 .header1-photo {
   margin-top: 0px !important;
@@ -383,52 +423,57 @@
 
 .header1-welcome{
   position: relative;
-  bottom: 460px;
+  bottom: 447px;
     /* display: flex; */
-  right: 76px;
+  right: 79px;
 }
 
-.header1-more h4{
-  font-size: 1.10em;
+.header1-welcome h3{
+  font-size: 24px;
 }
 
 .header1-more{
   position: relative;
-  bottom: 460px;
-  right: 2px;
+  bottom: 372px;
+  right: -2px;
   display: flex;
   justify-content: flex-end;
    color: white;
+   width: 95%;
 }
+
 
 .header1-sendme{
   display: flex;
   justify-content: flex-end;
   position: relative;
-  bottom: 390px;
+  bottom: 284px;
   color: white;
   right: 30px;
 }
-.header1-sendme h4{
-  font-size: 1.10em;
-}
+
 .header2-for-mobile{
-  margin-top: -150px;
+  margin-top: -120px;
 }
 .header2-text{
   bottom: 464px;
 }
-.header2-text h3 {
-  color: white;
-  font-size: 20px;
-  width: 81%;
-  margin-left: 36px;
-  margin-top: -17px;
-}
-.header2-text h2 {
-  font-size: 25px !important;
+
+
+.header2-text p {
   position: relative;
-  top: 253px;
+  text-align: center;
+  font-size: 16px;
+  width: 95%;
+  color: white;
+  bottom: 22px;
+  right: -5px;
+}
+
+.header2-text h2 {
+  font-size: 22px !important;
+  position: relative;
+  top: 209px;
   font-weight: bold;
 }
 .korteles{
@@ -436,7 +481,7 @@
 }
 
 .home-korteles{
-right: 0px;
+  right: 0px;
 }
 .index-korteles{
   background-color: $new-light-brown;

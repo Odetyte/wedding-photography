@@ -137,6 +137,7 @@ a:-webkit-any-link {
     font-size: 20px;
     color: #777;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 #card-wedding{
@@ -156,11 +157,26 @@ a:-webkit-any-link {
   display: block;
   margin-top: 5px;
    }
+
+   .card-title h2:hover {
+    text-decoration: none;
+  }
+  .card-title a:hover {
+    text-decoration: none;
+  }
+  .card-body a:hover {
+    text-decoration: none;
+  }
+  .card-body h2:hover {
+    text-decoration: none;
+  }
   .card-title a {
     text-align: center;
     font-size: 12px;
     position: relative;
+    text-decoration: none;
   }
+
 .wedding-row{
   height: 369px;
   margin-top: 200px;
