@@ -33,6 +33,12 @@
 .nav-link{
 color: white !important;
 }
+.btn-outline-danger:not(:disabled):not(.disabled).active:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+.btn-outline-danger.focus, .btn-outline-danger:focus {
+    box-shadow: none !important;
+}
 
 // mobile design
 @media only screen and (min-width: 290px) and (max-width: 812px){
@@ -49,7 +55,7 @@ color: white !important;
   .logo{
     width: 129px;
     position: relative;
-    right: 102px;
+    right: 99px;
     bottom: 16px;
   }
 
@@ -90,6 +96,9 @@ color: white !important;
 .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
     background-color: transparent !important;
 
+}
+.btn-outline-danger:not(:disabled):not(.disabled).active:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: none !important;
 }
 
 }
