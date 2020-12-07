@@ -59,8 +59,9 @@
   bottom: 764px;
 }
 
-.header2-text p{
+.header2-text h3{
   color: white;
+  font-size: 18px;
 }
 
 .header2-text h2{
@@ -338,7 +339,7 @@
   top: -69px !important;
   height: 200px;
   width: 100%;
-  margin-top: -100px !important;
+  margin-top: -109px !important;
   margin-bottom: -2px !important;
   background-color: $new-light-brown;
   margin-left: 0px;
@@ -460,20 +461,15 @@
 }
 
 
-.header2-text p {
-  position: relative;
-  text-align: center;
+.header2-text h3{
   font-size: 16px;
-  width: 95%;
   color: white;
-  bottom: 22px;
-  right: -5px;
 }
 
 .header2-text h2 {
   font-size: 22px !important;
   position: relative;
-  top: 209px;
+  top: 250px;
   font-weight: bold;
 }
 .korteles{
@@ -485,9 +481,9 @@
 }
 .index-korteles{
   background-color: $new-light-brown;
-  height: 950px;
+  height: 958px;
   position: relative;
-  bottom: 93px;
+  bottom: 107px;
 }
 .lightwidget-widget {
   width: 442% !important;
