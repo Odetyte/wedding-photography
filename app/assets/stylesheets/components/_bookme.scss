@@ -117,6 +117,10 @@ label {
   bottom: 20px;
 }
 
+ .form-control {
+    height: 75px !important;
+  }
+
 legend {
   font-size: 1.25em !important;
   position: relative;
@@ -141,11 +145,12 @@ input:focus{
     position:  relative !important;
     // bottom: 607px !important;
     width: 100% !important;
-    height: 607px;
-    bottom: -305px;
+    height: 708px;
+    // bottom: -305px;
+    top: 317px;
   }
   .alert-success{
-    top: -593px !important;
+    top: -267px !important;
     right: 11px !important;
     width: 104% !important;
     position: relative !important;
@@ -154,14 +159,14 @@ input:focus{
     position: absolute !important;
   }
   .simple_form {
-    margin-top: -611px;
+    margin-top: -709px;
   }
   .name-email{
     width: 264px !important;
     left: 75px !important;
   }
   .alert-error{
-    bottom: 55px !important;
+    bottom: 103px !important;
     left: 0px !important;
   }
   .bookme-cover-for-mobile{
@@ -169,162 +174,15 @@ input:focus{
   }
 
   .bookme-cover-for-mobile img{
-    width:109%;
+    width:139%;
   }
+
+  .form-control {
+    height: 151px !important;
+  }
+
+  // label{
+  //   position: relative;
+  //   bottom: 34px;
+  // }
  }
-
-// @media only screen and (min-width: 1100px) and (max-width: 1500px){
-// .container {
-//   max-width: none !important;
-// }
-// }
-
-// @media only screen and (min-width: 992px){
-// .container {
-//   max-width: none !important;
-// }
-// }
-
-// @media only screen and (min-width: 768px){
-// .container {
-//   max-width: none !important;
-// }
-// }
-// form button.success{
-//   background: #27ae60 !important;
-//   border-color: #27ae60 !important;
-//   color: #fff !important;
-// }
-// @-webkit-keyframes spin{
-//   from{ transform: rotate(0deg)!important;}
-//   to{ transform: rotate(360deg)!important; }
-// }
-// @keyframes spin{
-//   from{ transform: rotate(0deg)!important; }
-//   to{ transform: rotate(360deg)!important; }
-// }
-// form button span.loading-spinner{
-//   -webkit-animation: spin 0.5s linear infinite !important;
-//   animation: spin 0.5s linear infinite !important;
-//   border: 2px solid #fff !important;
-//   border-top-color: transparent !important;
-//   border-radius: 50% !important;
-//   display: inline-block !important;
-//   height: 1em !important;
-//   width: 1em !important;
-// }
-
-// form label{
-//   border-bottom: 1px solid #333 !important;
-//   display: block!important;
-//   font-size: 1.25em!important;
-//   margin-bottom: 0.5em!important;
-//   -webkit-transition: all 0.25s!important;
-//   transition: all 0.25s !important;
-// }
-// form label.col-one-half{
-  // float: left!important;
-  // width: 50%!important;
-// }
-// form label.col-one-half:nth-of-type(even){
-//   border-left: 1px solid #333!important;
-//   padding-left: 0.25em!important;
-// }
-// form label input{
-//   background: none!important;
-//   border: none!important;
-//   line-height: 1em!important;
-//   font-weight: 300!important;
-//   padding: 0.125em 0.25em!important;
-//   width: 100%!important;
-// }
-
-// input{
-//   background: none!important;
-//   border: none!important;
-//   line-height: 1em!important;
-//   font-weight: 300!important;
-//   padding: 0.125em 0.25em!important;
-//   width: 100%!important;
-// }
-// form label input:focus{
-//   outline: none!important;
-// }
-// form label input:-webkit-autofill{
-//   background-color: transparent !important;
-// }
-// form label span.label-text{
-//   display: block!important;
-//   font-size: 0.5em!important;
-//   font-weight: bold!important;
-//   padding-left: 0.5em!important;
-//   text-transform: uppercase!important;
-//   -webkit-transition: all 0.25s!important;
-//   transition: all 0.25s!important;
-// }
-// form label.checkbox{
-//   border-bottom: 0!important;
-//   text-align: center!important;
-// }
-// form label.checkbox input{
-//   display: none!important;
-// }
-// form label.checkbox span{
-//   font-size: 0.5em!important;
-// }
-// form label.checkbox span:before{
-//   content: '\e157'!important;
-//   display: inline-block!important;
-//   font-family: 'Glyphicons Halflings';
-//   font-size: 1.125em!important;
-//   padding-right: 0.25em!important;
-//   position: relative!important;
-//     top: 1px!important;
-// }
-// form label.checkbox input:checked + span:before{content: '\e067';}
-// form label.invalid{border-color: #c0392b !important;}
-// form label.invalid span.label-text{color: #c0392b;}
-// form label.password{position: relative;}
-// form label.password button.toggle-visibility{
-//   background: none!important;
-//   border: none!important;
-//   cursor: pointer!important;
-//   font-size: 0.75em!important;
-//   line-height: 1em!important;
-//   position: absolute!important;
-//     top: 50%!important;
-//     right: 0.5em!important;
-//   text-align: center!important;
-//   -webkit-transform: translateY(-50%)!important;
-//   -ms-transform: translateY(-50%)!important;
-//   transform: translateY(-50%)!important;
-//   -webkit-transition: all 0.25s!important;
-//   transition: all 0.25s!important;
-// }
-// form label.password button.toggle-visibility:hover,
-// form label.password button.toggle-visibility:focus,
-// form label.password button.toggle-visibility:active{
-//   color: #000;
-//   outline: none;
-// }
-// form label.password button.toggle-visibility span{vertical-align: middle;}
-
-// h1{
-//   font-size: 3em!important;
-//   margin: 0 0 0.5em 0!important;
-//   text-align: center!important;
-// }
-// h1 img{
-//   height: auto!important;
-//   margin: 0 auto!important;
-//   max-width: 240px!important;
-//   width: 100%!important;
-// }
-// html{
-//   font-size: 18px!important;
-//   height: 100%!important;
-// }
-
-// .text-center{
-//   text-align: center;
-// }
