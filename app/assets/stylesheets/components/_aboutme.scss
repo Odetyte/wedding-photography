@@ -367,3 +367,26 @@
 }
 }
 
+//medium screen design
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+.text2 p {top: 11px;}
+
+.gif {
+  bottom: 726px;
+  left: 515px;
+}
+
+.introduction-line {left: 160px;}
+
+.bookme {
+  top: 28% !important;
+  height: 570px !important;
+  width: 57% !important;
+  margin-bottom: -16px !important;
+}
+.submit {
+  position: relative;
+  bottom: 40px;
+}
+}
+
