@@ -54,5 +54,7 @@
 .bookme-cover{
   display: none;
 }
+.carousel-item {
+  transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out !important;}
 }
 
