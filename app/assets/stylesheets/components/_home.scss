@@ -509,14 +509,14 @@
   left: -136px !important;
   }
   .kopustas{
-  top: 613px !important;
+  top: -90px !important;
   }
-  .story-ph{
-  left: 630px !important;
-  }
+
   .header-main{
-    top: 623px !important;
-    left: 398px !important;
+    top: -8px !important;
+    width: 29%;
+    left: 0px;
+    margin-left: 330px;
   }
   .korteles{
     top: 704px !important;
@@ -528,7 +528,9 @@
     max-width: 16.6667% !important;
   }
   .saldainis{
-    margin-top: 560px;
+    margin-top: 418px;
+    margin-left: -72px;
+    margin-bottom: -4px;
   }
   .instagram-ph{
     left: 275px !important;
@@ -537,6 +539,72 @@
         top: 305px !important;
     right: 121px !important;
   }
+
+  .navbar {margin-left: 117px;}
+
+  .header1{margin-top: 500px;}
+
+  .header1-photo{margin-top: 120px;}
+
+  .header1-welcome{
+    bottom: 626px;
+    right: 223px;
+  }
+
+  .header1-welcome h1 {
+    font-size: 40px;
+  }
+
+  .header1-more{
+    bottom: 572px;
+    right: 111px;
+  }
+  .header1-more p {
+    font-size: 22px;
+  }
+
+  .header1-sendme{
+    bottom: 451px;
+    right: 131px;
+  }
+  .header1-sendme p {
+    font-size: 22px;
+  }
+  .header-story h5 {
+    right: 10px;
+    bottom: 20px;
+  }
+  .header-story p{
+    font-size: 20px;
+    bottom: 12px;
+    right: -67px;
+    width: 60%;
+    margin-left: 137px;
+  }
+  .sukibelapeliai{
+    right: -272px;
+    top: 39px;
+  }
+  .story-phh {
+    display:none;
+  }
+
+  .story-ph {
+    margin-left: 598px;
+    left: 0px;
+    bottom: 272px;
+  }
+
+  .header2{margin-top: -37px;}
+
+  .header2-text{bottom: 626px;}
+
+  .header2-text h3 {font-size: 20px;}
+
+  .korteles {
+    margin-top: -545px;
+    left: -74px}
+
 }
 
 
