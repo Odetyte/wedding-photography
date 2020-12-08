@@ -197,7 +197,13 @@ input:focus{
 
  .bookme-cover img {width: 103%}
 
- .bookme {top: 48% !important;}
+.alert-error {
+  bottom: 151px !important;
+}
+
+.alert-success{
+  bottom: 397px !important;
+  right: -724px !important;}
 
  .submit {
   position: relative;
