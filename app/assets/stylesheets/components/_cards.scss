@@ -129,17 +129,19 @@ a:-webkit-any-link {
 
  .wedding-card .card-body h2 {
     position: relative;
-    top: 200px;
+    top: 195px;
     right: 10px;
     margin: 0;
     padding: 0;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
     color: #777;
     text-transform: uppercase;
     text-decoration: none;
 }
-
+b{
+  font-size:18px;
+}
 #card-wedding{
   position: absolute;
     margin: 0;
