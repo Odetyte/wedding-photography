@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-.header1-sendme{
+.header1-sendme p{
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -48,8 +48,16 @@
   color: white;
   right: 165px;
   text-align: center;
+  text-decoration: none;
 }
 
+.header1-sendme a:hover{
+  text-decoration: none;
+}
+
+.header1-sendme a{
+  color: white;
+}
 .header2{
   margin-top: 120px;
 }
