@@ -5,7 +5,7 @@ class WeddingsController < ApplicationController
   def lieparokas
   end
 
-  def juliarron
+  def juliaaron
   end
 
   def ebrujosef

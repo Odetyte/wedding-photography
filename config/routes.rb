@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
 
    # homepage weddings
-   get 'juliarron', to: 'weddings#juliarron', as: :juliarron
+   get 'juliaaron', to: 'weddings#juliaaron', as: :juliaaron
    get 'lieparokas', to: 'weddings#lieparokas', as: :lieparokas
    get 'ebrujosef', to: 'weddings#ebrujosef', as: :ebrujosef
 
