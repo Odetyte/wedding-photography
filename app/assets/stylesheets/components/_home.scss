@@ -1,13 +1,3 @@
-
-//carousel
-
-// .carousel {
-//   // z-index: -99;
-//   position: absolute !important;
-//   top: 0;
-// }
-//first header
-
 .header1{
   margin-top: 680px;
   position: relative;
@@ -114,20 +104,20 @@
 }
 
 .header-story p{
-   font-family:  $p;
-    color: white;
-    position: relative;
-    font-size: 16px;
-    bottom: 12px;
-    right: -479px;
-    text-align: center;
-    width: 42%;
+  font-family:  $p;
+  color: white;
+  position: relative;
+  font-size: 16px;
+  bottom: 12px;
+  right: -479px;
+  text-align: center;
+  width: 42%;
 }
 .header-story h6{
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    bottom: 48px;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  bottom: 48px;
 }
 
 //first headers's photos
@@ -140,7 +130,7 @@
 }
 
 .story-ph img{
-   width: 115%;
+  width: 115%;
 }
 
 .story-ph{
@@ -267,10 +257,10 @@
 
 @media only screen and (min-width: 290px) and (max-width: 812px){
 
-  .instead-carousel img{
-    overflow: hidden;
-    width: 120% !important;
-  }
+.instead-carousel img{
+  overflow: hidden;
+  width: 120% !important;
+}
 .kopustas-for-mobile{
   background-color: $new-light-brown;
   height: 252px;
@@ -448,22 +438,22 @@
   right: -2px;
   display: flex;
   justify-content: flex-end;
-   color: white;
-   width: 95%;
+  color: white;
+  width: 95%;
 }
 
 
 .header1-sendme p{
   bottom: 254px;
-    color: white;
-    right: 30px;
+  color: white;
+  right: 30px;
 }
 
 .header2-for-mobile{
-  margin-top: -120px;
+margin-top: -120px;
 }
 .header2-text{
-  bottom: 464px;
+bottom: 464px;
 }
 
 
@@ -504,140 +494,140 @@
   position: relative;
   left: -8px;
 }
-
 }
-
 @media only screen and (min-width: 414px) and (max-width: 736px){
-  .header2-text {
-    bottom: 510px;
+.header2-text {
+  bottom: 510px;
 }
 }
-
-
 @media only screen and (min-width: 1024px) and (max-width: 1200px){
-  .navbar-expand-lg{
+.navbar-expand-lg{
   position: relative !important;
   left: -136px !important;
-  }
-  .kopustas{
+}
+.kopustas{
   top: -90px !important;
-  }
+}
 
-  .header-main{
-    top: -8px !important;
-    width: 29%;
-    left: 0px;
-    margin-left: 330px;
-  }
-  .korteles{
-    top: 704px !important;
-  }
-  .treti{
-    position: relative;
-    right: 48px;
-    flex: 0 0 16.6667% !important;
-    max-width: 16.6667% !important;
-  }
+.header-main{
+  top: -8px !important;
+  width: 29%;
+  left: 0px;
+  margin-left: 330px;
+}
+.korteles{
+  top: 704px !important;
+}
+.treti{
+  position: relative;
+  right: 48px;
+  flex: 0 0 16.6667% !important;
+  max-width: 16.6667% !important;
+}
   .saldainis{
-    margin-top: 418px;
-    margin-left: -72px;
-    margin-bottom: -4px;
-  }
-  .instagram-ph{
-    left: 275px !important;
-  }
-  .fab{
-    top: 305px !important;
-    right: 121px !important;
-  }
+  margin-top: 418px;
+  margin-left: -72px;
+  margin-bottom: -4px;
+}
+.instagram-ph{
+  left: 275px !important;
+}
+.fab{
+  top: 305px !important;
+  right: 121px !important;
+}
 
-  .navbar {margin-left: 117px;}
+.navbar {margin-left: 117px;}
 
-  .header1{margin-top: 500px;}
+.header1{margin-top: 500px;}
 
-  .header1-photo{margin-top: 120px;}
+.header1-photo{margin-top: 120px;}
 
-  .header1-welcome{
-    bottom: 626px;
-    right: 223px;
-  }
+.header1-welcome{
+  bottom: 626px;
+  right: 223px;
+}
 
-  .header1-welcome h1 {
-    font-size: 40px;
-  }
+.header1-welcome h1 {
+  font-size: 40px;
+}
 
-  .header1-more{
-    bottom: 572px;
-    right: 111px;
-  }
-  .header1-more p {
-    font-size: 22px;
-  }
+.header1-more{
+  bottom: 572px;
+  right: 111px;
+}
+.header1-more p {
+  font-size: 22px;
+}
 
-  .header1-sendme{
-    bottom: 451px;
-    right: 131px;
-  }
-  .header1-sendme p {
-    font-size: 22px;
-  }
-  .header-story h5 {
-    right: 10px;
-    bottom: 20px;
-  }
-  .header-story p{
-    font-size: 20px;
-    bottom: 12px;
-    right: -67px;
-    width: 60%;
-    margin-left: 137px;
-  }
-  .sukibelapeliai{
-    right: -272px;
-    top: 39px;
-  }
-  .story-phh {
-    display:none;
-  }
+.header1-sendme{
+  bottom: 451px;
+  right: 131px;
+}
 
-  .story-ph {
-    margin-left: 598px;
-    left: 0px;
-    bottom: 272px;
-  }
+.header1-sendme p {
+  font-size: 22px;
+}
 
-  .header2{margin-top: -37px;}
+.header-story h5 {
+  right: 10px;
+  bottom: 20px;
+}
 
-  .header2-text{bottom: 626px;}
+.header-story p{
+  font-size: 20px;
+  bottom: 12px;
+  right: -67px;
+  width: 60%;
+  margin-left: 137px;
+}
+.sukibelapeliai{
+  right: -272px;
+  top: 39px;
+}
+.story-phh {
+  display:none;
+}
 
-  .header2-text h3 {font-size: 20px;}
+.story-ph {
+  margin-left: 598px;
+  left: 0px;
+  bottom: 272px;
+}
 
-  .korteles {
-    margin-top: -545px;
-    left: -74px}
-  .home-korteles{
+.header2{margin-top: -37px;}
+
+.header2-text{bottom: 626px;}
+
+.header2-text h3 {font-size: 20px;}
+
+.korteles {
+  margin-top: -545px;
+  left: -74px
+}
+
+.home-korteles{
   justify-content: space-between;
   margin-left: 10px !important;
 }
 
-  .rodykle{
-    top: 1291px;
-    margin-left: 639px;
-  }
-
+.rodykle{
+   top: 1291px;
+  margin-left: 639px;
+}
 }
 
 //15inch laptop scree
 
 @media only screen and (min-width: 1420px){
 
-  .header1{margin-top: 802px;}
+.header1{margin-top: 802px;}
 
-  .rodykle {
+.rodykle {
   top: 1763px;
   margin-left: 1062px;
   width: 6%;
-  }
+}
 .header1-sendme{
   right: 179px;
   }
@@ -668,8 +658,8 @@
 }
 @media only screen and (min-width: 1420px){
 .rodykle {
-    top: 1796px;
-    margin-left: 1088px;
+  top: 1796px;
+  margin-left: 1088px;
 }
 
 
@@ -685,26 +675,27 @@
 }
 
 .header1-more{
-      bottom: 946px;
-    right: 303px;
+  bottom: 946px;
+  right: 303px;
 }
+
 .header1-sendme{right: 313px;}
 
 .rodykle {
-   top: 2184px;
-    margin-left: 1369px;
+  top: 2184px;
+  margin-left: 1369px;
 }
 .story-phh {left: -91px;}
 
 .story-ph{
   bottom: 540px;
-    left: 984px;
+  left: 984px;
 }
 .saldainis{margin-left: -133px;}
 
 .header-story h5 {
   right: 76px;
-    bottom: 42px;
+  bottom: 42px;
 }
 
 .sukibelapeliai{

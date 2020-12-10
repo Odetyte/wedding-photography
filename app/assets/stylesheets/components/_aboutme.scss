@@ -144,35 +144,6 @@
   position: relative;
   top: -100px;
 }
-// .explore h3 {
-//   font-size: 48px;
-//   text-align: center;
-//   color: white;
-//   position: relative;
-//   bottom: 280px;
-// }
-// .jungle h3 {
-//   font-size: 48px;
-//   text-align: center;
-//   color: white;
-//   position: relative;
-//   bottom: 280px;
-// }
-// .dinners h3 {
-//   font-size: 48px;
-//   text-align: center;
-//   color: white;
-//   position: relative;
-//   bottom: 280px;
-// }
-
-// .ocean h3 {
-//   font-size: 48px;
-//   text-align: center;
-//   color: white;
-//   position: relative;
-//   bottom: 310px;
-// }
 
 .things-i-love {
   margin-top: 200px;
@@ -394,17 +365,19 @@
 @media only screen and (min-width: 1900px){
 .introduction-line{ left: 605px !important;}
 
-.pic1 img {width: 87%;
-    margin-top: 86px;
-    margin-left: -350px;}
+.pic1 img {
+  width: 87%;
+  margin-top: 86px;
+  margin-left: -350px;
+  }
 
-    .gif{
-      height: 330px;
-    bottom: 1356px;
-    left: 616px;
-    }
+.gif{
+  height: 330px;
+  bottom: 1356px;
+  left: 616px;
+  }
 
-    .bookme{top: 45% !important;}
+.bookme{top: 45% !important;}
 }
 
 @media only screen and (min-width: 2130px){

@@ -46,9 +46,6 @@ color: white !important;
     background-color: $new-dark-brown;
   }
 
-  // .carousel {
-  //   display: none;
-  // }
 .navbar-collapse{
   background-color: $new-dark-brown !important;
   }
@@ -101,89 +98,3 @@ color: white !important;
 }
 
 }
-// .offcanvas-header{ display:none; }
-
-// @media (max-width: 992px) {
-//   .offcanvas-header{ display:block; }
-//   .navbar-collapse {
-//     position: fixed;
-//     top:0;
-//     bottom: 0;
-//     left: 100%;
-//     width: 100%;
-//     padding-right: 1rem;
-//     padding-left: 1rem;
-//     overflow-y: auto;
-//     visibility: hidden;
-//     background-color: black;
-//     transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
-//   }
-//   .navbar-collapse.show {
-//     visibility: visible;
-//     transform: translateX(-100%);
-//   }
-// }
-// //bigger screen
-
-// @media (min-width: 1440px) {
-// .aboutme{position: relative; left: 256px !important;}
-// .weddings{position: relative;left: 292px !important;}
-// .stories{position: relative; left: 470px !important}
-// .sendme{position: relative;left: 500px !important;}
-// h2{font-size: 20px !important;}
-// .logo { position: relative; left: 615px !important}
-// }
-
-
-// //mobile design
-
-// @media only screen and (min-width: 290px) and (max-width: 812px){
-//   .collapse {
-//     display: flex !important;
-//   }
-//   .aboutme{
-//     position: relative !important;
-//     left: 0px !important;
-//     bottom: -120px;
-//   }
-
-
-//   .stories{
-//     position: relative !important;
-//     left: 206px !important;
-//     bottom: -30px;
-//   }
-
-//   .weddings{
-//     position: relative !important;
-//     left: 70px !important;
-//     bottom: -75px;
-//   }
-
-//   .sendme{
-//     position: relative !important;
-//     bottom: 9px !important;
-//     left: 280px !important;
-//   }
-
-//   .sendme h2{
-//     font-size: 11px
-//   }
-
-//   h2{
-//     font-size: 18px
-//   }
-//   .logo{
-//     width: 71px !important;
-//     left:128px !important;
-//     bottom: -190px !important;
-//     position: relative!important;
-//   }
-// .my-nav{
-//   position: relative !important;
-//   bottom: 208px !important;
-// }
-// }
-// // @media only screen and (min-width: 640px) and (max-width: 1400px){
-// // // .logo2{ display: none;}
-// // }

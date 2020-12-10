@@ -82,12 +82,6 @@
     left: 82px !important;
 }
 
-// .message-blank{
-//   position: relative !important;
-//   bottom: 26px !important;
-//   font-weight: bold !important;
-//   font-size: 18px;
-// }
 
 #contact_message{
   background: none !important;
@@ -141,52 +135,50 @@ input:focus{
   right: -581px !important;
 }
  @media only screen and (min-width: 290px) and (max-width: 812px){
-  .bookme{
-    position:  relative !important;
-    // bottom: 607px !important;
-    width: 100% !important;
-    height: 708px;
-    // bottom: -305px;
-    top: 317px;
-  }
-
-  .bookme h1 {
-    position: relative;
-    bottom: 15px;
+.bookme{
+  position:  relative !important;
+  width: 100% !important;
+  height: 708px;
+  top: 317px;
 }
 
-  .alert-success{
-    top: -267px !important;
-    right: 11px !important;
-    width: 104% !important;
-    position: relative !important;
-  }
-  #flash-message{
-    position: absolute !important;
-  }
-  .simple_form {
-    margin-top: -709px;
-  }
-  .name-email{
-    width: 264px !important;
-    left: 75px !important;
-  }
-  .alert-error{
-    bottom: 103px !important;
-    left: 0px !important;
-  }
-  .bookme-cover-for-mobile{
-    overflow: hidden;
-  }
+.bookme h1 {
+  position: relative;
+  bottom: 15px;
+}
 
-  .bookme-cover-for-mobile img{
-    width:139%;
-  }
+.alert-success{
+  top: -267px !important;
+  right: 11px !important;
+  width: 104% !important;
+  position: relative !important;
+}
+#flash-message{
+  position: absolute !important;
+}
+.simple_form {
+  margin-top: -709px;
+}
+.name-email{
+  width: 264px !important;
+  left: 75px !important;
+}
+.alert-error{
+  bottom: 103px !important;
+  left: 0px !important;
+}
+.bookme-cover-for-mobile{
+  overflow: hidden;
+}
 
-  .form-control {
-    height: 151px !important;
+.bookme-cover-for-mobile img{
+  width:139%;
+}
+
+.form-control {
+  height: 151px !important;
   }
- }
+}
 
 
 //bigger screens
