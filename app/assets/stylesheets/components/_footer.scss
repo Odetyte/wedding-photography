@@ -2,7 +2,10 @@
   background-color: $new-dark-brown;
   height: 134px;
 }
-
+.footer a {
+  color: white;
+  text-decoration: none;
+}
 
 .footer h3 {
   text-align: center;
@@ -19,11 +22,17 @@
   top: 18px;
   }
 
-  .footer{
-    height: 68px;
+.footer a {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer{
+  height: 68px;
   }
 
-  .footer-navbar{
-    margin-top: 240px;
+.footer-navbar{
+  margin-top: 240px;
   }
 }
