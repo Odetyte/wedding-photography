@@ -65,7 +65,8 @@ Rails.application.configure do
     user_name:            ENV["GMAIL_EMAIL"],
     password:             ENV["GMAIL_PASSWORD"],
     authentication:       'plain',
-    enable_starttls_auto: true  }
+
+     }
   # require 'sendgrid-ruby'
   # include SendGrid
 
