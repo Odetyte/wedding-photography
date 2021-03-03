@@ -1,60 +1,78 @@
+//FOR MOBILE SCREENS
 
-.carousel-indicators li {
-  width: 6px !important;
-  height: 6px !important;
-  border-radius: 100% !important;
-}
-
-.carousel-for-web {
-  // z-index: -99;
-  position: absolute !important;
-  top: 0;
-}
-
-
-@media only screen and (min-width: 520px) and (max-width: 3440px){
-.carousel-for-mobile{
-  display:none;
-}
-.header1-photo2{
-  display: none;
-}
-.kopustas-for-mobile{
-  display:none;
-}
-.header2-for-mobile{
-  display:none;
-}
-.footer-navbar{
-  display:none;
-}
-
-.bookme-cover-for-mobile{
-  display: none;
-}
-}
-
-
-@media only screen and (min-width: 290px) and (max-width: 520px){
+@media only screen and (min-width: 320px) and (max-width: 600px){
 .carousel-for-web{
   display:none;
-}
-.header1-photo{
-  display:none;
-}
-.kopustas{
-  display: none;
-}
-.header2{
-  display: none;
-}
-.header-main{
-  display:none;
-}
-.bookme-cover{
-  display: none;
-}
-.carousel-item {
-  transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out !important;}
+  }
+  .carousel-indicators li {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 100% !important;
+  }
 }
 
+@media (min-width: 500px){
+  .carousel-for-web {
+    // z-index: -99;
+    margin-top: -14em;
+  }
+}
+// .carousel-indicators li {
+//   width: 6px !important;
+//   height: 6px !important;
+//   border-radius: 100% !important;
+// }
+//
+// .carousel-for-web {
+//   // z-index: -99;
+//   position: absolute !important;
+//   top: 0;
+// }
+//
+//
+// @media only screen and (min-width: 520px) and (max-width: 3440px){
+// .carousel-for-mobile{
+//   display:none;
+// }
+// .header1-photo2{
+//   display: none;
+// }
+// .kopustas-for-mobile{
+//   display:none;
+// }
+// .header2-for-mobile{
+//   display:none;
+// }
+// .footer-navbar{
+//   display:none;
+// }
+//
+// .bookme-cover-for-mobile{
+//   display: none;
+// }
+// }
+//
+//
+// @media only screen and (min-width: 290px) and (max-width: 520px){
+// .carousel-for-web{
+//   display:none;
+// }
+// .header1-photo{
+//   display:none;
+// }
+// .kopustas{
+//   display: none;
+// }
+// .header2{
+//   display: none;
+// }
+// .header-main{
+//   display:none;
+// }
+// .bookme-cover{
+//   display: none;
+// }
+// .carousel-item {
+//   transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out !important;}
+// }
+//

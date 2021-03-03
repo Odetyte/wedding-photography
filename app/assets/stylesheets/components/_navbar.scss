@@ -1,83 +1,46 @@
+// mobile design
 
 .navbar{
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-  z-index: 999;
-}
-
-.navbar-brand{
-  color: white !important;
-  font-size: 20px;
-}
-
-.logo{
-  width: 156px;
-  position: relative;
-}
-.nav-item h2{
-  color: white;
-  font-size: 18px;
-}
-
-.nav-item h2:hover{
-  opacity: 0.5;
-}
-
- .nav-add{
-  background-color: transparent !important;
-}
-
-.nav-link{
-color: white !important;
-}
-.btn-outline-danger:not(:disabled):not(.disabled).active:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
-    box-shadow: none !important;
-}
-.btn-outline-danger.focus, .btn-outline-danger:focus {
-    box-shadow: none !important;
-}
-
-// mobile design
-@media only screen and (min-width: 290px) and (max-width: 812px){
-  .navbar{
     background-color: $new-dark-brown;
-  }
-
+    flex-direction: column-reverse;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
 .navbar-collapse{
   background-color: $new-dark-brown !important;
   }
-  .logo{
-    width: 129px;
-    position: relative;
-    right: 99px;
-    bottom: 16px;
-  }
+.nav-logo-collapse{
+  display: flex;
+}
+.navbar-brand img {
+  width: 35%;
+}
+.navbar-toggler{
+  margin: auto;
+  position: relative;
+}
+.nav-item h2 {
+  font-size: 18px;
+  color: #fff;
+}
+.navbar-nav {
+  width: 100%;
+}
+.nav-link {
+  color: #fff !important;
+}
+.btn-outline-danger{
+  color: white !important;
+  border-color:  transparent !important;
+  font-size: 50px !important;
+  width: 100%;
+}
 
-  .navbar-toggler{
-    position: relative;
-    top: 75px;
-  }
-  .navbar{
-    height: 245px;
-  }
-
-  .navbar-nav{
-    position: relative;
-    top: 100px;
-    left: 25px;
-  }
-
-  .btn-outline-danger{
-    color: white !important;
-    border-color:  transparent !important;
-    font-size: 50px !important;
-    position: relative;
-    right: 145px;
-  }
-
+@media only screen and (min-width: 290px) and (max-width: 812px){
 .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
  background-color: transparent !important;
 }
@@ -97,4 +60,55 @@ color: white !important;
     box-shadow: none !important;
 }
 
+}
+
+//FOR BIGGER SCREENS
+
+@media (min-width: 600px){
+  .navbar{
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: transparent;
+      z-index: 999;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+  .footer-navbar{
+    display:none;
+  }
+  .navbar-brand{
+    color: white !important;
+    font-size: 20px;
+  }
+
+  .logo{
+    width: 156px;
+    position: relative;
+  }
+  .nav-item h2{
+    color: white;
+    font-size: 18px;
+  }
+
+  .nav-item h2:hover{
+    opacity: 0.5;
+  }
+
+   .nav-add,
+   .navbar-collapse{
+    background-color: transparent !important;
+  }
+
+  .nav-link{
+  color: white !important;
+  }
+  .btn-outline-danger:not(:disabled):not(.disabled).active:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
+      box-shadow: none !important;
+  }
+  .btn-outline-danger.focus, .btn-outline-danger:focus {
+      box-shadow: none !important;
+  }
 }

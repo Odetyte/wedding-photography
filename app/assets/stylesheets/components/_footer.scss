@@ -1,6 +1,7 @@
 .footer{
   background-color: $new-dark-brown;
-  height: 134px;
+  height: 100px;
+  padding-top: 2em;
 }
 .footer a {
   color: white;
@@ -15,7 +16,7 @@
   top: 112px;
 }
 
-@media only screen and (min-width: 290px) and (max-width: 812px){
+
   .footer h3{
   font-size: 11px !important;
   position: relative;
@@ -27,12 +28,8 @@
   justify-content: center;
 
 }
+//FOR BIGGER SCREENS
 
-.footer{
-  height: 68px;
-  }
+@media (min-width: 500px){
 
-.footer-navbar{
-  margin-top: 240px;
-  }
 }

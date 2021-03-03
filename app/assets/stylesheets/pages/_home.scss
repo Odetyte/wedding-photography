@@ -1,4 +1,7 @@
 // Specific CSS for your home-page
+body{
+  margin: 0;
+}
 h6{
   font-size: 29px;
   position: relative;
@@ -15,9 +18,9 @@ h4{
 
 a {
   text-decoration: none;
-  text-align: center;
+  // text-align: center;
+  color: #fff;
 }
 img {
   width: 100%;
 }
-

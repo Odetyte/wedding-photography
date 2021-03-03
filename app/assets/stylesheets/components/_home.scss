@@ -1,712 +1,272 @@
-.header1{
-  margin-top: 680px;
-  position: relative;
+//FOR MOBILE SCREENS
+
+.first-header{
+  background: $new-light-brown;
+  padding: 2em;
   text-align: center;
+  margin-top: -1em;
+  margin-bottom: -1em;
 }
-.header1-photo{
-  margin-top: 160px;
-}
-
-.header1-welcome {
-  text-align: right;
-  position: relative;
-  bottom: 779px;
-  /* left: 43px; */
-  right: 223px;
-  color: white;
-  /* font-size: 34px; */
-}
-.header1-welcome h3{
-  font-size: 36px;
-}
-
-.header1-more{
-  position: relative;
-  bottom: 685px;
-  right: 151px;
-  display: flex;
-  justify-content: flex-end;
-  color: white;
-  text-align: center;
-}
-
-.header1-sendme p{
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  bottom: 524px;
-  color: white;
-  right: 165px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.header1-sendme a:hover{
-  text-decoration: none;
-}
-
-.header1-sendme a{
-  color: white;
-}
-.header2{
-  margin-top: 120px;
-}
-.header2-text{
-  text-align: center;
-  position: relative;
-  bottom: 764px;
-}
-
-.header2-text h3{
-  color: white;
+.first-header h1{
   font-size: 18px;
 }
-
-.header2-text h2{
-  color: white;
-  font-size: 28px;
+.photo-text-for-big-screen{
+  display: none;
 }
 
-.header2-text h2:hover{
-  opacity: 0.5;
-}
-//second header
 
-.kopustas{
-  background-color: $new-dark-brown;
-  display:flex;
-  position: relative;
-  top: 70px;
-  height: 331px;
-}
-
-.header-story{
-  position: relative;
-  right: 245px;
-  bottom: 19px;
-}
-
-.header-story h5 {
-  font-size: 34px;
-  text-align: center;
-  position: relative;
-  right: -100px;
-  bottom: 40px;
-}
-
-.header-story h4{
-    font-size: 34px;
-    text-align: center;
-    position: relative;
-    bottom: 62px;
-    left: 200px;
-    top: -66px;
-}
-
-.header-story p{
-  font-family:  $p;
-  color: white;
-  position: relative;
-  font-size: 16px;
-  bottom: 12px;
-  right: -436px;
-  text-align: center;
-  width: 47%;
-}
-.header-story h6{
-  font-size: 15px;
-  position: relative;
-  text-align: center;
-  bottom: 48px;
-}
-
-//first headers's photos
-
-.story-phh{
-  position: relative;
-  bottom: 204px;
-  left: -59px;
+.rodykle img {
   width: 20%;
 }
-
-.story-ph img{
-  width: 115%;
+.rodykle{
+  padding-bottom: 3em;
+  margin-top: -1.5em;
 }
-
-.story-ph{
-  position: relative;
-  bottom: 475px !important;
-  left: 762px;
-  width: 30%;
-}
-
-.sukibelapeliai{
-  width: 10%;
-  position: relative;
-  right: -504px;
-  top: 20px;
-}
-
-.rodykle {
-  width: 8%;
-  position: absolute;
-  top: 1531px;
+.first-header-welcome{
   display: flex;
-  margin-left: 913px;
-}
-
-//second header
-
-.header-main{
-  position: relative;
+  flex-direction: column;
   text-align: center;
-  top: 850px;
-  background-color: $new-light-brown;
-  top: 55px !important;
-  width: 24%;
-  left: 402px;
+  margin-top: -449px;
+  color: #fff;
+  padding-bottom: 10em;
 }
-
-.header-main h6{
-  font-size: 25px;
-  position: relative;
-  top: 14px;
+.welcome-header{
+  padding-bottom: 3em;
+  text-align: end;
+  margin-right: 3em;
+  font-size: 24px;
 }
-
-//third-header
-
-.saldainis{
+.first-header-sendme a {
+  color: #fff;
+}
+.story-ph{
+  display: none;
+}
+.leaves img {
+  width: 15%;
+  margin-left: 10em;
+  margin-right: 9em;
+}
+.second-header-memories{
+  background: $new-light-brown;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 63px;
-  width: 107%;
-  background-color: $new-light-brown;
-  top:-22px;
-  height: 520px;
-  margin-left: -90px;
-}
-
-//intagram section
-
-.instagram{
-  position: relative;
-  bottom: -73px;
-  left: 300px;
-}
-.fab{
-  color: black;
-  opacity: 0.6;
-  font-size: 20px;
-  align-content: center;
-}
-
-.fab:hover{
- color: white;
-}
-
-.fa-instagram{
-  font-size: 30px;
-  top: 247px;
-  right: 83px;
-  position: relative;
-}
-
-.fab h6{
-  width: 149%;
-  position: relative;
-  right: 15px;
-  font-size: 18px;
-}
-
-.instagram-ph{
-  position: relative;
-  left: 436px;
-  top: 116px;
-  margin-top: 210px;
-}
-
-.brownline{
-  background-color: $dark-green;
-  position: relative;
-  top: 278px;
-  width: 202%;
-  height: 6px;
-  right: 4px;
-}
-
-.lightwidget-widget{
-  display: flex;
-  justify-content: flex-end;
-  width: 150%;
-  border: 0;
-  overflow: hidden;
-  height: 157px;
-}
-
-.home-korteles{
-  justify-content: space-around;
-}
-
-
-// for bigger screen
-
-@media (min-width: 1273px) {
-.story-ph{ bottom: 498px}
-.story-phh{width: 20%}
-}
-
-@media only screen and (min-width: 290px) and (max-width: 812px){
-
-.instead-carousel img{
-  overflow: hidden;
-  width: 120% !important;
-}
-.kopustas-for-mobile{
-  background-color: $new-light-brown;
-  height: 252px;
-  position: relative;
-  top: -100px !important;
-  height: 531px !important;
-}
-
-.sukibelapeliai{
-  right: -167px;
-  width: 13%;
-  top: 47px;
-}
-.header-story{
-  right: 168px !important;
+  flex-direction: column;
 }
 .header-story h5{
   font-size: 28px;
   text-align: center;
-  position: relative;
-  right: -167px;
-  bottom: 65px;
-}
-
-.header-story h4 {
-  bottom:52px;
-  left: 0px !important;
-  width:100%;
-  margin-left: 168px;
+  margin-top: -1.25em;
 }
 .header-story p {
-  bottom: 7px;
-  right: -217px;
-  color: white;
-  font-size: 16px;
+  color: #fff;
+  font-family: $p;
+  text-align: justify;
   width: 78%;
-    text-align: justify;
+  margin: auto;
+  margin-bottom: 2em;
 }
-.story-phh{
-  left: 0px !important;
-  bottom: 2px !important;
-  margin-left: 48px;
-}
-
 .story-phh img{
-  width: 298% !important;
-}
-
-.story-ph{
-  bottom: 206px !important;
-  margin-left: 194px !important;
-  width: 39% !important;
-  left:0 !important;
-}
-.header-main {
-  top:-105px !important;
-  height: 50px;
-  width: 35% !important;
-  left:108px !important;
-}
-.header-container{
-  widows: 45%   !important;
-}
-
-.header-main h6{
-  font-size: 18px;
-  top: 1px !important;
-}
-
-.question h1{
-  top: 18px !important;
-  font-size: 34px;
-}
-.saldainis{
-  top: -69px !important;
-  height: 200px;
-  width: 100%;
-  margin-top: -109px !important;
-  margin-bottom: -2px !important;
-  background-color: $new-light-brown;
-  margin-left: 0px;
-}
-.instagram{
-  bottom: 295px !important;
-  font-size: 16px;
-}
-.fab h6{
-  font-size: 16px;
-  left: -15px !important;
-}
-.fab{
-  font-size: 25px !important;
-  right: 152px !important;
-}
-.instagram-ph{
-  left: 48px !important;
-  top:  -5px !important;
-  margin-top: 170px;
-}
-.brownline{
-  top: -2px !important;
-  width: 275% !important;
-  right: 0px !important;
-  height: 4px;
-}
-.contact-form-text-area {
+  width: 80%;
+  margin-left: 2em;
+  margin-right: 2em;
   position: relative;
-  left: 30px !important;
+  bottom: -1em;
 }
-.contact-name{
-  right: 27px !important;
-}
-.contact-email{
-  right: 27px !important;
-}
-.contact-message{
-  right: 107px !important;
-}
-.new_contact{
-  left: 0px !important;
-}
-.button{
- left: 150px;
-}
-//updated version
-.header1{
-  margin-top: 0px !important;
-  position: relative;
-  bottom: 97px;
-  background-color: $new-light-brown;
-  height: 100px;
-}
-.header1 h1{
-  font-size: 18px;
-  position: relative;
-  top:  36px;
-}
-
-.rodykle{
-  width: 20%;
-  position: absolute;
-  top: 1070px;
-  display: flex;
-  margin-left: 155px;
-  height: 76px;
-}
-.header1-photo {
-  margin-top: 0px !important;
-}
-
-.header1-photo2{
-  margin-top: -97px;
-}
-
-.header1-photo img {
-  width: 100%;
-  // background-image: cover;
-  height: 400px;
-  // overflow: hidden !important;
-}
-
-.header1-welcome{
-  position: relative;
-  bottom: 447px;
-    /* display: flex; */
-  right: 79px;
-}
-
-.header1-welcome h3{
-  font-size: 24px;
-}
-
-.header1-more{
-  position: relative;
-  bottom: 372px;
-  right: -2px;
-  display: flex;
-  justify-content: flex-end;
-  color: white;
-  width: 95%;
-}
-
-
-.header1-sendme p{
-  bottom: 254px;
-  color: white;
-  right: 30px;
-}
-
-.header2-for-mobile{
-margin-top: -120px;
+.header2{
+  display: none;
 }
 .header2-text{
-bottom: 464px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -11em;
+  margin-bottom: 5em;
 }
-
-
 .header2-text h3{
   font-size: 14px;
-  color: white;
+  color: #fff;
+  margin-top: -22em;
+  padding-bottom: 21em;
 }
-
-.header2-text h2 {
-  font-size: 22px !important;
-  position: relative;
-  top: 250px;
-  font-weight: bold;
+.header2-text h2{
+  font-size: 22px;
 }
-.korteles{
-  margin-top: -97px;
-}
-
-.home-korteles{
-  right: 0px;
+.headermain-text{
+  display: none;
 }
 .index-korteles{
-  background-color: $new-light-brown;
-  height: 958px;
-  position: relative;
-  bottom: 107px;
+  background: $new-light-brown;
+  margin-top: -5em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  margin-bottom: -1em;
 }
-.lightwidget-widget {
-  width: 442% !important;
-  position: relative !important;
-  bottom: 55px !important;
-  margin-left: -97px;
-}
-.fab h6{
-  font-size: 16px;
-  width: 148%;
-  /* margin-left: -7px; */
-  position: relative;
-  left: -8px;
-}
-}
-@media only screen and (min-width: 414px) and (max-width: 736px){
-.header2-text {
-  bottom: 510px;
-}
-}
-@media only screen and (min-width: 1024px) and (max-width: 1200px){
-.navbar-expand-lg{
-  position: relative !important;
-  left: -136px !important;
-}
-.kopustas{
-  top: -90px !important;
+.wedding-card{
+  width: 18rem;
+  height: 260px;
+  margin-bottom: 2em;
 }
 
-.header-main{
-  top: -8px !important;
-  width: 29%;
-  left: 0px;
-  margin-left: 330px;
+.instagram-section{
+    background: $new-light-brown;
 }
-.korteles{
-  top: 704px !important;
+
+.green-line{
+  background: $dark-green;
+  width: 66%;
+  font-size: 3px;
+  margin-left: 42em;
 }
-.treti{
-  position: relative;
-  right: 48px;
-  flex: 0 0 16.6667% !important;
-  max-width: 16.6667% !important;
-}
-  .saldainis{
-  margin-top: 418px;
-  margin-left: -72px;
-  margin-bottom: -4px;
-}
-.instagram-ph{
-  left: 275px !important;
+.instagram{
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .fab{
-  top: 305px !important;
-  right: 121px !important;
+  color: #000;
+  font-size: 25px;
 }
-
-.navbar {margin-left: 117px;}
-
-.header1{margin-top: 500px;}
-
-.header1-photo{margin-top: 120px;}
-
-.header1-welcome{
-  bottom: 626px;
-  right: 223px;
+.fab:hover{
+  color:#fff;
 }
-
-.header1-welcome h1 {
-  font-size: 40px;
-}
-
-.header1-more{
-  bottom: 572px;
-  right: 111px;
-}
-.header1-more p {
-  font-size: 22px;
-}
-
-.header1-sendme{
-  bottom: 451px;
-  right: 131px;
-}
-
-.header1-sendme p {
-  font-size: 22px;
-}
-
-.header-story h5 {
-  right: 10px;
-  bottom: 20px;
-}
-
-.header-story p{
+.instagram h6{
+  // width: 80%;
   font-size: 20px;
-  bottom: 12px;
-  right: -67px;
-  width: 60%;
-  margin-left: 137px;
+  margin-top: 0.25em;
 }
-.sukibelapeliai{
-  right: -272px;
-  top: 39px;
+.instagram-ph {
+  margin-bottom: -1em;
 }
-.story-phh {
-  display:none;
-}
+// BIGGER SCREENS
 
-.story-ph {
-  margin-left: 598px;
-  left: 0px;
-  bottom: 272px;
-}
-
-.header2{margin-top: -37px;}
-
-.header2-text{bottom: 626px;}
-
-.header2-text h3 {font-size: 20px;}
-
-.korteles {
-  margin-top: -545px;
-  left: -74px
-}
-
-.home-korteles{
-  justify-content: space-between;
-  margin-left: 10px !important;
-}
-
-.rodykle{
-   top: 1291px;
-  margin-left: 639px;
-}
-}
-
-//15inch laptop scree
-
-@media only screen and (min-width: 1420px){
-
-.header1{margin-top: 802px;}
-
-.rodykle {
-  top: 1763px;
-  margin-left: 1062px;
-  width: 6%;
-}
-.header1-sendme{
-  right: 179px;
+@media (min-width: 600px) {
+  .carousel-for-mobile{
+    display: none;
   }
+  .first-header{
+    background: #fff;
+    width: 100%;
+    padding: 4em;
 
-.story-ph {
-  bottom: 517px;
-  left: 812px;
- }
-.sukibelapeliai{right: -563px;}
-.introduction-line {left: 377px;}
-
-.things-i-love-photos{
-  display: flex;
-  justify-content: center;
-}
-
-.gif{width: 59%;}
-
-.gif img {
-  width: 70%;
-  margin-left: 197px;
- }
-
- .header2-text{bottom: 858px;}
-
- .wedding-row {margin-top: 390px;}
-
-}
-@media only screen and (min-width: 1420px){
-.rodykle {
-  top: 1796px;
-  margin-left: 1088px;
-}
-
-
-}
-
-@media only screen and (min-width: 1900px){
-.header1{margin-top: 1114px;}
-
-.header1-welcome{
-  bottom: 1093px;
-    /* left: 43px; */
-    right: 382px;
-}
-
-.header1-more{
-  bottom: 946px;
-  right: 303px;
-}
-
-.header1-sendme{right: 313px;}
-
-.rodykle {
-  top: 2184px;
-  margin-left: 1369px;
-}
-.story-phh {left: -91px;}
-
+  }
+  .first-header h1 {
+    font-size: 2.5rem;
+  }
+  .photo-text-for-mobile{
+    display: none;
+  }
+  .photo-text-for-big-screen{
+    display: block;
+    width: 100%;
+  }
+  .first-header-welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10em;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40em;
+    margin-bottom: 23em;
+    margin-left: 32em;
+    // border: pink solid 5px;
+    width: 41%;
+  }
+  .welcome-header{
+    padding-bottom: 3em;
+    text-align: center;
+    margin-right: 0em;
+  }
+  .welcome-header h3{
+    font-size: 36px;
+  }
+  .first-header-sendme a,
+  .first-header-more p {
+    font-size: 22px;
+  }
+    .first-header-sendme a:hover{
+      text-decoration: none;
+      color:rgba(255, 255, 255, 0.5);
+    }
+  .rodykle img {
+    width: 100%;
+  }
+  .second-header-memories {
+    margin-top: -17em;
+  }
+  .header-story h5 {
+    margin-left: 6em;
+    font-size: 36px;
+    text-align: inherit;
+  }
+  .leaves img {
+    width: 6%;
+    margin-left: 17em;
+    margin-right: 6em;
+  }
+  .story-phh {
+    display: none;
+  }
+  .story-ph{
+    display: block;
+  }
 .story-ph{
-  bottom: 540px;
-  left: 984px;
+  width: 100%;
+  margin-right: 3em;
+  width: 100%;
+  margin-top: -9em;
+  }
+  .memories-paragraph p {
+    font-size: 18px;
+  }
+  .memories-photo{
+    display: flex;
+    flex-direction: inherit;
+  }
+  .header2-for-mobile{
+    display: none;
+  }
+  .header2{
+    display: block;
+    margin-top: 3em;
+  }
+  .header2-text {
+    margin-top: -15em;
+    margin-bottom: 25em;
+  }
+  .header2-text h2 {
+    font-size: 28px;
+  }
+  .header2-text h3 {
+    font-size: 22px;
+    margin-top: -18em;
+    padding: 0em;
+  }
+  .index-korteles{
+    background: transparent;
+    margin-bottom: 2em;
+  }
+  .home-korteles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .green-line{
+    display: none;
+  }
+  .instagram-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .lightwidget-widget{
+    width:73%;
+    margin: auto;
+    margin-top: 3em;
+  }
+  .fab {
+    margin-top: 3em;
+    margin-left: 5em;
+  }
 }
-.saldainis{margin-left: -133px;}
-
-.header-story h5 {
-  right: 76px;
-  bottom: 42px;
-}
-
-.sukibelapeliai{
-  right: -647px;
-  width: 6%;
-}
-
-.header2-text{bottom: 1109px;}
-}
-
-
-
-

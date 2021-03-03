@@ -38,68 +38,61 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<br>
-<br>
-<br>
-<br>
- <div class="rodykle">
-      <%= image_tag("rodykle.png") %>
-    </div>
-<div class="header1">
+<div class="first-header">
   <h1>Desire to capture your perfect momement?</h1>
 </div>
-<div class="photo-text">
-  <div class="header1-photo">
-     <%= cl_image_tag("as_miske_rgnz0s.jpg") %>
+<div class="photo-text-for-big-screen">
+  <div class="photo-for-big-screen">
+    <div class="header1-photo">
+       <%= cl_image_tag("as_miske_rgnz0s.jpg") %>
+    </div>
   </div>
-</div>
-<div class="photo-text">
-  <div class="header1-photo2">
-     <%= cl_image_tag("front_page_as_w57tkl.jpg") %>
-  </div>
-</div>
-<div class="header1-welcome">
+<div class="first-header-welcome">
+  <div class="welcome-header">
     <h3>Welcome!</h3>
   </div>
-  <div class="header1-more">
+  <div class="first-header-more">
     <p>Feel free to browse around.<br>
         Here you will find more info about my passion <br> photography and some aspects of my life</p>
         </div>
-        <div class="header1-sendme" style="color: white;">
+        <div class="rodykle">
+             <%= image_tag("rodykle.png") %>
+           </div>
+        <div class="first-header-sendme">
         <a href="mailto:hello@yourstorybyovidijus.com"><p>I am happy to answer all your questions  <br> send me a messege </p></a>
   </div>
-
+</div>
+</div>
+<%= render 'shared/phototext' %>
 
 </div>
-<div class="kopustas">
-  <div class="sukibelapeliai">
-      <%= image_tag("du-sukibelapeliai.png") %>
-    </div>
-  <div class="love-story">
-  <div class="header-story" style="position: relative; right: 245px;bottom: 19px;"><h5>Capturing <br>Memories</h5>
-    <br>
-
-    <br>
-   <!-- <h4>Memories</h4> -->
-   <p> Ageing is a funny thing. One's perspective of life changes. Time is passing by and sometimes<br>
-   you think, oh i wish I had that picture. In my opinion a photograph is like a time<br>
-    capsule. It brings you memories. It can bring you those warm feelings  you know what I<br>
-    mean, what you looked like, what thoughts were going through your mind, where you were<br>
-    in life and what mattered the most.
-      <p>
-
-  </div>
-  <div class="story-phh">
-    <%= cl_image_tag("seimos_fotosesija_9_of_10_wkb1qf.jpg") %>
-  </div>
-  <div class="story-ph">
-     <%= cl_image_tag("m-4583_websize_wufd2i.jpg") %>
-  </div>
-  </div>
-
+<div class="second-header-memories">
+  <div class="header-story"><h5>Capturing <br>Memories</h5>
+    <div class="leaves">
+        <%= image_tag("du-sukibelapeliai.png") %>
+      </div>
+      <div class="memories-photo">
+        <!-- <h4>Memories</h4> -->
+        <div class="memories-paragraph">
+          <p> Ageing is a funny thing. One's perspective of life changes. Time is passing by and sometimes
+          you think, oh i wish I had that picture. In my opinion a photograph is like a time
+           capsule. It brings you memories. It can bring you those warm feelings  you know what I
+           mean, what you looked like, what thoughts were going through your mind, where you were
+           in life and what mattered the most.
+             <p>
+        </div>
+             <div class="story-phh">
+               <%= cl_image_tag("seimos_fotosesija_9_of_10_wkb1qf.jpg") %>
+             </div>
+             <div class="story-ph">
+                <%= cl_image_tag("m-4583_websize_wufd2i.jpg") %>
+             </div>
+            </div>
+       </div>
   </div>
 
-  <%= render 'shared/kopustas' %>
+
+  <!-- <%= render 'shared/kopustas' %> -->
   <br>
 <br>
 <br>
@@ -120,48 +113,49 @@
 </div>
 <%= render 'shared/header2' %>
 
-  <div class="container index-korteles">
+  <div class="index-korteles">
   <div class="header-main">
     <div class="headermain-text"><h6> I capture beautiful moments for people who are madly in love</h6></div>
   </div>
-   <div class="container korteles" style="position: relative;top: 206px;">
-<div class="row home-korteles">
+   <div class="korteles">
+<div class="home-korteles">
   <div class="col-12 col-m-4 col-lg-3">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+    <%= link_to juliaaron_path do %>
+<div class="card wedding-card">
 
   <div class="imgBx">
   <%= cl_image_tag("1_cover_photo_dwctxb.jpg") %>
 </div>
-<%= link_to juliaaron_path do %>
+
 <div class="card-body">
-     <h2 class="card-title" style="text-decoration:none;"><b>Julia & Aaron</b> - Romantic Boat Wedding || Berlin</h2>
+     <h2 class="card-title"><b>Julia & Aaron</b> - Romantic Boat Wedding || Berlin</h2>
 <% end %>
 </div>
   </div>
 </div>
 
 <div class="col-12 col-m-4 col-lg-3">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+<div class="card wedding-card">
 
    <div class="imgBx">
   <%= cl_image_tag("LR-cover.jpg") %>
 </div>
 <%= link_to lieparokas_path do %>
   <div class="card-body">
-    <h2 class="card-title" style="text-decoration:none;"><b>Liepa & Rokas</b> - Boho inspired couple || Vilnius</h2>
+    <h2 class="card-title"><b>Liepa & Rokas</b> - Boho inspired couple || Vilnius</h2>
     <% end %>
   </div>
   </div>
 </div>
 <div class="col-12 col-m-4 col-lg-3 treti">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+<div class="card wedding-card">
 
   <div class="imgBx">
   <%= cl_image_tag("cover_lqzkch.jpg") %>
 </div>
 <%= link_to ebrujosef_path do %>
-  <div class="card-body" style="text-decoration:none;">
-    <h2 class="card-title" style="text-decoration:none;"><b>Ebru & Josef</b> - Festive day in Suburbs || Berlin</h2>
+  <div class="card-body">
+    <h2 class="card-title"><b>Ebru & Josef</b> - Festive day in Suburbs || Berlin</h2>
     <% end %>
   </div>
 </div>
@@ -170,19 +164,16 @@
 </div>
 </div>
 
-  <div class="saldainis">
-    <div class="instagram" style="position: relative;bottom: -73px;left: 300px;">
+  <div class="instagram-section">
+    <div class="green-line">
+    <br>
+    </div>
+    <div class="instagram">
     <a href="https://www.instagram.com/yourstorybyovidijus/">
-        <i class="fab fa-instagram" style="font-size: 30px;top: 319px; right: 83px;position: relative;"><h6>your story by ovidijus</h6></i></a>
+        <i class="fab fa-instagram"><h6>your story by ovidijus</h6></i></a>
         </div>
         <div class="container instagram-ph">
 
           <!-- LightWidget WIDGET -->  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/50647fe10bd85905a10fc8ee18e601d7.html" scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
 </div>
-<div class="brownline">
-<br>
 </div>
-</div>
-
-
-

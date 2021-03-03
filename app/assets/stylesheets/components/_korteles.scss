@@ -92,28 +92,28 @@ body {
   transform: translateY(100%);
   transition: 0.3s;
 }
-.cards .card:after,
-.news .card:after {
-  content: '';
-  z-index: 10;
-  width: 200%;
-  height: 100%;
-  top: -90%;
-  left: -20px;
-  opacity: 0.1;
-  transform: rotate(45deg);
-  background: linear-gradient(to top, transparent, #fff 15%, $old-light-brown);
-  transition: 0.3s;
-}
-.cards .card:hover,
-.news .card:hover,
-.cards .card:focus,
-.news .card:focus,
-.cards .card:active,
-.news .card:active {
-  box-shadow: 0 8px 16px 3px rgba(0,0,0,0.6);
-  transform: translateY(-3px) scale(1.05) rotateX(15deg);
-}
+// .cards .card:after,
+// .news .card:after {
+//   content: '';
+//   z-index: 10;
+//   width: 200%;
+//   height: 100%;
+//   top: -90%;
+//   left: -20px;
+//   opacity: 0.1;
+//   // transform: rotate(45deg);
+//   background: linear-gradient(to top, transparent, #fff 15%, $old-light-brown);
+//   transition: 0.3s;
+// }
+// .cards .card:hover,
+// .news .card:hover,
+// .cards .card:focus,
+// .news .card:focus,
+// .cards .card:active,
+// .news .card:active {
+//   box-shadow: 0 8px 16px 3px rgba(0,0,0,0.6);
+//   transform: translateY(-3px) scale(1.05) rotateX(15deg);
+// }
 .cards .card:hover figcaption,
 .news .card:hover figcaption,
 .cards .card:focus figcaption,
@@ -122,16 +122,16 @@ body {
 .news .card:active figcaption {
   transform: none;
 }
-.cards .card:hover:after,
-.news .card:hover:after,
-.cards .card:focus:after,
-.news .card:focus:after,
-.cards .card:active:after,
-.news .card:active:after {
-  transform: rotate(25deg);
-  top: -40%;
-  opacity: 0.15;
-}
+// .cards .card:hover:after,
+// .news .card:hover:after,
+// .cards .card:focus:after,
+// .news .card:focus:after,
+// .cards .card:active:after,
+// .news .card:active:after {
+//   transform: rotate(25deg);
+//   top: -40%;
+//   opacity: 0.15;
+// }
 .news .article {
   overflow: hidden;
   width: 100%;
@@ -180,11 +180,11 @@ body {
 
 //mobile design
 
-@media only screen and (min-width: 290px) and (max-width: 812px){
-
-.news .article {
-  height: 253px;
-
-}
-
-}
+// @media only screen and (min-width: 290px) and (max-width: 812px){
+//
+// .news .article {
+//   height: 253px;
+//
+// }
+//
+// }
