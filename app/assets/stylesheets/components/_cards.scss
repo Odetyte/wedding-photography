@@ -1,3 +1,12 @@
+
+// //MOBILE DESIGN
+// @media (max-width: 500px){
+//   .wedding-row {
+//     height: 0px;
+//     margin-top: 4em;
+//   }
+// }
+
 // CARDS CONTAINER //
 .cards {
   display: grid;
@@ -172,10 +181,21 @@ b{
   position: relative;
   text-decoration: none;
   }
+  // MOBILE DESIGN
 .wedding-row{
-  height: 369px;
-  margin-top: 200px;
+  padding-top: 4em;
+  padding-bottom: 1em;
   justify-content: space-around;
+  background: $new-dark-brown;
+}
+
+@media (min-width: 600px){
+  .wedding-row{
+    background: transparent;
+    padding-top: 10em;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 //mobile design
 // @media only screen and (min-width: 290px) and (max-width: 812px){

@@ -25,7 +25,7 @@ class PagesController < ApplicationController
   def bookme
   end
 
-  def memories
+  def lovestories
   end
 
   def aboutme

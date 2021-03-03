@@ -10,4 +10,9 @@ class WeddingsController < ApplicationController
 
   def ebrujosef
   end
+  def liepajurgis
+  end
+  
+  def hannahazem
+  end
 end
