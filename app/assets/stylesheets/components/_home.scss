@@ -271,3 +271,14 @@
     margin-left: 5em;
   }
 }
+
+@media (min-width: 1300px){
+  .header2-text h3 {
+    margin-top: -27em;
+  }
+}
+@media (min-width: 1500px){
+  .header2-text h3 {
+    margin-top: -31em;
+  }
+}
