@@ -112,58 +112,44 @@
   </div>
 </div>
 <%= render 'shared/header2' %>
+<div class="row wedding-row index-cards">
 
-  <div class="index-korteles">
-  <div class="header-main">
-    <div class="headermain-text"><h6> I capture beautiful moments for people who are madly in love</h6></div>
-  </div>
-   <div class="korteles">
-<div class="home-korteles">
-  <div class="col-12 col-m-4 col-lg-3">
+  <!-- <div class="col-12 col-lg-3"> -->
     <%= link_to juliaaron_path do %>
-<div class="card wedding-card">
-
-  <div class="imgBx">
-  <%= cl_image_tag("1_cover_photo_dwctxb.jpg") %>
-</div>
-
-<div class="card-body">
-     <h2 class="card-title"><b>Julia & Aaron</b> - Romantic Boat Wedding || Berlin</h2>
-<% end %>
-</div>
+    <div class="card wedding-card" style="width: 18rem;">
+      <div class="card-img-top">
+        <%= cl_image_tag ("1_cover_photo_dwctxb.jpg") %>
+      </div>
+        <div class="card-body">
+          <h2 class="card-text"><b>Julia & Aaron</b>- Romantic Boat Wedding || Berlin</h2>
+        </div>
+    </div>
+  <!-- </div>
+  <% end %> <!-- first-card-end> -->
+  <!-- <div class="col-12 col-lg-3"> -->
+      <%= link_to lieparokas_path do %>
+    <div class="card wedding-card" style="width: 18rem;">
+      <div class="card-img-top">
+        <%= cl_image_tag ("LR-cover.jpg") %>
+      </div>
+        <div class="card-body">
+          <h2 class="card-text"><b>Liepa & Rokas</b> - Boho inspired couple || Vilnius</h2>
+        </div>
+    </div>
+  <!-- </div> -->
+  <% end %> <!-- second-card-end> -->
+  <%= link_to liepajurgis_path do %>
+<div class="card wedding-card" style="width: 18rem;">
+  <div class="card-img-top">
+    <%= cl_image_tag ("m-1721_nszq1f.jpg") %>
   </div>
+    <div class="card-body">
+      <h2 class="card-text"><b><b>Liepa & Jurgis</b> - A sunset in the sunflower field || Lithuania</h2>
+    </div>
 </div>
-
-<div class="col-12 col-m-4 col-lg-3">
-<div class="card wedding-card">
-
-   <div class="imgBx">
-  <%= cl_image_tag("LR-cover.jpg") %>
+<!-- </div> -->
+<% end %> <!-- third-card-end> -->
 </div>
-<%= link_to lieparokas_path do %>
-  <div class="card-body">
-    <h2 class="card-title"><b>Liepa & Rokas</b> - Boho inspired couple || Vilnius</h2>
-    <% end %>
-  </div>
-  </div>
-</div>
-<div class="col-12 col-lg-3">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
-
-<div class="imgBx">
-<%= cl_image_tag ("m-1721_nszq1f.jpg") %>
-</div>
-<%= link_to liepajurgis_path do %>
-<div class="card-body" style="text-decoration:none;">
-   <h2 class="card-title"style="position: relative;"><b>Liepa & Jurgis</b> - A sunset in the sunflower field || Lithuania</h2>
-<% end %>
-</div>
-</div>
-</div>
-  </div>
-</div>
-</div>
-
   <div class="instagram-section">
     <div class="green-line">
     <br>

@@ -1,46 +1,55 @@
 <div class="small-banner">
     <%= cl_image_tag("wed-ban.jpg") %>
   </div>
-<div class="wedding-row">
-<!-- <div class="box"> -->
-  <div class="col-12 col-lg-3">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+<div class="row wedding-row">
 
-  <div class="imgBx">
-  <%= cl_image_tag ("1_cover_photo_dwctxb.jpg") %>
-</div>
- <%= link_to juliaaron_path do %>
-<div class="card-body" style="text-decoration:none;">
-     <h2 class="card-title"style="position: relative;"><b>Julia & Aaron</b> - Romantic Boat Wedding || Berlin</h2>
-<% end %>
-</div>
-  </div>
-</div>
-<!-- </div> -->
-<div class="col-12 col-lg-3">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
+  <!-- <div class="col-12 col-lg-3"> -->
+    <%= link_to juliaaron_path do %>
+    <div class="card wedding-card" style="width: 18rem;">
+      <div class="card-img-top">
+        <%= cl_image_tag ("1_cover_photo_dwctxb.jpg") %>
+      </div>
+        <div class="card-body">
+          <h2 class="card-text"><b>Julia & Aaron</b>- Romantic Boat Wedding || Berlin</h2>
+        </div>
+    </div>
+  <!-- </div>
+  <% end %> <!-- first-card-end> -->
+  <!-- <div class="col-12 col-lg-3"> -->
+      <%= link_to lieparokas_path do %>
+    <div class="card wedding-card" style="width: 18rem;">
+      <div class="card-img-top">
+        <%= cl_image_tag ("LR-cover.jpg") %>
+      </div>
+        <div class="card-body">
+          <h2 class="card-text"><b>Liepa & Rokas</b> - Boho inspired couple || Vilnius</h2>
+        </div>
+    </div>
+  <!-- </div> -->
+  <% end %> <!-- second-card-end> -->
+  <!-- <div class="col-12 col-lg-3"> -->
+      <%= link_to ebrujosef_path do %>
+    <div class="card wedding-card" style="width: 18rem;">
+      <div class="card-img-top">
+        <%= cl_image_tag ("cover_lqzkch.jpg") %>
+      </div>
+        <div class="card-body">
+          <h2 class="card-text"><b>Ebru & Jose</b>  - Festive day in Suburbs || Berlin</h2>
+        </div>
+    </div>
+  <!-- </div> -->
+  <% end %> <!-- third-card-end> -->
 
-   <div class="imgBx">
-  <%= cl_image_tag("LR-cover.jpg") %>
-</div>
-<%= link_to lieparokas_path do %>
-  <div class="card-body" style="text-decoration:none;">
-    <h2 class="card-title" style="position: relative;"><b>Liepa & Rokas</b> - Boho inspired couple || Vilnius</h2>
-    <% end %>
-  </div>
-  </div>
-</div>
-<div class="col-12 col-lg-3">
-<div class="card wedding-card" style="width: 18rem; height: 260px; ">
-
-  <div class="imgBx">
-      <%= cl_image_tag("cover_lqzkch.jpg") %>
-</div>
-<%= link_to ebrujosef_path do %>
-  <div class="card-body" style="text-decoration:none;">
-    <h2 class="card-title" style="position: relative;"><b>Ebru & Jose</b>  - Festive day in Suburbs || Berlin</h2>
-    <% end %>
-  </div>
-</div>
-</div>
+  <!-- <div class="col-12 col-lg-3"> -->
+    <%= link_to hannahazem_path do %>
+    <div class="card wedding-card" style="width: 18rem;">
+      <div class="card-img-top">
+        <%= cl_image_tag ("m-9048_tmiekx.jpg") %>
+      </div>
+        <div class="card-body">
+          <h2 class="card-text"><b>Hanna & Hazem</b> - Boho Romance || Greece</h2>
+        </div>
+    </div>
+  <!-- </div> -->
+  <% end %> <!-- 4th-card-end> -->
 </div>
