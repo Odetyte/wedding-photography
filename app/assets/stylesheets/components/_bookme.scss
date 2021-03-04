@@ -20,6 +20,7 @@
   position: relative;
   top: -186px;
   margin-bottom: -218px;
+  display: none;
 }
 .bookme:before{
   background: url('https://res.cloudinary.com/das9ardwc/image/upload/v1604928103/m-8200_pvazsa.jpg') center no-repeat;
@@ -179,8 +180,14 @@ input:focus{
   height: 151px !important;
   }
 }
-
-
+@media(min-width: 600px){
+  .bookme-cover{
+    display: block;
+  }
+  .bookme-cover-for-mobile{
+    display: none;
+  }
+}
 //bigger screens
 
 @media only screen and (min-width: 1420px){
