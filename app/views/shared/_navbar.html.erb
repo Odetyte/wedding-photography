@@ -120,6 +120,10 @@ body.offcanvas-active{
         <li class="nav-item stories" style="position: relative;">
           <h2><%= link_to "Book Me", bookme_path,  class: "nav-link" %></h2>
         </li>
+        <li class="nav-item reserve" style="position: relative;">
+          <a href="https://calendly.com/yourstorybyovidijus/30min?month=2021-03">
+            <h2> Reserve call</h2></a>
+        </li>
       </ul>
       <div class="footer-navbar">
       <%= render 'shared/footer' %>
@@ -128,76 +132,3 @@ body.offcanvas-active{
   </div>
 
 </nav>
-
-
-<!-- </body>
-</html>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="navbaras">
-  <div class= "navbar-brand logo" style="width: 156px;position: relative;" >
-  <%= link_to root_path do %>
-  <%= image_tag ("sviesiai-pilkas.png") %>
-  <% end %>
-  </div>
-</div>  -->
-<!-- <div class="navbar-collapse" id="main_nav">
-    <div class="offcanvas-header mt-3">
-      <button class="btn btn-outline-danger btn-close float-right"> &times Close </button>
-      <h5 class="py-2 text-white">Main navbar</h5>
-    </div>
-    <ul class="navbar-nav">
-      <li class="nav-item active navbaras">
-        <div class= "navbar-brand logo" style="width: 156px;position: relative;" >
-            <%= link_to root_path do %>
-            <%= image_tag ("sviesiai-pilkas.png") %>
-          <% end %>
-      </li>
-      <li class="nav-item active aboutme" style="position: relative;">
-       <h2><%= link_to "About Me", aboutme_path,  class: "nav-link" %></h2>
-      </li>
-      <li class="nav-item weddings" style="position: relative;">
-        <h2><%= link_to "Weddings", weddings_path,  class: "nav-link" %></h2>
-      </li>
-      <li class="nav-item stories" style="position: relative;">
-        <h2><%= link_to "Book Me", bookme_path,  class: "nav-link" %></h2>
-      </li>
-      <li class="nav-item sendme"style="position: relative;" >
-        <a class="nav-link"href="mailto:ovidijusmaslovasp@gmail.com"><h2>Send Me Message</h2></a>
-      </li>
-
-    </ul>
-</div>
-</nav>  -->
-
-<!-- <script type="text/javascript">
-/// some script
-$(function () {
-    'use strict'
-
-  $("[data-trigger]").on("click", function(){
-        var trigger_id =  $(this).attr('data-trigger');
-        $(trigger_id).toggleClass("show");
-        $('body').toggleClass("offcanvas-active");
-    });
-
-    // close if press ESC button
-    $(document).on('keydown', function(event) {
-        if(event.keyCode === 27) {
-           $(".navbar-collapse").removeClass("show");
-           $("body").removeClass("overlay-active");
-        }
-    });
-
-    // close button
-    $(".btn-close").click(function(e){
-        $(".navbar-collapse").removeClass("show");
-        $("body").removeClass("offcanvas-active");
-    });
-
-
-})
-</script>
- -->
