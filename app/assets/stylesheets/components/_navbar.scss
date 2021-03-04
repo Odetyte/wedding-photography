@@ -41,6 +41,10 @@
   width: 100%;
 }
 
+.reserve a:hover {
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 290px) and (max-width: 812px){
 .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
  background-color: transparent !important;
