@@ -12,7 +12,10 @@ class WeddingsController < ApplicationController
   end
   def liepajurgis
   end
-  
+
   def hannahazem
+  end
+  
+  def celinejan
   end
 end
