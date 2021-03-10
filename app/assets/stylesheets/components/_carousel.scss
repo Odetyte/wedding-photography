@@ -1,5 +1,57 @@
 //FOR MOBILE SCREENS
+.carousel-item.active {
+    display:block;
+}
+.karusele-card-combination {
+  margin-bottom: 10rem;
+}
 
+.karusele-card{
+  text-align: center;
+  border: 10px solid $new-dark-brown;
+  padding: 1rem
+}
+.karusele{
+  background: $new-dark-brown;
+  width: 100%;
+  height: 320px;
+}
+.carousel-item p {
+  font-family: $body-font;
+  color: #fff;
+}
+
+.book-call{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.book-call-arrow{
+  width: 53%;
+}
+
+.book-call-text h5,
+.book-call-angebot h5 {
+  font-size: 16px;
+}
+
+.book-call-text{
+  text-align: center;
+  width: 119%;
+}
+.book-call-angebot{
+  width: 100%;
+}
+
+.book-call-text a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.book-call-text a:hover{
+  color: $new-dark-brown;
+}
 @media only screen and (min-width: 320px) and (max-width: 600px){
 .carousel-for-web{
   display:none;
