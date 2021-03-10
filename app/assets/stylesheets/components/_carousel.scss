@@ -69,6 +69,43 @@
     margin-top: -14em;
   }
 }
+@media(min-width: 600px){
+  .karusele-card-combination{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .karusele-card{
+    width: 100%;
+    margin-right: -1em;
+  }
+  .karusele-card h5{
+    margin-top: 6rem;
+    font-size: 24px;
+  }
+  .carousel-item p{
+    margin-top: 3rem;
+  }
+  .karusele-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+  }
+  .book-call{
+    margin-bottom: 5rem;
+  }
+  .book-call-text h5{
+    font-size: 20px;
+  }
+  .book-call-angebot h5{
+    font-size: 24px;
+  }
+  .book-call-arrow{
+    margin-top: -2rem;
+    margin-left: -5rem;
+    width: 69%;
+  }
+}
 // .carousel-indicators li {
 //   width: 6px !important;
 //   height: 6px !important;
