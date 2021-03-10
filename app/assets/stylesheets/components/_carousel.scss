@@ -29,28 +29,40 @@
 }
 .book-call-arrow{
   width: 53%;
+  margin-top: 2em;
 }
 
 .book-call-text h5,
 .book-call-angebot h5 {
   font-size: 16px;
 }
-
+.book-call-text h5{
+  margin-top: 10px;
+}
 .book-call-text{
   text-align: center;
-  width: 119%;
+  background: $new-dark-brown;
+  border-radius: 50%;
+  width: 152px;
+  height: 103px;
+  padding: 11px;
+  margin-left: 2em;
 }
 .book-call-angebot{
   width: 100%;
+  margin-top: 1.5rem;
 }
-
+.book-call-angebot span {
+  font-size: 12px;
+  margin-left: 15px;
+}
 .book-call-text a {
   color: #000;
   text-decoration: underline;
 }
 
 .book-call-text a:hover{
-  color: $new-dark-brown;
+  color: #fff;
 }
 @media only screen and (min-width: 320px) and (max-width: 600px){
 .carousel-for-web{
@@ -93,17 +105,34 @@
   }
   .book-call{
     margin-bottom: 5rem;
+    margin-right: -12rem;
+    align-items: center;
+    text-align: center;
   }
   .book-call-text h5{
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .book-call-text{
+    background: none;
+    width: 132%;
+    height: 0px;
+    padding: 0px;
+    margin-left: 4em;
   }
   .book-call-angebot h5{
     font-size: 24px;
   }
   .book-call-arrow{
-    margin-top: -2rem;
-    margin-left: -5rem;
     width: 69%;
+    margin-left: -2em;
+    margin-top: 3em;
+  }
+  .book-call-angebot{
+    width: 100%;
+    margin-top: 4.5rem;
+  }
+  .book-call-text a:hover{
+    color: $new-dark-brown;
   }
 }
 // .carousel-indicators li {
