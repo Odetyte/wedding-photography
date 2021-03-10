@@ -9,7 +9,8 @@
 .karusele-card{
   text-align: center;
   border: 10px solid $new-dark-brown;
-  padding: 3rem
+  padding: 3rem;
+  margin-bottom: -1em;
 }
 .karusele{
   background: $new-dark-brown;
@@ -90,9 +91,10 @@
   .karusele-card{
     width: 100%;
     margin-right: -1em;
+    margin-bottom: 0em;
   }
   .karusele-card h5{
-    margin-top: 6rem;
+    margin-top: 4rem;
     font-size: 24px;
   }
   .carousel-item p{
