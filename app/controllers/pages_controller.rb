@@ -34,8 +34,8 @@ class PagesController < ApplicationController
   def packages
   end
 
-  # def lieparokas
-  # end
+  def ads
+  end
 end
 
 private

@@ -8,7 +8,8 @@ Rails.application.routes.draw do
    get 'weddings', to: 'pages#weddings', as: :weddings
    get 'bookme', to: 'pages#bookme', as: :bookme
    get 'lovestories', to: 'pages#lovestories', as: :lovestories
-    get 'packages', to: 'pages#packages', as: :packages
+  get 'packages', to: 'pages#packages', as: :packages
+  get 'ads', to: 'pages#ads', as: :ads
    # homepage weddings
    get 'juliaaron', to: 'weddings#juliaaron', as: :juliaaron
    get 'lieparokas', to: 'weddings#lieparokas', as: :lieparokas
