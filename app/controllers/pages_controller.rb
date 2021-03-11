@@ -35,6 +35,7 @@ class PagesController < ApplicationController
   end
 
   def ads
+    render :layout => false
   end
 end
 
