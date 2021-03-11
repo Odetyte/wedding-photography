@@ -36,7 +36,16 @@
   color: #fff;
 }
 
+.ads-photo-text h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin-top: -18em;
+  margin-bottom: 19em;
+}
+
 @media(min-width: 600px){
+  .ads-photo-text h5,
   .ads-first-photo,
   .book-appoitment-first {
     display:none;
