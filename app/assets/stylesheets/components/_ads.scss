@@ -1,0 +1,62 @@
+.book-appoitment{
+  text-align: center;
+}
+
+.book-appoitment-header h5{
+  font-size: 20px;
+  text-decoration: underline;
+
+}
+.book-appoitment-angebot{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.book-appoitment-angebot h5{
+  font-size: 28px;
+}
+
+.karusele-ad{
+  margin-top: 2em;
+}
+.welcome-header-ads h3 {
+  font-size: 20px;
+}
+.welcome-header-ads span {
+  margin-right: 1em;
+}
+.book-appoitment-arrow{
+  width: 92%;
+}
+.book-appoitment-angebot h5{
+  font-size: 24px;
+}
+
+@media(min-width: 600px){
+  .ads-first-photo,
+  .book-appoitment-first {
+    display:none;
+  }
+  .welcome-header-ads span {
+    margin-right: 0em;
+  }
+  .welcome-header-ads h3{
+    font-size: 26px;
+  }
+  .packages-first-photo-for-big-screen{
+    display:block;
+  }
+  .book-appoitment-header h5{
+    font-size: 24px;
+
+  }
+  .book-appoitment-angebot{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+  .book-appoitment-angebot h5{
+    font-size: 36px;
+  }
+  .calendly {
+    margin-bottom: 5em;
+  }
+}

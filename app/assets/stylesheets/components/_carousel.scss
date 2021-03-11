@@ -40,6 +40,25 @@
 .book-call-text h5{
   margin-top: 10px;
 }
+
+.book-call-home{
+  text-align: center;
+  background: #A89F8A;
+  padding: 15px 30px;
+  margin-bottom: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.book-call-home a {
+  color: #fff;
+  text-decoration: underline;
+}
+.book-call-home h5{
+  font-size: 18px;
+}
+.book-call-home a:hover {
+  color: #000;
+}
 .book-call-text{
   text-align: center;
   background: $new-dark-brown;
@@ -135,6 +154,15 @@
   }
   .book-call-text a:hover{
     color: $new-dark-brown;
+  }
+  .book-call-home{
+    background: transparent;
+    margin-top: -3em;
+  }
+  .book-call-home h5 {
+    font-size: 28px;
+    color: #000;
+    text-decoration: underline;
   }
 }
 // .carousel-indicators li {

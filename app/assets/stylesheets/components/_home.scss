@@ -9,6 +9,7 @@
 }
 .first-header h1{
   font-size: 18px;
+  font-weight: 200;
 }
 .photo-text-for-big-screen{
   display: none;
@@ -56,6 +57,7 @@
   font-size: 28px;
   text-align: center;
   margin-top: -1.25em;
+  font-weight: 200;
 }
 .nav-link{
   text-decoration: underline;
@@ -90,9 +92,11 @@
   color: #fff;
   margin-top: -22em;
   padding-bottom: 21em;
+  font-weight: 200;
 }
 .header2-text h2{
   font-size: 22px;
+  font-weight: 200;
 }
 .headermain-text{
   display: none;
@@ -112,6 +116,7 @@
 
 .instagram-section{
     background: $new-light-brown;
+    margin-top: -1em;
 }
 
 .green-line{
@@ -136,6 +141,7 @@
   // width: 80%;
   font-size: 20px;
   margin-top: 0.25em;
+  font-weight: 200;
 }
 .instagram-ph {
   margin-bottom: -1em;

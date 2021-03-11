@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 
 // Define fonts for body and headers
 // $body-font: 'Amatic SC', cursive;
 // $headers-font: 'Amatic SC', cursive;
 // $p: 'Nixie One', cursive;
-$body-font: 'Montserrat', sans-serif;
+$body-font: 'Montserrat', sans-serif, 200;
 $headers-font: 'Montserrat', sans-serif;
 $p: 'Abel', sans-serif;
 // To use a font file (.woff) uncomment following lines
