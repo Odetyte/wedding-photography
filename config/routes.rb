@@ -17,6 +17,13 @@ Rails.application.routes.draw do
    get 'liepajurgis', to: 'weddings#liepajurgis', as: :liepajurgis
    get 'hannahazem', to: 'weddings#hannahazem', as: :hannahazem
    get 'celinejan', to: 'weddings#celinejan', as: :celinejan
+   get 'victoria_emanuele', to: 'weddings#victoria_emanuele', as: :victoria_emanuele
+   get 'angela_julin', to: 'weddings#angela_julin', as: :angela_julin
+   get 'tove_isaak', to: 'weddings#tove_isaak', as: :tove_isaak
+   get 'pascal_mark', to: 'weddings#pascal_mark', as: :pascal_mark
+   get 'sandra_kristopher', to: 'weddings#sandra_kristopher', as: :sandra_kristopher
+   get 'yoli_phillipp', to: 'weddings#yoli_phillipp', as: :yoli_phillipp
+   get 'josiane_sergio', to: 'weddings#josiane_sergio', as: :josiane_sergio
 
 
 end
