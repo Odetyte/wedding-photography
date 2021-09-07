@@ -27,6 +27,8 @@ Rails.application.routes.draw do
 
   # love stories
    get 'rusne_dennis', to: 'lovestories#rusne_dennis', as: :rusne_dennis
+   get 'thurlo_lars', to: 'lovestories#thurlo_lars', as: :thurlo_lars
+
 
 
 end
