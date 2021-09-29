@@ -11,16 +11,10 @@ Rails.application.routes.draw do
   get 'packages', to: 'pages#packages', as: :packages
   get 'ads', to: 'pages#ads', as: :ads
    # homepage weddings
-   get 'juliaaron', to: 'weddings#juliaaron', as: :juliaaron
-   get 'lieparokas', to: 'weddings#lieparokas', as: :lieparokas
-   get 'ebrujosef', to: 'weddings#ebrujosef', as: :ebrujosef
-   get 'liepajurgis', to: 'weddings#liepajurgis', as: :liepajurgis
-   get 'hannahazem', to: 'weddings#hannahazem', as: :hannahazem
-   get 'celinejan', to: 'weddings#celinejan', as: :celinejan
-   get 'victoria_emanuele', to: 'weddings#victoria_emanuele', as: :victoria_emanuele
-   get 'angela_julin', to: 'weddings#angela_julin', as: :angela_julin
-   get 'tove_isaak', to: 'weddings#tove_isaak', as: :tove_isaak
-   get 'pascal_mark', to: 'weddings#pascal_mark', as: :pascal_mark
+   get 'julia_aron', to: 'weddings#julia_aron', as: :julia_aron
+   get 'liepa_rokas', to: 'weddings#liepa_rokas', as: :liepa_rokas
+   get 'ebru_josef', to: 'weddings#ebru_josef', as: :ebru_josef
+   get 'hanna_hazem', to: 'weddings#hanna_hazem', as: :hanna_hazem
    get 'sandra_kristopher', to: 'weddings#sandra_kristopher', as: :sandra_kristopher
    get 'yoli_phillipp', to: 'weddings#yoli_phillipp', as: :yoli_phillipp
    get 'josiane_sergio', to: 'weddings#josiane_sergio', as: :josiane_sergio
@@ -30,6 +24,12 @@ Rails.application.routes.draw do
   # love stories
    get 'rusne_dennis', to: 'lovestories#rusne_dennis', as: :rusne_dennis
    get 'thurlo_lars', to: 'lovestories#thurlo_lars', as: :thurlo_lars
+   get 'liepa_jurgis', to: 'lovestories#liepa_jurgis', as: :liepa_jurgis
+   get 'victoria_emanuele', to: 'lovestories#victoria_emanuele', as: :victoria_emanuele
+   get 'celine_jan', to: 'lovestories#celine_jan', as: :celine_jan
+   get 'angela_julin', to: 'lovestories#angela_julin', as: :angela_julin
+   get 'pascal_mark', to: 'lovestories#pascal_mark', as: :pascal_mark
+   get 'tove_isaak', to: 'lovestories#tove_isaak', as: :tove_isaak
 
 
 

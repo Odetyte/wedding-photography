@@ -1,35 +1,17 @@
 class WeddingsController < ApplicationController
-  def annafelix
+  def anna_felix
   end
 
-  def lieparokas
+  def liepa_rokas
   end
 
-  def juliaaron
+  def julia_aron
   end
 
-  def ebrujosef
-  end
-  
-  def liepajurgis
+  def ebru_josef
   end
 
-  def hannahazem
-  end
-  
-  def celinejan
-  end
-
-  def victoria_emanuele
-  end
-
-  def angela_julin
-  end
-
-  def tove_isaak
-  end
-
-  def pascal_mark
+  def hanna_hazem
   end
 
   def sandra_kristopher
