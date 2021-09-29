@@ -26,4 +26,7 @@ class LovestoriesController < ApplicationController
     def tove_isaak
     end
 
+    def verena_frank    
+    end
+
 end

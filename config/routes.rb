@@ -30,6 +30,7 @@ Rails.application.routes.draw do
    get 'angela_julin', to: 'lovestories#angela_julin', as: :angela_julin
    get 'pascal_mark', to: 'lovestories#pascal_mark', as: :pascal_mark
    get 'tove_isaak', to: 'lovestories#tove_isaak', as: :tove_isaak
+   get 'verena_frank', to: 'lovestories#verena_frank', as: :verena_frank
 
 
 
