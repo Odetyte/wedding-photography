@@ -29,4 +29,6 @@ class LovestoriesController < ApplicationController
     def verena_frank    
     end
 
+    def greta_marcello
+    end
 end
