@@ -153,9 +153,16 @@ input:focus{
   right: 11px !important;
   width: 104% !important;
   position: relative !important;
+  background-color: aqua;
 }
 #flash-message{
   position: absolute !important;
+  border: solid 2px pink;
+  display: flex;
+  color: blue;
+  height: 100px;
+  width: 100%;
+  color: black;
 }
 .simple_form {
   margin-top: -709px;
