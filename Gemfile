@@ -33,7 +33,7 @@ gem 'sendgrid-ruby'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 #image upload
 gem 'cloudinary', '~> 1.16.0'
-
+gem 'yarn', '~> 0.1.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
