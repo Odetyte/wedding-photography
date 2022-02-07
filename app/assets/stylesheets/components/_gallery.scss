@@ -1,5 +1,4 @@
-
-.name h1{
+.name h1 {
   text-align: center;
   position: relative;
   bottom: 85px;
@@ -17,12 +16,12 @@
   color: black;
 }
 
-.previous h1{
+.previous h1 {
   font-size: 20px;
   font-weight: 200;
 }
 
-.next h1{
+.next h1 {
   font-size: 20px;
   font-weight: 200;
 }
@@ -100,47 +99,48 @@
 }
 
 //mobile design
-@media only screen and (min-width: 290px) and (max-width: 812px){
-.small-LR {
-  bottom: 269px !important;
-}
-.name h1{
-  bottom: 240px !important;
-}
-.previous{
-  bottom: 260px !important;
-  left: 13px !important;
-  font-style: bold;
-}
-.previous h1{
-  font-size: 16px;
-}
-.next{
-  bottom: 260px!important;
-  right: 30px;
-  font-style: bold;
-}
-.next h1{
-  font-size: 16px;
-}
-.JA{
-  margin-top:-226px !important;
-}
-.JA2{
-   margin-top: -35px !important
- }
-.JA3{
-  margin: -2.35rem auto !important;
-}
-.JA4{
-  margin-top: -175px!important;
-}
-.JA5{
-  margin: -11rem auto !important;
-}
-.LR{
-  margin-top:-226px !important;
-}
-.EF{ margin-top:-226px !important
-}
+@media only screen and (min-width: 290px) and (max-width: 812px) {
+  .small-LR {
+    bottom: 269px !important;
+  }
+  .name h1 {
+    bottom: 240px !important;
+  }
+  .previous {
+    bottom: 260px !important;
+    left: 13px !important;
+    font-style: bold;
+  }
+  .previous h1 {
+    font-size: 16px;
+  }
+  .next {
+    bottom: 260px !important;
+    right: 30px;
+    font-style: bold;
+  }
+  .next h1 {
+    font-size: 16px;
+  }
+  .JA {
+    margin-top: -205px !important;
+  }
+  .JA2 {
+    margin-top: -35px !important;
+  }
+  .JA3 {
+    margin: -2.35rem auto !important;
+  }
+  .JA4 {
+    margin-top: -175px !important;
+  }
+  .JA5 {
+    margin: -11rem auto !important;
+  }
+  .LR {
+    margin-top: -226px !important;
+  }
+  .EF {
+    margin-top: -226px !important;
+  }
 }

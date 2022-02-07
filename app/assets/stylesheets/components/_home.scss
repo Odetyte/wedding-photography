@@ -1,29 +1,28 @@
 //FOR MOBILE SCREENS
 
-.first-header{
+.first-header {
   background: $new-light-brown;
   padding: 2em;
   text-align: center;
   margin-top: -1em;
   margin-bottom: -1em;
 }
-.first-header h1{
+.first-header h1 {
   font-size: 18px;
   font-weight: 200;
 }
-.photo-text-for-big-screen{
+.photo-text-for-big-screen {
   display: none;
 }
-
 
 .rodykle img {
   width: 20%;
 }
-.rodykle{
+.rodykle {
   padding-bottom: 3em;
   margin-top: -1.5em;
 }
-.first-header-welcome{
+.first-header-welcome {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -31,7 +30,7 @@
   color: #fff;
   padding-bottom: 10em;
 }
-.welcome-header{
+.welcome-header {
   padding-bottom: 3em;
   text-align: end;
   margin-right: 3em;
@@ -40,7 +39,7 @@
 .first-header-sendme a {
   color: #fff;
 }
-.story-ph{
+.story-ph {
   display: none;
 }
 .leaves img {
@@ -48,18 +47,18 @@
   margin-left: 10em;
   margin-right: 9em;
 }
-.second-header-memories{
+.second-header-memories {
   background: $new-light-brown;
   display: flex;
   flex-direction: column;
 }
-.header-story h5{
+.header-story h5 {
   font-size: 28px;
   text-align: center;
   margin-top: -1.25em;
   font-weight: 200;
 }
-.nav-link{
+.nav-link {
   text-decoration: underline;
 }
 .header-story p {
@@ -70,74 +69,74 @@
   margin: auto;
   margin-bottom: 2em;
 }
-.story-phh img{
+.story-phh img {
   width: 80%;
   margin-left: 2em;
   margin-right: 2em;
   position: relative;
   bottom: -1em;
 }
-.header2{
+.header2 {
   display: none;
 }
-.header2-text{
+.header2-text {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: -11em;
   margin-bottom: 5em;
 }
-.header2-text h3{
+.header2-text h3 {
   font-size: 14px;
   color: #fff;
   margin-top: -22em;
   padding-bottom: 21em;
   font-weight: 200;
 }
-.header2-text h2{
+.header2-text h2 {
   font-size: 22px;
   font-weight: 200;
 }
-.headermain-text{
+.headermain-text {
   display: none;
 }
-.index-korteles{
+.index-korteles {
   background: $new-light-brown;
   margin-top: -5em;
   padding-top: 4em;
   padding-bottom: 1em;
   margin-bottom: -1em;
 }
-.wedding-card{
+.wedding-card {
   width: 18rem;
   height: 260px;
   margin-bottom: 2em;
 }
 
-.instagram-section{
-    background: $new-light-brown;
-    margin-top: -1em;
+.instagram-section {
+  background: $new-light-brown;
+  margin-top: -1em;
 }
 
-.green-line{
+.green-line {
   background: $dark-green;
   width: 66%;
   font-size: 3px;
   margin-left: 42em;
 }
-.instagram{
+.instagram {
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-.fab{
+.fab {
   color: #000;
   font-size: 25px;
 }
-.fab:hover{
-  color:#fff;
+.fab:hover {
+  color: #fff;
 }
-.instagram h6{
+.instagram h6 {
   // width: 80%;
   font-size: 20px;
   margin-top: 0.25em;
@@ -149,22 +148,21 @@
 // BIGGER SCREENS
 
 @media (min-width: 600px) {
-  .carousel-for-mobile{
+  .carousel-for-mobile {
     display: none;
   }
-  .first-header{
+  .first-header {
     background: #fff;
     width: 100%;
     padding: 4em;
-
   }
   .first-header h1 {
     font-size: 2.5rem;
   }
-  .photo-text-for-mobile{
+  .photo-text-for-mobile {
     display: none;
   }
-  .photo-text-for-big-screen{
+  .photo-text-for-big-screen {
     display: block;
     width: 100%;
   }
@@ -182,22 +180,22 @@
     // border: pink solid 5px;
     width: 41%;
   }
-  .welcome-header{
+  .welcome-header {
     padding-bottom: 3em;
     text-align: center;
     margin-right: 0em;
   }
-  .welcome-header h3{
+  .welcome-header h3 {
     font-size: 36px;
   }
   .first-header-sendme a,
   .first-header-more p {
     font-size: 22px;
   }
-    .first-header-sendme a:hover{
-      text-decoration: none;
-      color:rgba(255, 255, 255, 0.5);
-    }
+  .first-header-sendme a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+  }
   .rodykle img {
     width: 100%;
   }
@@ -217,32 +215,33 @@
   .story-phh {
     display: none;
   }
-  .story-ph{
+  .story-ph {
     display: block;
   }
-.story-ph{
-  width: 100%;
-  margin-right: 3em;
-  width: 100%;
-  margin-top: -9em;
+  .story-ph {
+    width: 100%;
+    margin-right: 3em;
+    width: 100%;
+    margin-top: -9em;
   }
   .memories-paragraph p {
     font-size: 18px;
   }
-  .memories-photo{
+  .memories-photo {
     display: flex;
     flex-direction: inherit;
   }
-  .header2-for-mobile{
+  .header2-for-mobile {
     display: none;
   }
-  .header2{
+  .header2 {
     display: block;
     margin-top: 3em;
   }
   .header2-text {
     margin-top: -15em;
     margin-bottom: 25em;
+    display: grid;
   }
   .header2-text h2 {
     font-size: 28px;
@@ -252,7 +251,7 @@
     margin-top: -18em;
     padding: 0em;
   }
-  .index-korteles{
+  .index-korteles {
     background: transparent;
     margin-bottom: 2em;
   }
@@ -261,17 +260,17 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .green-line{
+  .green-line {
     display: none;
   }
-  .instagram-section{
+  .instagram-section {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin-bottom: -1em;
   }
-  .lightwidget-widget{
-    width:73%;
+  .lightwidget-widget {
+    width: 73%;
     margin: auto;
     margin-top: 3em;
   }
@@ -281,12 +280,12 @@
   }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1300px) {
   .header2-text h3 {
     margin-top: -27em;
   }
 }
-@media (min-width: 1500px){
+@media (min-width: 1500px) {
   .header2-text h3 {
     margin-top: -31em;
   }
