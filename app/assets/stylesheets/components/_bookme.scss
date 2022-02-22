@@ -1,7 +1,6 @@
-
-.bookme{
+.bookme {
   border-radius: 0.5em;
-  box-shadow: 0 0 1em 0 rgba(51,51,51,0.25);
+  box-shadow: 0 0 1em 0 rgba(51, 51, 51, 0.25);
   display: block;
   max-width: 480px;
   overflow: hidden;
@@ -16,41 +15,42 @@
   height: 607px;
 }
 
-.bookme-cover{
+.bookme-cover {
   position: relative;
   top: -186px;
   margin-bottom: -218px;
   display: none;
 }
-.bookme:before{
-  background: url('https://res.cloudinary.com/das9ardwc/image/upload/v1604928103/m-8200_pvazsa.jpg') center no-repeat;
+.bookme:before {
+  background: url("https://res.cloudinary.com/das9ardwc/image/upload/v1604928103/m-8200_pvazsa.jpg")
+    center no-repeat;
   background-size: cover;
-  content: '';
+  content: "";
   -webkit-filter: blur(10px);
   filter: blur(10px);
   height: 100vh;
   // position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: -1;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100vw;
 }
-.bookme:after{
-  background: rgba(255,255,255,0.6);
-  content: '';
+.bookme:after {
+  background: rgba(255, 255, 255, 0.6);
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  top: 0;
+  left: 0;
+  z-index: -1;
   width: 100%;
 }
-.submit{
-  background: rgba(255,255,255,0.25)!important;
+.submit {
+  background: rgba(255, 255, 255, 0.25) !important;
   border: 1px solid #333 !important;
   line-height: 1em !important;
   padding: 0.5em 0.5em !important;
@@ -63,156 +63,165 @@
 .submit:hover,
 .submitfocus,
 .submit:active,
-.submit.loading{
+.submit.loading {
   background: #333 !important;
   color: #fff !important;
   outline: none !important;
 }
-.contact-form-text-area{
-  background: none!important;
-  border: none!important;
-  line-height: 1em!important;
-  font-weight: 300!important;
-  padding: 0.125em 0.25em!important;
-  width: 100%!important;
+.contact-form-text-area {
+  background: none !important;
+  border: none !important;
+  line-height: 1em !important;
+  font-weight: 300 !important;
+  padding: 0.125em 0.25em !important;
+  width: 100% !important;
 }
-.name-email{
-    width: 87% !important;
-    position: relative !important;
-    top: -62px !important;
-    left: 82px !important;
+.name-email {
+  width: 87% !important;
+  position: relative !important;
+  top: -62px !important;
+  left: 82px !important;
 }
 
-
-#contact_message{
+#contact_message {
   background: none !important;
   border: none !important;
 }
 label {
   border-bottom: 1px solid #333 !important;
-  display: block!important;
-  font-size: 1.25em!important;
-  margin-bottom: 0.5em!important;
-  -webkit-transition: all 0.25s!important;
+  display: block !important;
+  font-size: 1.25em !important;
+  margin-bottom: 0.5em !important;
+  -webkit-transition: all 0.25s !important;
   transition: all 0.25s !important;
   font-family: $headers-font;
   font-weight: bold;
 }
-.form-group{
+.form-group {
   font-family: $headers-font;
   font-weight: bold;
 }
-.form-check-label{
+.form-check-label {
   border-bottom: none !important;
   font-size: 1em !important;
 }
 
-.form-group{
+.form-group {
   position: relative;
   bottom: 20px;
 }
 
- .form-control {
-    height: 75px !important;
-  }
+.form-control {
+  height: 75px !important;
+}
 
 legend {
   font-size: 1.25em !important;
   position: relative;
   bottom: 13px;
 }
-input:focus{
- outline: none!important}
+input:focus {
+  outline: none !important;
+}
 
-.alert-error{
+.alert-error {
   bottom: 83px !important;
   left: 361px !important;
   margin-bottom: -2rem !important;
 }
 
-.alert-success{
+.alert-success {
   margin-bottom: -2rem !important;
   bottom: 714px !important;
   right: -581px !important;
 }
- @media only screen and (min-width: 290px) and (max-width: 812px){
-.bookme{
-  position:  relative !important;
-  width: 100% !important;
-  height: 708px;
-  top: 317px;
-}
+@media only screen and (min-width: 290px) and (max-width: 812px) {
+  .bookme {
+    position: relative !important;
+    width: 100% !important;
+    height: 708px;
+    top: 317px;
+  }
 
-.bookme h1 {
-  position: relative;
-  bottom: 15px;
-}
+  .bookme h1 {
+    position: relative;
+    bottom: 15px;
+  }
 
-.alert-success{
-  top: -267px !important;
-  right: 11px !important;
-  width: 104% !important;
-  position: relative !important;
-  background-color: aqua;
-}
-#flash-message{
-  position: absolute !important;
-  border: solid 2px pink;
-  display: flex;
-  color: blue;
-  height: 100px;
-  width: 100%;
-  color: black;
-}
-.simple_form {
-  margin-top: -709px;
-}
-.name-email{
-  width: 264px !important;
-  left: 75px !important;
-}
-.alert-error{
-  bottom: 103px !important;
-  left: 0px !important;
-}
-.bookme-cover-for-mobile{
-  overflow: hidden;
-}
+  .alert-success {
+    top: -267px !important;
+    right: 11px !important;
+    width: 104% !important;
+    position: relative !important;
+    background-color: aqua;
+  }
+  #flash-message {
+    position: absolute !important;
+    display: flex;
+    color: blue;
+    height: 100px;
+    width: 100%;
+    color: black;
+  }
+  .simple_form {
+    margin-top: -709px;
+  }
+  .name-email {
+    width: 264px !important;
+    left: 75px !important;
+  }
+  .alert-error {
+    bottom: 103px !important;
+    left: 0px !important;
+  }
+  .bookme-cover-for-mobile {
+    overflow: hidden;
+  }
 
-.bookme-cover-for-mobile img{
-  width:139%;
-}
+  .bookme-cover-for-mobile img {
+    width: 139%;
+  }
 
-.form-control {
-  height: 151px !important;
+  .form-control {
+    height: 151px !important;
   }
 }
-@media(min-width: 600px){
-  .bookme-cover{
+@media (min-width: 600px) {
+  .bookme-cover {
     display: block;
   }
-  .bookme-cover-for-mobile{
+  .bookme-cover-for-mobile {
     display: none;
   }
 }
 //bigger screens
 
-@media only screen and (min-width: 1420px){
+@media only screen and (min-width: 1420px) {
+  .bookme-cover {
+    overflow: hidden;
+  }
 
- .bookme-cover { overflow: hidden;}
+  .bookme-cover img {
+    width: 103%;
+  }
 
- .bookme-cover img {width: 103%}
+  .alert-error {
+    bottom: 151px !important;
+  }
 
-.alert-error {
-  bottom: 151px !important;
+  .alert-success {
+    bottom: 397px !important;
+    right: -724px !important;
+  }
+
+  .submit {
+    position: relative;
+    bottom: 15px;
+  }
 }
 
-.alert-success{
-  bottom: 397px !important;
-  right: -724px !important;}
-
- .submit {
-  position: relative;
-  bottom: 15px;
-    }
+@media (min-width: 992px) {
+  .bookme {
+    margin-top: 15rem;
+  }
 }
