@@ -25,4 +25,8 @@ class WeddingsController < ApplicationController
 
   def christina_niko
   end
+
+  def charlotte_daniel
+  end
+
 end
