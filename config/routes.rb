@@ -33,6 +33,7 @@ Rails.application.routes.draw do
   get 'tove_isaak', to: 'lovestories#tove_isaak', as: :tove_isaak
   get 'verena_frank', to: 'lovestories#verena_frank', as: :verena_frank
   get 'greta_marcello', to: 'lovestories#greta_marcello', as: :greta_marcello
+  get 'dovile_matteo', to: 'lovestories#dovile_matteo', as: :dovile_matteo
 
 
 

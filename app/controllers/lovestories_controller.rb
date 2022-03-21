@@ -31,4 +31,7 @@ class LovestoriesController < ApplicationController
 
     def greta_marcello
     end
+
+    def dovile_matteo
+    end
 end
