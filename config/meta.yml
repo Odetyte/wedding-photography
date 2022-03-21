@@ -1,6 +1,5 @@
-
-meta_product_name: "➵ Authentic Wedding Photographer"
-meta_title: "➵ Authentic Wedding Photographer"
+meta_product_name: "Berlin Wedding Photographer"
+meta_title: "Berlin Wedding Photographer"
 meta_description: "I am the right guy with the camera to keep your memories alive"
 meta_image: "cover.png" # should exist in `app/assets/images/`
-twitter_account: "@product_twitter_account"   # required for Twitter Cards
+twitter_account: "@product_twitter_account" # required for Twitter Cards
