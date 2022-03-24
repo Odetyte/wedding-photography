@@ -21,6 +21,7 @@ Rails.application.routes.draw do
   get 'josiane_sergio', to: 'weddings#josiane_sergio', as: :josiane_sergio
   get 'christina_niko', to: 'weddings#christina_niko', as: :christina_niko
   get 'charlotte_daniel', to: 'weddings#charlotte_daniel', as: :charlotte_daniel
+  get 'fraser_jamie', to: 'weddings#fraser_jamie', as: :fraser_jamie
 
   # love stories
   get 'rusne_dennis', to: 'lovestories#rusne_dennis', as: :rusne_dennis

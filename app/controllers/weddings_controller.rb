@@ -29,4 +29,7 @@ class WeddingsController < ApplicationController
   def charlotte_daniel
   end
 
+  def fraser_jamie
+  end
+
 end
