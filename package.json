@@ -10,7 +10,7 @@
     "fix": "0.0.6",
     "jquery": "^3.5.1",
     "jquery-ujs": "^1.2.2",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "popper.js": "^1.16.1",
     "require_tree": "^0.6.8",
     "to": "^0.2.9",
